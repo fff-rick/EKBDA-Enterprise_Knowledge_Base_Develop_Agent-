@@ -1,0 +1,15 @@
+{
+  "project": "order-service",
+  "description": "订单服务研发成员与受控仓库授权",
+  "owner": "platform-security",
+  "users": [
+    "developer-1"
+  ],
+  "roles": [
+    "team_order",
+    "release_engineer"
+  ],
+  "repositories": [
+    "order-service"
+  ]
+}

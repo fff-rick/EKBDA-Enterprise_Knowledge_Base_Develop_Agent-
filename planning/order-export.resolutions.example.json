@@ -1,0 +1,9 @@
+{
+  "revision": 3,
+  "resolutions": [
+    {
+      "decision_id": "D1",
+      "resolution": "采用异步导出任务并限制单任务最大数据量；上线前完成容量测试，由订单团队负责人验收。"
+    }
+  ]
+}

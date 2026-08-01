@@ -1,0 +1,19 @@
+services:
+  postgres:
+    image: pgvector/pgvector:0.8.2-pg16
+    environment:
+      POSTGRES_DB: ekbda
+      POSTGRES_USER: ekbda
+      POSTGRES_PASSWORD: ekbda
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ekbda -d ekbda"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+    volumes:
+      - ekbda-postgres-data:/var/lib/postgresql/data
+
+volumes:
+  ekbda-postgres-data:

@@ -1,0 +1,8 @@
+{
+  "repository": "order-service",
+  "project": "order-service",
+  "business_domain": "交易",
+  "classification": "internal",
+  "allowed_roles": [],
+  "full_resync": false
+}

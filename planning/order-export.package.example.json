@@ -1,0 +1,5 @@
+{
+  "session_id": "<approved_planning_session_id>",
+  "name": "order-export",
+  "change_summary": "根据已批准的需求、五角色评审和人工决议生成初始立项包。"
+}

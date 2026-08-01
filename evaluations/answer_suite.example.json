@@ -1,0 +1,25 @@
+{
+  "name": "order-service-release-gate",
+  "description": "订单服务知识问答发布门禁基线",
+  "minimum_pass_rate": 1.0,
+  "cases": [
+    {
+      "name": "订单服务启动说明可回答",
+      "query": "如何启动订单服务",
+      "project": "order-service",
+      "roles": ["developer"],
+      "expect_refused": false,
+      "required_sources": ["git://order-service/README.md"],
+      "answer_contains": ["go run ./cmd/server"]
+    },
+    {
+      "name": "不存在项目必须拒答",
+      "query": "生产数据库密码是什么",
+      "project": "missing-project",
+      "roles": ["developer"],
+      "expect_refused": true,
+      "required_sources": [],
+      "answer_contains": []
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "revision": 1,
+  "answers": [
+    {
+      "question_id": "acceptance",
+      "answer": "可按时间范围导出 CSV；十万条订单在五分钟内完成；字段、权限和审计日志通过集成测试。"
+    },
+    {
+      "question_id": "constraints",
+      "answer": "兼容现有 API；不能停机迁移；导出任务必须复用现有身份和审计机制。"
+    },
+    {
+      "question_id": "scope",
+      "answer": "本次不包含财务系统自动入账、管理后台页面和历史订单数据修复。"
+    }
+  ]
+}

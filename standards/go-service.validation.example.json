@@ -1,0 +1,12 @@
+{
+  "project": "order-service",
+  "technology": "go",
+  "files": [
+    {"path": "go.mod", "content": "module company/order-service\n\ngo 1.25\n"},
+    {"path": "README.md", "content": "# Order Service\n\n## Testing\n\nRun go test ./...\n"},
+    {"path": "cmd/server/main.go", "content": "package main\n"},
+    {"path": "internal/order/service.go", "content": "package order\n"},
+    {"path": "internal/order/service_test.go", "content": "package order\n"},
+    {"path": ".github/pull_request_template.md", "content": "## Change\n\n## Test\n"}
+  ]
+}

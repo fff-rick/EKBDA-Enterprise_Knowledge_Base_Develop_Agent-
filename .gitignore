@@ -1,0 +1,6 @@
+.env
+.cache/
+.codegraph/
+bin/
+*.exe
+coverage.out

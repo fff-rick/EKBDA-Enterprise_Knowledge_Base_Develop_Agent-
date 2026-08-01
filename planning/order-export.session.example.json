@@ -1,0 +1,7 @@
+{
+  "project": "order-service",
+  "repository": "order-service",
+  "technology": "go",
+  "title": "增加订单导出能力",
+  "requirement": "为订单服务增加按时间范围导出订单的接口，导出结果用于财务对账，并遵守现行企业开发规范。"
+}

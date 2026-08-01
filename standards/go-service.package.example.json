@@ -1,0 +1,80 @@
+{
+  "name": "go-service",
+  "description": "Go 服务首版可执行研发规范",
+  "scope": "technology",
+  "selector": "go",
+  "owner": "platform-engineering",
+  "rules": [
+    {
+      "id": "go-module-required",
+      "title": "必须声明 Go Module",
+      "description": "服务根目录必须包含 go.mod。",
+      "category": "directory",
+      "level": "block",
+      "check": {"type": "required_path", "pattern": "go.mod"}
+    },
+    {
+      "id": "readme-required",
+      "title": "必须提供项目说明",
+      "description": "服务根目录必须包含 README.md。",
+      "category": "directory",
+      "level": "block",
+      "check": {"type": "required_path", "pattern": "README.md"}
+    },
+    {
+      "id": "go-file-naming",
+      "title": "Go 文件使用小写下划线命名",
+      "description": "所有 Go 文件名只能包含小写字母、数字和下划线。",
+      "category": "naming",
+      "level": "block",
+      "check": {
+        "type": "path_pattern",
+        "target": "\\.go$",
+        "pattern": "(^|/)[a-z0-9_]+\\.go$"
+      }
+    },
+    {
+      "id": "testing-documentation",
+      "title": "README 说明测试方式",
+      "description": "README 必须包含 Testing 章节。",
+      "category": "comment",
+      "level": "check",
+      "check": {
+        "type": "content_required",
+        "target": "^README\\.md$",
+        "pattern": "(?mi)^## (Testing|测试)$"
+      }
+    },
+    {
+      "id": "unit-test-required",
+      "title": "必须包含单元测试",
+      "description": "项目至少包含一个 _test.go 文件。",
+      "category": "testing",
+      "level": "block",
+      "check": {"type": "minimum_matches", "target": "_test\\.go$", "minimum": 1}
+    },
+    {
+      "id": "dotenv-forbidden",
+      "title": "禁止提交 .env",
+      "description": "真实环境变量和密钥文件不得进入代码仓库。",
+      "category": "workflow",
+      "level": "block",
+      "check": {"type": "forbidden_path", "pattern": "(^|/)\\.env$"}
+    },
+    {
+      "id": "pull-request-template",
+      "title": "必须提供 PR 模板",
+      "description": "统一记录需求、变更、测试和风险。",
+      "category": "workflow",
+      "level": "check",
+      "check": {"type": "required_path", "pattern": ".github/pull_request_template.md"}
+    },
+    {
+      "id": "review-guidance",
+      "title": "核心模块至少两人评审",
+      "description": "涉及鉴权、资金和数据迁移的变更应至少由两名授权人员评审。",
+      "category": "workflow",
+      "level": "guidance"
+    }
+  ]
+}
