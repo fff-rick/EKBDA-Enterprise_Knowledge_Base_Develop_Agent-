@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#070b17" />
+    <title>EKBDA · 企业知识开发中枢</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Noto+Serif+SC:wght@600;700;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <canvas id="galaxy" aria-hidden="true"></canvas>
+    <div class="grain" aria-hidden="true"></div>
+
+    <main id="app">
+      <section class="landing" id="landing">
+        <nav class="topbar">
+          <a class="brand" href="#home" aria-label="EKBDA 首页"><i></i><span>EKBDA</span><small>KNOWLEDGE OS</small></a>
+          <div class="nav-links"><a href="#capability">能力</a><a href="#architecture">架构</a><a href="#security">治理</a></div>
+          <button class="ghost-button" data-enter>登录工作台 <span>↗</span></button>
+        </nav>
+
+        <div class="hero" id="home">
+          <div class="eyebrow"><span class="pulse"></span> 企业知识库开发助手 <b>v1.0 / ONLINE</b></div>
+          <h1>让沉睡的知识<br /><em class="shiny">成为行动的引擎。</em></h1>
+          <p class="hero-copy">从分散文档到可追溯的智能决策。EKBDA 将知识沉淀、规范治理与 Agent 协作收拢进一个受控的开发中枢。</p>
+          <div class="hero-actions">
+            <button class="primary-button" data-enter>进入知识中枢 <span>→</span></button>
+            <a class="text-link" href="#capability">探索系统能力 <span>↓</span></a>
+          </div>
+          <div class="orbit-label label-one">● <span>SEMANTIC<br />MEMORY</span></div>
+          <div class="orbit-label label-two">✦ <span>VERIFIED<br />DELIVERY</span></div>
+          <div class="hero-index"><span>SCROLL TO EXPLORE</span><i></i><b>01 / 03</b></div>
+        </div>
+
+        <section class="proof" id="capability">
+          <div><span class="section-kicker">01 — SYSTEM CAPABILITIES</span><h2>看见知识，<br />推动交付。</h2></div>
+          <p>不只是一个问答机器人。它是一套将企业事实、工程标准和执行流程连接起来的可信工作系统。</p>
+          <div class="capability-grid">
+            <article><span>01</span><h3>知识沉淀</h3><p>文档、仓库与规范统一入库，保留版本、来源与权限边界。</p><i>↗</i></article>
+            <article><span>02</span><h3>可信问答</h3><p>带证据引用的语义检索与问答，让每个答案都能回到原始事实。</p><i>↗</i></article>
+            <article><span>03</span><h3>受控协作</h3><p>把规划、审查、评测和交付拆进可观察、可审计的 Agent 工作流。</p><i>↗</i></article>
+          </div>
+        </section>
+      </section>
+
+      <section class="workspace hidden" id="workspace">
+        <aside class="sidebar">
+          <a class="brand" href="#" data-home><i></i><span>EKBDA</span></a>
+          <div class="workspace-switch"><span class="mini-orb"></span><div><small>当前空间</small><strong>研发效能中心</strong></div><b>⌄</b></div>
+          <nav class="side-nav">
+            <button class="active" data-page="overview"><span>◉</span> 指挥台</button><button data-page="knowledge"><span>◇</span> 知识资产</button><button data-page="agents"><span>✦</span> Agent 任务 <b>3</b></button><button data-page="governance"><span>▦</span> 规范治理</button><button data-page="observability"><span>⌁</span> 可观测性</button>
+          </nav>
+          <div class="side-bottom"><button><span>?</span> 帮助与文档</button><button><span class="avatar">LX</span> 林晓 · 管理员</button></div>
+        </aside>
+        <div class="work-content">
+          <header class="work-header"><div><span class="section-kicker">CONTROL ROOM / 2026.08.03</span><h2 id="page-title">早上好，林晓。</h2></div><div class="header-actions"><button class="icon-button">⌕</button><button class="icon-button notification">♧</button><button class="create-button">+ 新建任务</button></div></header>
+          <div id="overview" class="page active-page">
+            <section class="intel-strip"><div><span>知识健康度</span><strong>94<span>%</span></strong><small class="up">↑ 6.2% 本月</small></div><div><span>可用知识单元</span><strong>12,846</strong><small>覆盖 24 个项目</small></div><div><span>活跃 Agent</span><strong>08<span>/12</span></strong><small class="live"><i></i> 正在协作</small></div><div><span>本周交付</span><strong>36</strong><small>4 个待批准</small></div></section>
+            <div class="dash-grid">
+              <section class="signal-card"><div class="card-heading"><div><span class="section-kicker">KNOWLEDGE SIGNAL</span><h3>知识脉冲</h3></div><button>近 30 天⌄</button></div><div class="chart"><div class="chart-labels"><span>1,200</span><span>800</span><span>400</span><span>0</span></div><svg viewBox="0 0 600 200" preserveAspectRatio="none" aria-label="知识增长趋势"><path class="area" d="M0,160 C35,145 45,155 70,136 S110,139 130,112 S164,127 188,91 S230,105 250,81 S285,96 310,68 S345,81 370,54 S410,77 432,49 S465,58 490,29 S530,54 555,22 S580,27 600,8 V200 H0Z"/><path class="line" d="M0,160 C35,145 45,155 70,136 S110,139 130,112 S164,127 188,91 S230,105 250,81 S285,96 310,68 S345,81 370,54 S410,77 432,49 S465,58 490,29 S530,54 555,22 S580,27 600,8"/></svg><div class="chart-days"><span>07/05</span><span>07/12</span><span>07/19</span><span>07/26</span><span>08/03</span></div></div></section>
+              <section class="focus-card"><span class="section-kicker">NEXT BEST ACTION</span><div class="focus-orb">✦</div><h3>完成订单域<br />评测门禁</h3><p>有 3 项证据不足的回答需要复核。</p><button class="outline-light">查看评测 <span>→</span></button></section>
+              <section class="activity-card"><div class="card-heading"><div><span class="section-kicker">LIVE FEED</span><h3>协作动态</h3></div><button>查看全部</button></div><ul><li><span class="feed-dot cyan"></span><p><b>架构评审 Agent</b> 已完成「订单服务演进方案」<small>2 分钟前</small></p></li><li><span class="feed-dot yellow"></span><p><b>李欣</b> 更新了知识文档 <em>API 鉴权规范 v3.2</em><small>18 分钟前</small></p></li><li><span class="feed-dot pink"></span><p><b>代码同步</b> 检测到 14 个待索引文件<small>42 分钟前</small></p></li></ul></section>
+              <section class="tasks-card"><div class="card-heading"><div><span class="section-kicker">ACTIVE FLOWS</span><h3>进行中的任务</h3></div><button>全部任务</button></div><div class="task-row"><span class="task-icon cyan">⌁</span><div><b>支付链路风险审查</b><small>安全审查 · 4 / 5 阶段</small></div><strong>82%</strong></div><div class="progress"><i style="width:82%"></i></div><div class="task-row"><span class="task-icon pink">◇</span><div><b>Q3 技术债清单生成</b><small>规划 Agent · 正在汇总</small></div><strong>56%</strong></div><div class="progress pink-bar"><i style="width:56%"></i></div></section>
+            </div>
+          </div>
+          <div class="placeholder-page" id="knowledge"><span>KNOWLEDGE ASSETS</span><h2>让每一份企业知识<br />都拥有上下文。</h2><button class="primary-button">导入知识源 →</button></div>
+          <div class="placeholder-page" id="agents"><span>AGENT FLOWS</span><h2>把复杂协作变成<br />可审计的进程。</h2><button class="primary-button">创建 Agent 任务 →</button></div>
+          <div class="placeholder-page" id="governance"><span>GOVERNANCE</span><h2>规范不是约束，<br />是规模化的底气。</h2></div>
+          <div class="placeholder-page" id="observability"><span>OBSERVABILITY</span><h2>每一项决策，<br />都有迹可循。</h2></div>
+        </div>
+      </section>
+    </main>
+    <script src="/app.js"></script>
+  </body>
+</html>
