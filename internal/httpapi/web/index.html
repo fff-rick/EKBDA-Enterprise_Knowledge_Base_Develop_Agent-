@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Noto+Serif+SC:wght@600;700;900&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="/overrides.css" />
   </head>
   <body>
     <canvas id="galaxy" aria-hidden="true"></canvas>
@@ -51,28 +52,32 @@
           <a class="brand" href="#" data-home><i></i><span>EKBDA</span></a>
           <div class="workspace-switch"><span class="mini-orb"></span><div><small>当前空间</small><strong>研发效能中心</strong></div><b>⌄</b></div>
           <nav class="side-nav">
-            <button class="active" data-page="overview"><span>◉</span> 指挥台</button><button data-page="knowledge"><span>◇</span> 知识资产</button><button data-page="agents"><span>✦</span> Agent 任务 <b>3</b></button><button data-page="governance"><span>▦</span> 规范治理</button><button data-page="observability"><span>⌁</span> 可观测性</button>
+            <button class="active" data-page="overview"><span>◉</span> 指挥台</button><button data-page="knowledge"><span>◇</span> 知识资产</button><button data-page="agents"><span>✦</span> Agent 任务</button><button data-page="governance"><span>▦</span> 规范治理</button><button data-page="observability"><span>⌁</span> 可观测性</button>
           </nav>
-          <div class="side-bottom"><button><span>?</span> 帮助与文档</button><button><span class="avatar">LX</span> 林晓 · 管理员</button></div>
+          <div class="side-bottom"><button data-action="configure"><span>⚙</span> 连接设置</button><button><span class="avatar" id="user-avatar">--</span> <span id="user-name">未连接</span></button></div>
         </aside>
         <div class="work-content">
-          <header class="work-header"><div><span class="section-kicker">CONTROL ROOM / 2026.08.03</span><h2 id="page-title">早上好，林晓。</h2></div><div class="header-actions"><button class="icon-button">⌕</button><button class="icon-button notification">♧</button><button class="create-button">+ 新建任务</button></div></header>
+          <header class="work-header"><div><span class="section-kicker">CONTROL ROOM / LIVE DATA</span><h2 id="page-title">知识中枢</h2></div><div class="header-actions"><button class="icon-button" data-action="refresh" title="刷新数据">↻</button><button class="create-button" data-action="configure">连接项目</button></div></header>
           <div id="overview" class="page active-page">
-            <section class="intel-strip"><div><span>知识健康度</span><strong>94<span>%</span></strong><small class="up">↑ 6.2% 本月</small></div><div><span>可用知识单元</span><strong>12,846</strong><small>覆盖 24 个项目</small></div><div><span>活跃 Agent</span><strong>08<span>/12</span></strong><small class="live"><i></i> 正在协作</small></div><div><span>本周交付</span><strong>36</strong><small>4 个待批准</small></div></section>
+            <p class="connection-note" id="connection-note">尚未选择项目。连接后显示真实的问答、评测与 Agent 数据。</p>
+            <section class="intel-strip"><div><span>问答请求</span><strong id="metric-total">—</strong><small>全部已记录请求</small></div><div><span>成功率</span><strong id="metric-success">—</strong><small>基于真实问答轨迹</small></div><div><span>平均响应</span><strong id="metric-latency">—</strong><small>真实服务耗时</small></div><div><span>Token 用量</span><strong id="metric-tokens">—</strong><small>全部已记录请求</small></div></section>
             <div class="dash-grid">
-              <section class="signal-card"><div class="card-heading"><div><span class="section-kicker">KNOWLEDGE SIGNAL</span><h3>知识脉冲</h3></div><button>近 30 天⌄</button></div><div class="chart"><div class="chart-labels"><span>1,200</span><span>800</span><span>400</span><span>0</span></div><svg viewBox="0 0 600 200" preserveAspectRatio="none" aria-label="知识增长趋势"><path class="area" d="M0,160 C35,145 45,155 70,136 S110,139 130,112 S164,127 188,91 S230,105 250,81 S285,96 310,68 S345,81 370,54 S410,77 432,49 S465,58 490,29 S530,54 555,22 S580,27 600,8 V200 H0Z"/><path class="line" d="M0,160 C35,145 45,155 70,136 S110,139 130,112 S164,127 188,91 S230,105 250,81 S285,96 310,68 S345,81 370,54 S410,77 432,49 S465,58 490,29 S530,54 555,22 S580,27 600,8"/></svg><div class="chart-days"><span>07/05</span><span>07/12</span><span>07/19</span><span>07/26</span><span>08/03</span></div></div></section>
-              <section class="focus-card"><span class="section-kicker">NEXT BEST ACTION</span><div class="focus-orb">✦</div><h3>完成订单域<br />评测门禁</h3><p>有 3 项证据不足的回答需要复核。</p><button class="outline-light">查看评测 <span>→</span></button></section>
-              <section class="activity-card"><div class="card-heading"><div><span class="section-kicker">LIVE FEED</span><h3>协作动态</h3></div><button>查看全部</button></div><ul><li><span class="feed-dot cyan"></span><p><b>架构评审 Agent</b> 已完成「订单服务演进方案」<small>2 分钟前</small></p></li><li><span class="feed-dot yellow"></span><p><b>李欣</b> 更新了知识文档 <em>API 鉴权规范 v3.2</em><small>18 分钟前</small></p></li><li><span class="feed-dot pink"></span><p><b>代码同步</b> 检测到 14 个待索引文件<small>42 分钟前</small></p></li></ul></section>
-              <section class="tasks-card"><div class="card-heading"><div><span class="section-kicker">ACTIVE FLOWS</span><h3>进行中的任务</h3></div><button>全部任务</button></div><div class="task-row"><span class="task-icon cyan">⌁</span><div><b>支付链路风险审查</b><small>安全审查 · 4 / 5 阶段</small></div><strong>82%</strong></div><div class="progress"><i style="width:82%"></i></div><div class="task-row"><span class="task-icon pink">◇</span><div><b>Q3 技术债清单生成</b><small>规划 Agent · 正在汇总</small></div><strong>56%</strong></div><div class="progress pink-bar"><i style="width:56%"></i></div></section>
+              <section class="signal-card"><div class="card-heading"><div><span class="section-kicker">ANSWER OBSERVABILITY</span><h3>问答服务状态</h3></div><button data-action="refresh">刷新</button></div><div class="metric-detail" id="metrics-detail"><p>连接项目后加载真实问答指标。</p></div></section>
+              <section class="focus-card"><span class="section-kicker">EVALUATION RUNS</span><div class="focus-orb">✓</div><h3>最近评测运行</h3><div class="live-list" id="runs-list"><p>正在等待数据源。</p></div><button class="outline-light" data-page-target="observability">查看可观测性 <span>→</span></button></section>
+              <section class="activity-card"><div class="card-heading"><div><span class="section-kicker">ACTIVE AGENTS</span><h3>Agent 任务</h3></div><button data-page-target="agents">全部任务</button></div><ul id="tasks-list"><li><p>正在等待数据源。</p></li></ul></section>
+              <section class="tasks-card"><div class="card-heading"><div><span class="section-kicker">REAL-TIME STATUS</span><h3>连接状态</h3></div><button data-action="configure">设置</button></div><div class="empty-state" id="status-panel">需要选择项目并使用有效身份后才能加载受保护数据。</div></section>
             </div>
           </div>
-          <div class="placeholder-page" id="knowledge"><span>KNOWLEDGE ASSETS</span><h2>让每一份企业知识<br />都拥有上下文。</h2><button class="primary-button">导入知识源 →</button></div>
-          <div class="placeholder-page" id="agents"><span>AGENT FLOWS</span><h2>把复杂协作变成<br />可审计的进程。</h2><button class="primary-button">创建 Agent 任务 →</button></div>
+          <div class="placeholder-page" id="knowledge"><span>KNOWLEDGE ASSETS</span><h2>让每一份企业知识<br />都拥有上下文。</h2><button class="primary-button" data-action="configure">连接项目 →</button></div>
+          <div class="placeholder-page" id="agents"><span>AGENT FLOWS</span><h2>把复杂协作变成<br />可审计的进程。</h2><button class="primary-button" data-action="configure">连接项目以查看任务 →</button></div>
           <div class="placeholder-page" id="governance"><span>GOVERNANCE</span><h2>规范不是约束，<br />是规模化的底气。</h2></div>
           <div class="placeholder-page" id="observability"><span>OBSERVABILITY</span><h2>每一项决策，<br />都有迹可循。</h2></div>
         </div>
       </section>
     </main>
+    <dialog class="connection-dialog" id="connection-dialog">
+      <form method="dialog" id="connection-form"><button class="dialog-close" value="cancel" aria-label="关闭">×</button><span class="section-kicker">DATA CONNECTION</span><h2>连接真实项目数据</h2><p>系统不会预置任何业务数据。开发环境可使用 Dev Headers；生产环境请填写已签发的 Bearer Token。</p><label>项目标识<input name="project" required placeholder="例如 order-service" /></label><label>用户 ID（Dev Headers 可用）<input name="userId" placeholder="例如 developer-1" /></label><label>角色（用逗号分隔）<input name="roles" placeholder="例如 knowledge_admin" /></label><label>Bearer Token（生产环境）<input name="token" type="password" placeholder="粘贴 JWT，不会写入服务器" /></label><button class="primary-button" value="default">保存并加载 <span>→</span></button><output id="connection-error"></output></form>
+    </dialog>
     <script src="/app.js"></script>
   </body>
 </html>
