@@ -69,6 +69,7 @@ func NewWithDevelopment(knowledgeService *knowledge.Service, ingestionService *i
 }
 
 func (s *Server) routes() {
+	s.mux.Handle("GET /", s.frontend())
 	s.mux.HandleFunc("GET /healthz", s.health)
 	s.mux.HandleFunc("POST /api/v1/access/projects", s.requireIdentity(s.requireRole("knowledge_admin", s.createAccessPolicy)))
 	s.mux.HandleFunc("GET /api/v1/access/projects/{project}", s.requireIdentity(s.requireRole("knowledge_admin", s.getAccessPolicy)))
