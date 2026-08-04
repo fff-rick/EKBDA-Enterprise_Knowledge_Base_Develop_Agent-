@@ -25,6 +25,7 @@ import (
 	"ekbda/internal/initiative"
 	"ekbda/internal/knowledge"
 	"ekbda/internal/planning"
+	"ekbda/internal/release"
 	"ekbda/internal/repositorysync"
 	"ekbda/internal/reranking"
 	"ekbda/internal/standards"
@@ -118,6 +119,13 @@ func main() {
 		os.Exit(1)
 	}
 	defer closeDevelopmentStore()
+	releaseStore, closeReleaseStore, err := buildReleaseStore(startupContext, cfg)
+	if err != nil {
+		cancelStartup()
+		slog.Error("initialize release request store", "error", err)
+		os.Exit(1)
+	}
+	defer closeReleaseStore()
 	accessService, err := access.New(accessStore, cfg.ProjectAuthorizationMode)
 	if err != nil {
 		cancelStartup()
@@ -190,6 +198,43 @@ func main() {
 		os.Exit(1)
 	}
 	developmentService := development.NewServiceWithDelivery(developmentStore, initiativeService, workspaceService, developmentRunner, developmentDeliverer)
+	releaseConnector, err := release.NewHTTPConnector(release.ConnectorConfig{Enabled: cfg.ReleaseEnabled, BaseURL: cfg.ReleaseProviderBaseURL, Token: cfg.ReleaseProviderToken, Timeout: time.Duration(cfg.ReleaseTimeoutSeconds) * time.Second})
+	if err != nil {
+		slog.Error("initialize controlled CI/CD connector", "error", err)
+		os.Exit(1)
+	}
+	releaseReader := release.DevelopmentReaderFunc(func(ctx context.Context, id string) (release.DevelopmentSession, error) {
+		session, err := developmentService.Get(ctx, id)
+		if err != nil {
+			return release.DevelopmentSession{}, err
+		}
+		result := release.DevelopmentSession{ID: session.ID, Project: session.Project, Repository: session.Repository, Status: session.Status}
+		if session.Delivery != nil {
+			result.DeliveryStatus = session.Delivery.Status
+			result.Commit = session.Delivery.Commit
+			result.PullRequestURL = session.Delivery.PullRequestURL
+		}
+		return result, nil
+	})
+	releaseService, err := release.NewService(releaseStore, releaseReader, releaseConnector, cfg.ReleasePipelines, cfg.ReleaseEnvironments)
+	if err != nil {
+		slog.Error("initialize release orchestration", "error", err)
+		os.Exit(1)
+	}
+	var releaseWebhook *release.WebhookVerifier
+	var codeWebhook *release.WebhookVerifier
+	if cfg.ReleaseEnabled {
+		releaseWebhook, err = release.NewWebhookVerifier(cfg.ReleaseWebhookSecret, time.Duration(cfg.ReleaseWebhookMaxAgeSeconds)*time.Second)
+		if err != nil {
+			slog.Error("initialize release webhook verifier", "error", err)
+			os.Exit(1)
+		}
+		codeWebhook, err = release.NewWebhookVerifier(cfg.ReleaseCodeWebhookSecret, time.Duration(cfg.ReleaseWebhookMaxAgeSeconds)*time.Second)
+		if err != nil {
+			slog.Error("initialize code platform webhook verifier", "error", err)
+			os.Exit(1)
+		}
+	}
 	recoveryContext, cancelRecovery := context.WithTimeout(context.Background(), 30*time.Second)
 	if err := developmentService.Recover(recoveryContext); err != nil {
 		cancelRecovery()
@@ -234,7 +279,7 @@ func main() {
 	ingestionService := ingestion.New(cfg.ImportRoot, service, jobStore)
 	server := &http.Server{
 		Addr:              cfg.HTTPAddr,
-		Handler:           httpapi.NewWithDevelopment(service, ingestionService, answerService, evaluationService, standardsService, workspaceService, accessService, repositorySyncService, planningService, initiativeService, agentTaskService, developmentService, authenticator),
+		Handler:           httpapi.NewWithReleaseWebhooks(service, ingestionService, answerService, evaluationService, standardsService, workspaceService, accessService, repositorySyncService, planningService, initiativeService, agentTaskService, developmentService, releaseService, codeWebhook, releaseWebhook, authenticator),
 		ReadHeaderTimeout: 5 * time.Second,
 	}
 
@@ -286,6 +331,25 @@ func buildDevelopmentStore(ctx context.Context, cfg config.Config) (development.
 		return store, func() {
 			if err := store.Close(); err != nil {
 				slog.Error("close development PostgreSQL connection", "error", err)
+			}
+		}, nil
+	default:
+		return nil, nil, errors.New("unsupported storage driver: " + cfg.StorageDriver)
+	}
+}
+
+func buildReleaseStore(ctx context.Context, cfg config.Config) (release.Store, func(), error) {
+	switch cfg.StorageDriver {
+	case "memory":
+		return release.NewMemoryStore(), func() {}, nil
+	case "postgres":
+		store, err := release.NewPostgresStore(ctx, cfg.PostgresDSN)
+		if err != nil {
+			return nil, nil, err
+		}
+		return store, func() {
+			if err := store.Close(); err != nil {
+				slog.Error("close release PostgreSQL connection", "error", err)
 			}
 		}, nil
 	default:

@@ -1,0 +1,12 @@
+{
+  "event_id": "code-platform-event-001",
+  "release_id": "replace-with-release-id",
+  "pull_request_url": "https://github.example.com/acme/order-service/pull/42",
+  "head_commit": "0123456789abcdef0123456789abcdef01234567",
+  "merge_commit": "89abcdef0123456789abcdef0123456789abcdef",
+  "protected_branch": true,
+  "approvals": 2,
+  "required_approvals": 2,
+  "checks_passed": true,
+  "merged": true
+}

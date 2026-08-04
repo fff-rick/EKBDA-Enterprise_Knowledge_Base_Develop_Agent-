@@ -36,6 +36,11 @@ func TestLoadDefaults(t *testing.T) {
 	t.Setenv("EKBDA_DEVELOPMENT_DELIVERY_REMOTE", "")
 	t.Setenv("EKBDA_DEVELOPMENT_DELIVERY_TIMEOUT_SECONDS", "")
 	t.Setenv("EKBDA_DEVELOPMENT_PR_BINARY", "")
+	t.Setenv("EKBDA_RELEASE_ENABLED", "")
+	t.Setenv("EKBDA_RELEASE_PIPELINES", "")
+	t.Setenv("EKBDA_RELEASE_ENVIRONMENTS", "")
+	t.Setenv("EKBDA_RELEASE_TIMEOUT_SECONDS", "")
+	t.Setenv("EKBDA_RELEASE_WEBHOOK_MAX_AGE_SECONDS", "")
 
 	config := Load()
 	if config.HTTPAddr != ":8080" {
@@ -70,6 +75,9 @@ func TestLoadDefaults(t *testing.T) {
 	}
 	if config.DevelopmentExecutionDriver != "container" || config.DevelopmentContainerBinary != "docker" || config.DevelopmentContainerCPUs != "1" || config.DevelopmentContainerMemory != "1g" || config.DevelopmentContainerPIDs != 256 || config.DevelopmentContainerTmpSize != "256m" || config.DevelopmentContainerUser != "65532:65532" || config.DevelopmentDeliveryEnabled || config.DevelopmentDeliveryRemote != "origin" || config.DevelopmentDeliveryTimeoutSeconds != 120 || config.DevelopmentPRBinary != "gh" {
 		t.Fatalf("unexpected stage 8C defaults: %#v", config)
+	}
+	if config.ReleaseEnabled || config.ReleaseTimeoutSeconds != 120 || config.ReleaseWebhookMaxAgeSeconds != 300 || len(config.ReleasePipelines) != 0 || len(config.ReleaseEnvironments) != 0 {
+		t.Fatalf("unexpected stage 8D defaults: %#v", config)
 	}
 }
 
@@ -123,6 +131,15 @@ func TestLoadPostgres(t *testing.T) {
 	t.Setenv("EKBDA_DEVELOPMENT_DELIVERY_REMOTE", "upstream")
 	t.Setenv("EKBDA_DEVELOPMENT_DELIVERY_TIMEOUT_SECONDS", "240")
 	t.Setenv("EKBDA_DEVELOPMENT_PR_BINARY", "gh-enterprise")
+	t.Setenv("EKBDA_RELEASE_ENABLED", "true")
+	t.Setenv("EKBDA_RELEASE_PROVIDER_BASE_URL", "https://cicd.example")
+	t.Setenv("EKBDA_RELEASE_PROVIDER_TOKEN", "provider-token")
+	t.Setenv("EKBDA_RELEASE_WEBHOOK_SECRET", "0123456789abcdef0123456789abcdef")
+	t.Setenv("EKBDA_RELEASE_CODE_WEBHOOK_SECRET", "abcdef0123456789abcdef0123456789")
+	t.Setenv("EKBDA_RELEASE_PIPELINES", "build-deploy, rollback")
+	t.Setenv("EKBDA_RELEASE_ENVIRONMENTS", "staging, production")
+	t.Setenv("EKBDA_RELEASE_TIMEOUT_SECONDS", "180")
+	t.Setenv("EKBDA_RELEASE_WEBHOOK_MAX_AGE_SECONDS", "240")
 
 	config := Load()
 	if config.HTTPAddr != ":9090" || config.StorageDriver != "postgres" || config.PostgresDSN != "postgres://example" || config.ImportRoot != "C:/knowledge" || config.WorkspaceRoot != "C:/workspaces" || config.EmbeddingProvider != "openai-compatible" || config.EmbeddingModel != "embedding-model" || config.EmbeddingDimension != 768 || config.RerankProvider != "http" || config.RerankModel != "rerank-model" || config.AuthMode != "jwt" || config.ProjectAuthorizationMode != "enforced" || config.JWTIssuer != "https://sso.example" || config.JWTAudience != "ekbda-api" || config.JWTJWKSURL != "https://sso.example/jwks" || config.JWTUserIDClaim != "employee_id" || config.JWTRolesClaim != "realm_access.roles" || config.JWTClockSkewSeconds != 30 || !config.JWTAllowInsecureHTTP || config.AnswerProvider != "openai-compatible" || config.PlannerProvider != "openai-compatible" || config.LLMModel != "chat-model" || config.LLMInputUSDPerMillionTokens != 2.5 || config.LLMOutputUSDPerMillionTokens != 10 || config.AgentTaskTimeoutSeconds != 900 || !config.DevelopmentExecutionEnabled || config.DevelopmentExecutionRoot != "C:/executions" || config.DevelopmentExecutionTimeoutSeconds != 180 {
@@ -130,6 +147,9 @@ func TestLoadPostgres(t *testing.T) {
 	}
 	if config.DevelopmentContainerBinary != "podman" || config.DevelopmentContainerCPUs != "2" || config.DevelopmentContainerPIDs != 128 || len(config.DevelopmentSecretScannerArguments) != 2 || len(config.DevelopmentSecretScannerEnv) != 2 || !config.DevelopmentDeliveryEnabled || config.DevelopmentDeliveryRoot != "C:/deliveries" || config.DevelopmentDeliveryRemote != "upstream" || config.DevelopmentDeliveryTimeoutSeconds != 240 || config.DevelopmentPRBinary != "gh-enterprise" {
 		t.Fatalf("unexpected stage 8C config: %#v", config)
+	}
+	if !config.ReleaseEnabled || config.ReleaseProviderBaseURL != "https://cicd.example" || len(config.ReleasePipelines) != 2 || len(config.ReleaseEnvironments) != 2 || config.ReleaseTimeoutSeconds != 180 || config.ReleaseWebhookMaxAgeSeconds != 240 {
+		t.Fatalf("unexpected stage 8D config: %#v", config)
 	}
 }
 

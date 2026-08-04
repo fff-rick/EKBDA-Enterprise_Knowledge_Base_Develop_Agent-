@@ -1,0 +1,6 @@
+./chunker.go
+./document.go
+./memory_repository.go
+./postgres_repository.go
+./repository.go
+./service.go

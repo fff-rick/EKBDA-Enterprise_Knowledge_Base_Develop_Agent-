@@ -392,6 +392,22 @@ EKBDA 是一个面向企业研发场景的 AI 协作平台。当前初版已实�
 
 完整启用条件、安全边界、API 和验收标准参阅 [`development/CONTROLLED_DELIVERY_STANDARD.md`](./development/CONTROLLED_DELIVERY_STANDARD.md)。生产合并、保护分支审批、发布和部署仍保持独立权限与独立审批。
 
+### 阶段八 D：代码平台对账与企业受控发布——已完成
+
+- 新增独立发布聚合；只有阶段 8C 状态为 `delivered` 且交付结果为 `passed` 的会话可以创建发布请求，源 Commit 与 PR 由交付证据固定。
+- 发布创建后必须等待代码平台 HMAC Webhook；只有 PR 已合并、保护分支成立、必需检查通过且审批数达标，才固定 Merge Commit 并进入发布审批。
+- 代码平台与 CI/CD 使用不同的至少 32 字节 HMAC 密钥、时间窗口和原始请求体签名；Provider Event ID 在 Memory/PostgreSQL 中全局幂等，重复回调返回 `applied=false`，乱序回调只记审计而不回退状态。
+- Pipeline、Environment 和 CI/CD Provider URL 均为启动配置白名单；应用只调用 HTTPS Broker 的固定 Run/Rollback API，不接受任意命令、URL、生产登录信息或调用方凭据。
+- `release_engineer` 创建/触发，`release_approver` 独立审批，禁止创建者自审批；回滚另有申请、审批和触发链路，回滚申请人同样不能自审批。
+- CI/CD 触发固定 Merge Commit、Manifest/Configuration SHA-256、变更单、九项必需门禁和供应链策略，并使用稳定 `Idempotency-Key`。
+- Provider 宣告成功后仍必须提供制品 SHA-256、SBOM 地址与哈希、签名验证、来源证明，以及 configuration/secret/image/migration/monitoring/rollback/health/smoke/logs 九项可信证据；缺项时失败关闭。
+- `production` 发布必须引用同项目、同源 Commit、非生产且成功的发布，固定复用其已验证制品摘要；CI/CD 回调摘要不一致时不得晋级。
+- 发布、审批、运行、制品、SBOM、门禁、验证和回滚证据均持久化到不可变事件流；PostgreSQL 在单事务中完成快照、事件和 Webhook 收据更新。
+- 新增发布目录、状态查询、审批、触发、回滚和双 Webhook API，以及 UTF-8 PowerShell 脚本和发布/回调样例。
+- 新增 Go 摘要固定多阶段镜像、非特权 Kubernetes Deployment、无秘密环境变量和回滚预案模板；模板产物必须由 CI 计算并回填 Manifest/Configuration 哈希。
+
+完整启用条件、API 契约、Provider 协议、状态机和验收标准参阅 [`release/CONTROLLED_RELEASE_STANDARD.md`](./release/CONTROLLED_RELEASE_STANDARD.md)。EKBDA 仍不会直接登录生产环境；代码合并、制品生成和实际部署由代码平台及最小权限 CI/CD Broker 执行。
+
 ### 验证结果
 
 | 检查项 | 结果 |
@@ -471,7 +487,7 @@ EKBDA 是一个面向企业研发场景的 AI 协作平台。当前初版已实�
 
 ### 当前阶段结论
 
-项目已经具备可信 JWT 身份、版本化项目/仓库 ACL、版本化研发规范、受控 Git 只读扫描、仓库知识增量同步与确定性门禁、秘密脱敏、知识录入、受控目录导入、删除失效、历史版本、文档切片、数据库权限过滤、pgvector 混合检索、可插拔 Rerank、带引用问答、拒答、脱敏轨迹、版本化质量评测、可恢复 CI 门禁、只读实施规划、五角色独立评审、冲突人工决议、版本化七工件立项包、跨工件追踪矩阵、单工件评审、Markdown/DOCX 导出，以及具备租约恢复、取消、受控重试、成本轨迹和专项门禁的 Agent 任务运行时。当前仍不执行代码或部署；开发身份模式、同步仓库导入、内存模式应用层扫描、应用内轮询和自动迁移方式仍属于初版方案，不能直接作为生产环境最终实现。
+项目已经具备可信 JWT 身份、版本化项目/仓库 ACL、版本化研发规范、受控 Git 只读扫描、仓库知识增量同步与确定性门禁、秘密脱敏、知识录入、受控目录导入、删除失效、历史版本、文档切片、数据库权限过滤、pgvector 混合检索、可插拔 Rerank、带引用问答、拒答、脱敏轨迹、版本化质量评测、可恢复 CI 门禁、只读实施规划、五角色独立评审、冲突人工决议、版本化七工件立项包、跨工件追踪矩阵、单工件评审、Markdown/DOCX 导出、受控代码验证与 PR 交付，以及基于独立审批、双签名 Webhook、供应链证据和环境晋级的 CI/CD 发布编排。实际合并和部署只由外部代码平台及最小权限 CI/CD Broker 执行；开发身份模式、同步仓库导入、内存模式应用层扫描、应用内轮询和自动迁移方式仍属于初版方案，不能直接作为生产环境最终实现。
 
 ## 启动
 
@@ -487,6 +503,20 @@ $env:EKBDA_EMBEDDING_PROVIDER='local'
 $env:EKBDA_AGENT_TASK_TIMEOUT_SECONDS='600'
 go run ./cmd/server
 ```
+
+### 使用完整功能测试台
+
+服务启动后访问 `http://localhost:8080/`。测试台直接随 Go 服务发布，不需要额外安装 Node.js，也不使用模拟接口；页面中的状态、对象和错误都来自当前 EKBDA 实例。
+
+测试台按研发链路划分为九个工作区：指挥总览、知识资产、工程治理、规划协作、七工件、Agent 任务运行时、Vibe Coding、交付编排和质量闭环。当前后端注册的全部业务 API 都有可编辑的操作表单，支持查看结构化结果、原始响应、实际请求、HTTP 状态码和耗时；Markdown/DOCX 导出会直接下载文件，代码平台与 CI/CD Webhook 支持在浏览器内使用测试密钥生成 HMAC 签名。
+
+首次打开时填写连接身份：
+
+- 本地 `dev_headers` 模式填写项目、仓库、用户 ID 和角色即可；默认测试角色覆盖知识管理员、开发者、项目审批人、发布工程师和发布审批人。
+- 企业 `jwt` 模式填写 Bearer Token，并按企业实际权限选择项目。Token 和 Webhook 密钥只保存在当前页面内存中，不写入 Local Storage；本地只保存不含密钥的连接资料。
+- “调用记录”只保留当前页面会话，便于复现测试顺序；页面刷新后清空，不作为服务端审计日志。
+
+推荐先在“指挥总览”确认 API 在线，再按 `知识 → 规范 → 规划 → 立项 → Agent → 编码 → 交付 → 发布 → 质量` 顺序测试。需要测试发布功能时，还应按阶段 8D 的配置启用 Release Service、代码平台 Webhook 和 CI/CD Broker 白名单。
 
 ### 接入企业 SSO/JWT
 
@@ -1151,7 +1181,7 @@ go test ./internal/knowledge ./internal/ingestion ./internal/answer ./internal/e
 - 立项包已支持同步兼容接口和可恢复异步任务；尚未支持只重试单个工件生成或工件级 Token 成本拆分。
 - 受控交付当前实现 GitHub/GitHub Enterprise CLI 提供器；GitLab、Bitbucket、企业代码平台 Broker、PR 幂等查询和 Webhook 对账尚未接入。
 - 交付中断可能发生“远端 Push/PR 已成功但本地证据未持久化”，系统会失败关闭并要求人工对账，不会自动删除远端分支或重试外部副作用。
-- 已提供强隔离验证和受控 PR 创建，但保护分支合并、制品签名、发布、生产部署和回滚仍保持关闭。
+- 阶段 8D 已提供保护分支合并证据对账、供应链证据门禁、环境晋级、发布审批和可回滚 CI/CD 编排；具体 GitHub/GitLab Webhook 转换器、制品仓库/KMS 签名实现和 Kubernetes/云平台执行器仍应由企业 CI/CD Broker 适配，EKBDA 本身不直接持有生产权限。
 
 ## 下一步
 
@@ -1160,4 +1190,4 @@ go test ./internal/knowledge ./internal/ingestion ./internal/answer ./internal/e
 3. 为 ACL 增加策略审批、生效时间、临时授权到期和授权决策审计，并对接企业用户目录。
 4. 将追踪矩阵细化到 API 操作、测试用例和部署任务标识，并在新版本发布时生成结构化差异报告。
 5. 为 Agent 任务增加队列优先级、指数退避、死信队列、项目并发配额、单角色恢复和可观测告警。
-6. 进入阶段八 D：接入代码平台 Webhook 和交付幂等对账，增加保护分支审批、制品构建与签名、SBOM、环境晋级、部署审批和可回滚发布；生产合并与部署继续使用独立职责和最小权限身份。
+6. 阶段八完成后执行一次大范围测试：覆盖 Memory/PostgreSQL、JWT/ACL、知识导入检索问答、规划与多角色 Agent、立项包、8A—8D 全链路、容器安全参数、Webhook 重放/乱序/冲突、故障恢复、并发、性能和发布回滚演练，并形成缺陷与准生产验收报告。

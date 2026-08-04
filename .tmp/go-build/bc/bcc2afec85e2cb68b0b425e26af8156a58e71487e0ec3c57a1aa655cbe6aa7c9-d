@@ -1,0 +1,12 @@
+./access_handlers.go
+./agent_task_handlers.go
+./development_handlers.go
+./handlers.go
+./initiative_handlers.go
+./planning_handlers.go
+./release_handlers.go
+./repositorysync_handlers.go
+./server.go
+./standards_handlers.go
+./web.go
+./workspace_handlers.go
