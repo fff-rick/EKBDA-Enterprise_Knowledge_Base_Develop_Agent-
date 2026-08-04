@@ -1,0 +1,8 @@
+# Non-secret configuration only. Secrets must be injected by the enterprise secret manager.
+EKBDA_HTTP_ADDR=:8080
+EKBDA_STORAGE_DRIVER=postgres
+EKBDA_AUTH_MODE=jwt
+EKBDA_PROJECT_AUTHORIZATION_MODE=enforced
+EKBDA_RELEASE_ENABLED=true
+EKBDA_RELEASE_PIPELINES=standard-build-deploy
+EKBDA_RELEASE_ENVIRONMENTS=staging,production

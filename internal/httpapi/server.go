@@ -13,6 +13,7 @@ import (
 	"ekbda/internal/initiative"
 	"ekbda/internal/knowledge"
 	"ekbda/internal/planning"
+	"ekbda/internal/release"
 	"ekbda/internal/repositorysync"
 	"ekbda/internal/standards"
 	"ekbda/internal/workspace"
@@ -31,6 +32,9 @@ type Server struct {
 	initiative     *initiative.Service
 	agentTasks     *agenttask.Service
 	development    *development.Service
+	releases       *release.Service
+	codeWebhook    *release.WebhookVerifier
+	releaseWebhook *release.WebhookVerifier
 	auth           auth.Authenticator
 	mux            *http.ServeMux
 }
@@ -44,6 +48,14 @@ func NewWithAgentTasks(knowledgeService *knowledge.Service, ingestionService *in
 }
 
 func NewWithDevelopment(knowledgeService *knowledge.Service, ingestionService *ingestion.Service, answerService *answer.Service, evaluationService *evaluation.Service, standardsService *standards.Service, workspaceService *workspace.Service, accessService *access.Service, repositorySyncService *repositorysync.Service, planningService *planning.Service, initiativeService *initiative.Service, agentTaskService *agenttask.Service, developmentService *development.Service, authenticators ...auth.Authenticator) http.Handler {
+	return NewWithRelease(knowledgeService, ingestionService, answerService, evaluationService, standardsService, workspaceService, accessService, repositorySyncService, planningService, initiativeService, agentTaskService, developmentService, nil, nil, authenticators...)
+}
+
+func NewWithRelease(knowledgeService *knowledge.Service, ingestionService *ingestion.Service, answerService *answer.Service, evaluationService *evaluation.Service, standardsService *standards.Service, workspaceService *workspace.Service, accessService *access.Service, repositorySyncService *repositorysync.Service, planningService *planning.Service, initiativeService *initiative.Service, agentTaskService *agenttask.Service, developmentService *development.Service, releaseService *release.Service, releaseWebhook *release.WebhookVerifier, authenticators ...auth.Authenticator) http.Handler {
+	return NewWithReleaseWebhooks(knowledgeService, ingestionService, answerService, evaluationService, standardsService, workspaceService, accessService, repositorySyncService, planningService, initiativeService, agentTaskService, developmentService, releaseService, nil, releaseWebhook, authenticators...)
+}
+
+func NewWithReleaseWebhooks(knowledgeService *knowledge.Service, ingestionService *ingestion.Service, answerService *answer.Service, evaluationService *evaluation.Service, standardsService *standards.Service, workspaceService *workspace.Service, accessService *access.Service, repositorySyncService *repositorysync.Service, planningService *planning.Service, initiativeService *initiative.Service, agentTaskService *agenttask.Service, developmentService *development.Service, releaseService *release.Service, codeWebhook *release.WebhookVerifier, releaseWebhook *release.WebhookVerifier, authenticators ...auth.Authenticator) http.Handler {
 	authenticator := auth.Authenticator(auth.NewDevHeaders())
 	if len(authenticators) > 0 && authenticators[0] != nil {
 		authenticator = authenticators[0]
@@ -61,6 +73,9 @@ func NewWithDevelopment(knowledgeService *knowledge.Service, ingestionService *i
 		initiative:     initiativeService,
 		agentTasks:     agentTaskService,
 		development:    developmentService,
+		releases:       releaseService,
+		codeWebhook:    codeWebhook,
+		releaseWebhook: releaseWebhook,
 		auth:           authenticator,
 		mux:            http.NewServeMux(),
 	}
@@ -69,7 +84,6 @@ func NewWithDevelopment(knowledgeService *knowledge.Service, ingestionService *i
 }
 
 func (s *Server) routes() {
-	s.mux.Handle("GET /", s.frontend())
 	s.mux.HandleFunc("GET /healthz", s.health)
 	s.mux.HandleFunc("POST /api/v1/access/projects", s.requireIdentity(s.requireRole("knowledge_admin", s.createAccessPolicy)))
 	s.mux.HandleFunc("GET /api/v1/access/projects/{project}", s.requireIdentity(s.requireRole("knowledge_admin", s.getAccessPolicy)))
@@ -111,6 +125,20 @@ func (s *Server) routes() {
 		s.mux.HandleFunc("POST /api/v1/development/sessions/{id}/execute", s.requireIdentity(s.executeDevelopmentSession))
 		s.mux.HandleFunc("POST /api/v1/development/sessions/{id}/deliver", s.requireIdentity(s.deliverDevelopmentSession))
 	}
+	if s.releases != nil {
+		s.mux.HandleFunc("GET /api/v1/releases/catalog", s.requireIdentity(s.getReleaseCatalog))
+		s.mux.HandleFunc("POST /api/v1/releases", s.requireIdentity(s.createRelease))
+		s.mux.HandleFunc("GET /api/v1/releases", s.requireIdentity(s.listReleases))
+		s.mux.HandleFunc("GET /api/v1/releases/{id}", s.requireIdentity(s.getRelease))
+		s.mux.HandleFunc("GET /api/v1/releases/{id}/events", s.requireIdentity(s.listReleaseEvents))
+		s.mux.HandleFunc("POST /api/v1/releases/{id}/decision", s.requireIdentity(s.decideRelease))
+		s.mux.HandleFunc("POST /api/v1/releases/{id}/trigger", s.requireIdentity(s.triggerRelease))
+		s.mux.HandleFunc("POST /api/v1/releases/{id}/rollback", s.requireIdentity(s.requestReleaseRollback))
+		s.mux.HandleFunc("POST /api/v1/releases/{id}/rollback-decision", s.requireIdentity(s.decideReleaseRollback))
+		s.mux.HandleFunc("POST /api/v1/releases/{id}/rollback-trigger", s.requireIdentity(s.triggerReleaseRollback))
+		s.mux.HandleFunc("POST /api/v1/releases/webhooks/provider", s.releaseProviderWebhook)
+		s.mux.HandleFunc("POST /api/v1/releases/webhooks/code-platform", s.releaseCodePlatformWebhook)
+	}
 	s.mux.HandleFunc("POST /api/v1/knowledge/documents", s.requireIdentity(s.requireRole("knowledge_admin", s.createDocument)))
 	s.mux.HandleFunc("GET /api/v1/knowledge/documents/{id}/versions", s.requireIdentity(s.requireRole("knowledge_admin", s.listDocumentVersions)))
 	s.mux.HandleFunc("POST /api/v1/knowledge/imports", s.requireIdentity(s.requireRole("knowledge_admin", s.createImport)))
@@ -138,4 +166,5 @@ func (s *Server) routes() {
 	s.mux.HandleFunc("POST /api/v1/workspaces/validations", s.requireIdentity(s.validateWorkspace))
 	s.mux.HandleFunc("GET /api/v1/workspaces/validations", s.requireIdentity(s.requireRole("knowledge_admin", s.listWorkspaceValidations)))
 	s.mux.HandleFunc("GET /api/v1/workspaces/validations/{id}", s.requireIdentity(s.requireRole("knowledge_admin", s.getWorkspaceValidation)))
+	s.mux.Handle("GET /", s.frontend())
 }

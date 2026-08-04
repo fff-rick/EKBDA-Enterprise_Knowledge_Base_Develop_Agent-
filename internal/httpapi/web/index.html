@@ -1,83 +1,154 @@
 <!doctype html>
 <html lang="zh-CN">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#070b17" />
-    <title>EKBDA · 企业知识开发中枢</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Noto+Serif+SC:wght@600;700;900&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="/styles.css" />
-    <link rel="stylesheet" href="/overrides.css" />
-  </head>
-  <body>
-    <canvas id="galaxy" aria-hidden="true"></canvas>
-    <div class="grain" aria-hidden="true"></div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#f0eee7" />
+  <meta name="description" content="EKBDA 企业知识库开发助手完整功能测试台" />
+  <title>EKBDA · 企业功能测试台</title>
+  <link rel="stylesheet" href="/styles.css" />
+  <link rel="stylesheet" href="/overrides.css" />
+</head>
+<body>
+  <div class="paper-grid" aria-hidden="true"></div>
+  <div class="shell" id="app-shell">
+    <aside class="rail" aria-label="主导航">
+      <a class="wordmark" href="#overview" aria-label="EKBDA 测试台首页">
+        <span class="wordmark-mark">E</span>
+        <span><b>EKBDA</b><small>CONTROL LEDGER</small></span>
+      </a>
+      <div class="rail-context">
+        <span class="context-light" id="connection-light"></span>
+        <div><small>当前测试项目</small><strong id="rail-project">未连接</strong></div>
+      </div>
+      <nav class="module-nav" id="module-nav"></nav>
+      <div class="rail-footer">
+        <button class="identity-button" id="open-settings" type="button">
+          <span class="identity-avatar" id="identity-avatar">--</span>
+          <span><small>调用身份</small><strong id="identity-name">未配置</strong></span>
+          <i>⌁</i>
+        </button>
+        <p>API-first / no mock data</p>
+      </div>
+    </aside>
 
-    <main id="app">
-      <section class="landing" id="landing">
-        <nav class="topbar">
-          <a class="brand" href="#home" aria-label="EKBDA 首页"><i></i><span>EKBDA</span><small>KNOWLEDGE OS</small></a>
-          <div class="nav-links"><a href="#capability">能力</a><a href="#architecture">架构</a><a href="#security">治理</a></div>
-          <button class="ghost-button" data-enter>登录工作台 <span>↗</span></button>
-        </nav>
-
-        <div class="hero" id="home">
-          <div class="eyebrow"><span class="pulse"></span> 企业知识库开发助手 <b>v1.0 / ONLINE</b></div>
-          <h1>让沉睡的知识<br /><em class="shiny">成为行动的引擎。</em></h1>
-          <p class="hero-copy">从分散文档到可追溯的智能决策。EKBDA 将知识沉淀、规范治理与 Agent 协作收拢进一个受控的开发中枢。</p>
-          <div class="hero-actions">
-            <button class="primary-button" data-enter>进入知识中枢 <span>→</span></button>
-            <a class="text-link" href="#capability">探索系统能力 <span>↓</span></a>
-          </div>
-          <div class="orbit-label label-one">● <span>SEMANTIC<br />MEMORY</span></div>
-          <div class="orbit-label label-two">✦ <span>VERIFIED<br />DELIVERY</span></div>
-          <div class="hero-index"><span>SCROLL TO EXPLORE</span><i></i><b>01 / 03</b></div>
+    <main class="main-stage">
+      <header class="masthead">
+        <div>
+          <p class="breadcrumb"><span>ENTERPRISE KNOWLEDGE DEVELOPMENT AGENT</span> / <b id="breadcrumb-module">总览</b></p>
+          <h1 id="page-title">企业功能测试台</h1>
         </div>
+        <div class="mast-actions">
+          <div class="api-state" id="api-state"><i></i><span>等待连接</span></div>
+          <button class="quiet-button" id="show-history" type="button">调用记录 <b id="history-count">0</b></button>
+          <button class="solid-button" id="open-settings-top" type="button">连接设置</button>
+        </div>
+      </header>
 
-        <section class="proof" id="capability">
-          <div><span class="section-kicker">01 — SYSTEM CAPABILITIES</span><h2>看见知识，<br />推动交付。</h2></div>
-          <p>不只是一个问答机器人。它是一套将企业事实、工程标准和执行流程连接起来的可信工作系统。</p>
-          <div class="capability-grid">
-            <article><span>01</span><h3>知识沉淀</h3><p>文档、仓库与规范统一入库，保留版本、来源与权限边界。</p><i>↗</i></article>
-            <article><span>02</span><h3>可信问答</h3><p>带证据引用的语义检索与问答，让每个答案都能回到原始事实。</p><i>↗</i></article>
-            <article><span>03</span><h3>受控协作</h3><p>把规划、审查、评测和交付拆进可观察、可审计的 Agent 工作流。</p><i>↗</i></article>
+      <section class="workspace-page active" id="page-overview" data-page="overview">
+        <div class="overview-intro">
+          <div>
+            <p class="serial">BUILD 08D · FULL SURFACE</p>
+            <h2>一张工作台，<br />检验整条研发链。</h2>
           </div>
-        </section>
+          <p>这里不隐藏任何能力。知识、规范、规划、Agent、受控编码、发布与评测都对应真实 API；每次调用都保留请求、响应、耗时和状态码。</p>
+        </div>
+        <div class="coverage-band" id="coverage-band"></div>
+        <div class="overview-grid">
+          <section class="ledger-card span-two">
+            <div class="section-heading"><div><span>01 / SYSTEM PULSE</span><h3>系统与链路状态</h3></div><button class="text-button" data-refresh="overview">重新检测</button></div>
+            <div class="pulse-grid" id="overview-pulse"></div>
+          </section>
+          <section class="ledger-card signal-card">
+            <div class="section-heading"><div><span>02 / ACTIVE OBJECTS</span><h3>当前项目对象</h3></div></div>
+            <div class="tally-list" id="overview-tallies"></div>
+          </section>
+          <section class="ledger-card span-two">
+            <div class="section-heading"><div><span>03 / DELIVERY CHAIN</span><h3>端到端阶段覆盖</h3></div></div>
+            <div class="delivery-chain" id="delivery-chain"></div>
+          </section>
+          <section class="ledger-card">
+            <div class="section-heading"><div><span>04 / RECENT CALLS</span><h3>最近调用</h3></div></div>
+            <div class="mini-history" id="mini-history"></div>
+          </section>
+        </div>
       </section>
 
-      <section class="workspace hidden" id="workspace">
-        <aside class="sidebar">
-          <a class="brand" href="#" data-home><i></i><span>EKBDA</span></a>
-          <div class="workspace-switch"><span class="mini-orb"></span><div><small>当前空间</small><strong>研发效能中心</strong></div><b>⌄</b></div>
-          <nav class="side-nav">
-            <button class="active" data-page="overview"><span>◉</span> 指挥台</button><button data-page="knowledge"><span>◇</span> 知识资产</button><button data-page="agents"><span>✦</span> Agent 任务</button><button data-page="governance"><span>▦</span> 规范治理</button><button data-page="observability"><span>⌁</span> 可观测性</button>
-          </nav>
-          <div class="side-bottom"><button data-action="configure"><span>⚙</span> 连接设置</button><button><span class="avatar" id="user-avatar">--</span> <span id="user-name">未连接</span></button></div>
-        </aside>
-        <div class="work-content">
-          <header class="work-header"><div><span class="section-kicker">CONTROL ROOM / LIVE DATA</span><h2 id="page-title">知识中枢</h2></div><div class="header-actions"><button class="icon-button" data-action="refresh" title="刷新数据">↻</button><button class="create-button" data-action="configure">连接项目</button></div></header>
-          <div id="overview" class="page active-page">
-            <p class="connection-note" id="connection-note">尚未选择项目。连接后显示真实的问答、评测与 Agent 数据。</p>
-            <section class="intel-strip"><div><span>问答请求</span><strong id="metric-total">—</strong><small>全部已记录请求</small></div><div><span>成功率</span><strong id="metric-success">—</strong><small>基于真实问答轨迹</small></div><div><span>平均响应</span><strong id="metric-latency">—</strong><small>真实服务耗时</small></div><div><span>Token 用量</span><strong id="metric-tokens">—</strong><small>全部已记录请求</small></div></section>
-            <div class="dash-grid">
-              <section class="signal-card"><div class="card-heading"><div><span class="section-kicker">ANSWER OBSERVABILITY</span><h3>问答服务状态</h3></div><button data-action="refresh">刷新</button></div><div class="metric-detail" id="metrics-detail"><p>连接项目后加载真实问答指标。</p></div></section>
-              <section class="focus-card"><span class="section-kicker">EVALUATION RUNS</span><div class="focus-orb">✓</div><h3>最近评测运行</h3><div class="live-list" id="runs-list"><p>正在等待数据源。</p></div><button class="outline-light" data-page-target="observability">查看可观测性 <span>→</span></button></section>
-              <section class="activity-card"><div class="card-heading"><div><span class="section-kicker">ACTIVE AGENTS</span><h3>Agent 任务</h3></div><button data-page-target="agents">全部任务</button></div><ul id="tasks-list"><li><p>正在等待数据源。</p></li></ul></section>
-              <section class="tasks-card"><div class="card-heading"><div><span class="section-kicker">REAL-TIME STATUS</span><h3>连接状态</h3></div><button data-action="configure">设置</button></div><div class="empty-state" id="status-panel">需要选择项目并使用有效身份后才能加载受保护数据。</div></section>
-            </div>
-          </div>
-          <div class="placeholder-page" id="knowledge"><span>KNOWLEDGE ASSETS</span><h2>让每一份企业知识<br />都拥有上下文。</h2><button class="primary-button" data-action="configure">连接项目 →</button></div>
-          <div class="placeholder-page" id="agents"><span>AGENT FLOWS</span><h2>把复杂协作变成<br />可审计的进程。</h2><button class="primary-button" data-action="configure">连接项目以查看任务 →</button></div>
-          <div class="placeholder-page" id="governance"><span>GOVERNANCE</span><h2>规范不是约束，<br />是规模化的底气。</h2></div>
-          <div class="placeholder-page" id="observability"><span>OBSERVABILITY</span><h2>每一项决策，<br />都有迹可循。</h2></div>
-        </div>
-      </section>
+      <div id="module-pages"></div>
     </main>
-    <dialog class="connection-dialog" id="connection-dialog">
-      <form method="dialog" id="connection-form"><button class="dialog-close" value="cancel" aria-label="关闭">×</button><span class="section-kicker">DATA CONNECTION</span><h2>连接真实项目数据</h2><p>系统不会预置任何业务数据。开发环境可使用 Dev Headers；生产环境请填写已签发的 Bearer Token。</p><label>项目标识<input name="project" required placeholder="例如 order-service" /></label><label>用户 ID（Dev Headers 可用）<input name="userId" placeholder="例如 developer-1" /></label><label>角色（用逗号分隔）<input name="roles" placeholder="例如 knowledge_admin" /></label><label>Bearer Token（生产环境）<input name="token" type="password" placeholder="粘贴 JWT，不会写入服务器" /></label><button class="primary-button" value="default">保存并加载 <span>→</span></button><output id="connection-error"></output></form>
-    </dialog>
-    <script src="/app.js"></script>
-  </body>
+  </div>
+
+  <dialog class="settings-dialog" id="settings-dialog">
+    <form method="dialog" id="settings-form">
+      <header><div><span>CONNECTION PROFILE</span><h2>测试连接与身份</h2></div><button class="dialog-x" value="cancel" aria-label="关闭">×</button></header>
+      <p class="dialog-lead">Dev Headers 适合本地功能测试；JWT 模式只填写 Token。Token 仅保存在当前页面内存中，不写入服务器或本地存储。</p>
+      <div class="form-grid">
+        <label class="wide">API 地址<input name="apiBase" placeholder="留空表示当前站点" /></label>
+        <label>项目标识<input name="project" required placeholder="order-service" /></label>
+        <label>仓库标识<input name="repository" placeholder="services/order" /></label>
+        <label>用户 ID<input name="userId" placeholder="admin-1" /></label>
+        <label>环境<input name="environment" placeholder="staging" /></label>
+        <label class="wide">角色（逗号分隔）<input name="roles" placeholder="knowledge_admin,developer,project_approver,release_engineer,release_approver" /></label>
+        <label class="wide">Bearer Token<input name="token" type="password" autocomplete="off" placeholder="生产 JWT；使用 Dev Headers 时留空" /></label>
+      </div>
+      <output id="settings-error"></output>
+      <footer><button class="quiet-button" value="cancel">取消</button><button class="solid-button" value="default">保存并检测</button></footer>
+    </form>
+  </dialog>
+
+  <dialog class="operation-dialog" id="operation-dialog">
+    <form method="dialog" id="operation-form">
+      <header>
+        <div><span id="operation-serial">API OPERATION</span><h2 id="operation-title">执行操作</h2></div>
+        <button class="dialog-x" value="cancel" aria-label="关闭">×</button>
+      </header>
+      <div class="operation-meta"><b id="operation-method">GET</b><code id="operation-path">/healthz</code><span id="operation-role">已认证</span></div>
+      <p class="dialog-lead" id="operation-description"></p>
+      <div id="operation-fields" class="form-grid"></div>
+      <label class="json-field" id="operation-body-wrap">JSON 请求体<textarea id="operation-body" spellcheck="false"></textarea></label>
+      <label class="json-field hidden" id="operation-secret-wrap">Webhook HMAC 密钥<input id="operation-secret" type="password" autocomplete="off" /><small>仅用于浏览器本地 Web Crypto 签名，不会持久化。</small></label>
+      <output id="operation-error"></output>
+      <footer><button class="quiet-button" value="cancel">取消</button><button class="solid-button" id="execute-operation" value="default">发送请求</button></footer>
+    </form>
+  </dialog>
+
+  <aside class="result-drawer" id="result-drawer" aria-hidden="true">
+    <header><div><span>RESPONSE INSPECTOR</span><h2 id="result-title">调用结果</h2></div><button class="dialog-x" id="close-result" type="button">×</button></header>
+    <div class="response-strip"><b id="result-status">—</b><span id="result-time">—</span><code id="result-endpoint">—</code></div>
+    <div class="response-tabs"><button class="active" data-result-tab="visual">结构视图</button><button data-result-tab="raw">原始响应</button><button data-result-tab="request">请求</button></div>
+    <div class="result-panel active" id="result-visual"></div>
+    <pre class="result-panel" id="result-raw"></pre>
+    <pre class="result-panel" id="result-request"></pre>
+  </aside>
+
+  <aside class="history-drawer" id="history-drawer" aria-hidden="true">
+    <header><div><span>LOCAL SESSION LOG</span><h2>调用记录</h2></div><button class="dialog-x" id="close-history" type="button">×</button></header>
+    <p>仅保留当前页面会话，不包含 Bearer Token 或 Webhook 密钥。</p>
+    <div id="history-list"></div>
+  </aside>
+  <div class="scrim" id="scrim"></div>
+  <div class="toast-stack" id="toast-stack" aria-live="polite"></div>
+
+  <template id="module-page-template">
+    <section class="workspace-page module-page">
+      <div class="module-hero">
+        <div><p class="serial"></p><h2></h2><p class="module-summary"></p></div>
+        <button class="solid-button module-primary" type="button"></button>
+      </div>
+      <div class="module-kpis"></div>
+      <div class="module-layout">
+        <section class="ledger-card data-card">
+          <div class="section-heading"><div><span>LIVE API DATA</span><h3 class="data-title">对象与状态</h3></div><button class="text-button module-refresh" type="button">刷新</button></div>
+          <div class="module-data"></div>
+        </section>
+        <aside class="operation-catalog">
+          <div class="section-heading"><div><span>COMPLETE SURFACE</span><h3>功能操作</h3></div><b class="operation-count"></b></div>
+          <div class="operation-list"></div>
+        </aside>
+      </div>
+    </section>
+  </template>
+
+  <script src="/app.js"></script>
+</body>
 </html>

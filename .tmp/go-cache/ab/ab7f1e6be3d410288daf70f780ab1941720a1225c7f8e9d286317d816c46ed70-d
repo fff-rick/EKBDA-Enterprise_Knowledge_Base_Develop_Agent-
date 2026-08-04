@@ -1,0 +1,3950 @@
+# test log
+getenv PATHEXT
+getenv NoDefaultCurrentDirectoryInExePath
+stat git.bat
+stat git.cmd
+stat git.com
+stat git.exe
+stat git.vbs
+stat git.vbe
+stat git.js
+stat git.jse
+stat git.wsf
+stat git.wsh
+stat git.msc
+stat git.cpl
+getenv path
+stat D:\go\bin\git.bat
+stat D:\go\bin\git.cmd
+stat D:\go\bin\git.com
+stat D:\go\bin\git.exe
+stat D:\go\bin\git.vbs
+stat D:\go\bin\git.vbe
+stat D:\go\bin\git.js
+stat D:\go\bin\git.jse
+stat D:\go\bin\git.wsf
+stat D:\go\bin\git.wsh
+stat D:\go\bin\git.msc
+stat D:\go\bin\git.cpl
+stat C:\Users\Xin\.sbx-denybin\git.bat
+stat C:\Users\Xin\.sbx-denybin\git.cmd
+stat C:\Users\Xin\.sbx-denybin\git.com
+stat C:\Users\Xin\.sbx-denybin\git.exe
+stat C:\Users\Xin\.sbx-denybin\git.vbs
+stat C:\Users\Xin\.sbx-denybin\git.vbe
+stat C:\Users\Xin\.sbx-denybin\git.js
+stat C:\Users\Xin\.sbx-denybin\git.jse
+stat C:\Users\Xin\.sbx-denybin\git.wsf
+stat C:\Users\Xin\.sbx-denybin\git.wsh
+stat C:\Users\Xin\.sbx-denybin\git.msc
+stat C:\Users\Xin\.sbx-denybin\git.cpl
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.bat
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.cmd
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.com
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.exe
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.vbs
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.vbe
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.js
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.jse
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.wsf
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.wsh
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.msc
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.cpl
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.bat
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.cmd
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.com
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.exe
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.vbs
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.vbe
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.js
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.jse
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.wsf
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.wsh
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.msc
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.cpl
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.bat
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.cmd
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.com
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.exe
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.vbs
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.vbe
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.js
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.jse
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.wsf
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.wsh
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.msc
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.cpl
+stat D:\vmware\bin\git.bat
+stat D:\vmware\bin\git.cmd
+stat D:\vmware\bin\git.com
+stat D:\vmware\bin\git.exe
+stat D:\vmware\bin\git.vbs
+stat D:\vmware\bin\git.vbe
+stat D:\vmware\bin\git.js
+stat D:\vmware\bin\git.jse
+stat D:\vmware\bin\git.wsf
+stat D:\vmware\bin\git.wsh
+stat D:\vmware\bin\git.msc
+stat D:\vmware\bin\git.cpl
+stat C:\windows\system32\git.bat
+stat C:\windows\system32\git.cmd
+stat C:\windows\system32\git.com
+stat C:\windows\system32\git.exe
+stat C:\windows\system32\git.vbs
+stat C:\windows\system32\git.vbe
+stat C:\windows\system32\git.js
+stat C:\windows\system32\git.jse
+stat C:\windows\system32\git.wsf
+stat C:\windows\system32\git.wsh
+stat C:\windows\system32\git.msc
+stat C:\windows\system32\git.cpl
+stat C:\windows\git.bat
+stat C:\windows\git.cmd
+stat C:\windows\git.com
+stat C:\windows\git.exe
+stat C:\windows\git.vbs
+stat C:\windows\git.vbe
+stat C:\windows\git.js
+stat C:\windows\git.jse
+stat C:\windows\git.wsf
+stat C:\windows\git.wsh
+stat C:\windows\git.msc
+stat C:\windows\git.cpl
+stat C:\windows\System32\Wbem\git.bat
+stat C:\windows\System32\Wbem\git.cmd
+stat C:\windows\System32\Wbem\git.com
+stat C:\windows\System32\Wbem\git.exe
+stat C:\windows\System32\Wbem\git.vbs
+stat C:\windows\System32\Wbem\git.vbe
+stat C:\windows\System32\Wbem\git.js
+stat C:\windows\System32\Wbem\git.jse
+stat C:\windows\System32\Wbem\git.wsf
+stat C:\windows\System32\Wbem\git.wsh
+stat C:\windows\System32\Wbem\git.msc
+stat C:\windows\System32\Wbem\git.cpl
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.bat
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.cmd
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.com
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.exe
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.vbs
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.vbe
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.js
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.jse
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.wsf
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.wsh
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.msc
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.cpl
+stat C:\windows\System32\OpenSSH\git.bat
+stat C:\windows\System32\OpenSSH\git.cmd
+stat C:\windows\System32\OpenSSH\git.com
+stat C:\windows\System32\OpenSSH\git.exe
+stat C:\windows\System32\OpenSSH\git.vbs
+stat C:\windows\System32\OpenSSH\git.vbe
+stat C:\windows\System32\OpenSSH\git.js
+stat C:\windows\System32\OpenSSH\git.jse
+stat C:\windows\System32\OpenSSH\git.wsf
+stat C:\windows\System32\OpenSSH\git.wsh
+stat C:\windows\System32\OpenSSH\git.msc
+stat C:\windows\System32\OpenSSH\git.cpl
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.bat
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.cmd
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.com
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.exe
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.vbs
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.vbe
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.js
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.jse
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.wsf
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.wsh
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.msc
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.cpl
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.bat
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.cmd
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.com
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.exe
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.vbs
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.vbe
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.js
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.jse
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.wsf
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.wsh
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.msc
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.cpl
+stat C:\Program Files\Common Files\Autodesk Shared\git.bat
+stat C:\Program Files\Common Files\Autodesk Shared\git.cmd
+stat C:\Program Files\Common Files\Autodesk Shared\git.com
+stat C:\Program Files\Common Files\Autodesk Shared\git.exe
+stat C:\Program Files\Common Files\Autodesk Shared\git.vbs
+stat C:\Program Files\Common Files\Autodesk Shared\git.vbe
+stat C:\Program Files\Common Files\Autodesk Shared\git.js
+stat C:\Program Files\Common Files\Autodesk Shared\git.jse
+stat C:\Program Files\Common Files\Autodesk Shared\git.wsf
+stat C:\Program Files\Common Files\Autodesk Shared\git.wsh
+stat C:\Program Files\Common Files\Autodesk Shared\git.msc
+stat C:\Program Files\Common Files\Autodesk Shared\git.cpl
+stat C:\Program Files\dotnet\git.bat
+stat C:\Program Files\dotnet\git.cmd
+stat C:\Program Files\dotnet\git.com
+stat C:\Program Files\dotnet\git.exe
+stat C:\Program Files\dotnet\git.vbs
+stat C:\Program Files\dotnet\git.vbe
+stat C:\Program Files\dotnet\git.js
+stat C:\Program Files\dotnet\git.jse
+stat C:\Program Files\dotnet\git.wsf
+stat C:\Program Files\dotnet\git.wsh
+stat C:\Program Files\dotnet\git.msc
+stat C:\Program Files\dotnet\git.cpl
+stat D:\Xin\texlive\2024\bin\windows\git.bat
+stat D:\Xin\texlive\2024\bin\windows\git.cmd
+stat D:\Xin\texlive\2024\bin\windows\git.com
+stat D:\Xin\texlive\2024\bin\windows\git.exe
+stat D:\Xin\texlive\2024\bin\windows\git.vbs
+stat D:\Xin\texlive\2024\bin\windows\git.vbe
+stat D:\Xin\texlive\2024\bin\windows\git.js
+stat D:\Xin\texlive\2024\bin\windows\git.jse
+stat D:\Xin\texlive\2024\bin\windows\git.wsf
+stat D:\Xin\texlive\2024\bin\windows\git.wsh
+stat D:\Xin\texlive\2024\bin\windows\git.msc
+stat D:\Xin\texlive\2024\bin\windows\git.cpl
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.bat
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.cmd
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.com
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.exe
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.vbs
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.vbe
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.js
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.jse
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.wsf
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.wsh
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.msc
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.cpl
+stat D:\vscode\mingw64\bin\git.bat
+stat D:\vscode\mingw64\bin\git.cmd
+stat D:\vscode\mingw64\bin\git.com
+stat D:\vscode\mingw64\bin\git.exe
+stat D:\vscode\mingw64\bin\git.vbs
+stat D:\vscode\mingw64\bin\git.vbe
+stat D:\vscode\mingw64\bin\git.js
+stat D:\vscode\mingw64\bin\git.jse
+stat D:\vscode\mingw64\bin\git.wsf
+stat D:\vscode\mingw64\bin\git.wsh
+stat D:\vscode\mingw64\bin\git.msc
+stat D:\vscode\mingw64\bin\git.cpl
+stat D:\xshell\git.bat
+stat D:\xshell\git.cmd
+stat D:\xshell\git.com
+stat D:\xshell\git.exe
+stat D:\xshell\git.vbs
+stat D:\xshell\git.vbe
+stat D:\xshell\git.js
+stat D:\xshell\git.jse
+stat D:\xshell\git.wsf
+stat D:\xshell\git.wsh
+stat D:\xshell\git.msc
+stat D:\xshell\git.cpl
+stat D:\mysql\mysqlapp\bin\git.bat
+stat D:\mysql\mysqlapp\bin\git.cmd
+stat D:\mysql\mysqlapp\bin\git.com
+stat D:\mysql\mysqlapp\bin\git.exe
+stat D:\mysql\mysqlapp\bin\git.vbs
+stat D:\mysql\mysqlapp\bin\git.vbe
+stat D:\mysql\mysqlapp\bin\git.js
+stat D:\mysql\mysqlapp\bin\git.jse
+stat D:\mysql\mysqlapp\bin\git.wsf
+stat D:\mysql\mysqlapp\bin\git.wsh
+stat D:\mysql\mysqlapp\bin\git.msc
+stat D:\mysql\mysqlapp\bin\git.cpl
+stat D:\maven\apache-maven-3.9.16\bin\git.bat
+stat D:\maven\apache-maven-3.9.16\bin\git.cmd
+stat D:\maven\apache-maven-3.9.16\bin\git.com
+stat D:\maven\apache-maven-3.9.16\bin\git.exe
+stat D:\maven\apache-maven-3.9.16\bin\git.vbs
+stat D:\maven\apache-maven-3.9.16\bin\git.vbe
+stat D:\maven\apache-maven-3.9.16\bin\git.js
+stat D:\maven\apache-maven-3.9.16\bin\git.jse
+stat D:\maven\apache-maven-3.9.16\bin\git.wsf
+stat D:\maven\apache-maven-3.9.16\bin\git.wsh
+stat D:\maven\apache-maven-3.9.16\bin\git.msc
+stat D:\maven\apache-maven-3.9.16\bin\git.cpl
+stat D:\cursor\cursor\resources\app\bin\git.bat
+stat D:\cursor\cursor\resources\app\bin\git.cmd
+stat D:\cursor\cursor\resources\app\bin\git.com
+stat D:\cursor\cursor\resources\app\bin\git.exe
+stat D:\cursor\cursor\resources\app\bin\git.vbs
+stat D:\cursor\cursor\resources\app\bin\git.vbe
+stat D:\cursor\cursor\resources\app\bin\git.js
+stat D:\cursor\cursor\resources\app\bin\git.jse
+stat D:\cursor\cursor\resources\app\bin\git.wsf
+stat D:\cursor\cursor\resources\app\bin\git.wsh
+stat D:\cursor\cursor\resources\app\bin\git.msc
+stat D:\cursor\cursor\resources\app\bin\git.cpl
+stat D:\git\Git\cmd\git.bat
+stat D:\git\Git\cmd\git.cmd
+stat D:\git\Git\cmd\git.com
+stat D:\git\Git\cmd\git.exe
+getenv PATHEXT
+open NUL
+open D:\git\Git\cmd\git.exe
+stat C:\Users\Xin\AppData\Local\Temp\TestDevelopmentProposalHTTPLifecycle3535572509\001\order-service
+getenv PATHEXT
+getenv NoDefaultCurrentDirectoryInExePath
+stat git.bat
+stat git.cmd
+stat git.com
+stat git.exe
+stat git.vbs
+stat git.vbe
+stat git.js
+stat git.jse
+stat git.wsf
+stat git.wsh
+stat git.msc
+stat git.cpl
+getenv path
+stat D:\go\bin\git.bat
+stat D:\go\bin\git.cmd
+stat D:\go\bin\git.com
+stat D:\go\bin\git.exe
+stat D:\go\bin\git.vbs
+stat D:\go\bin\git.vbe
+stat D:\go\bin\git.js
+stat D:\go\bin\git.jse
+stat D:\go\bin\git.wsf
+stat D:\go\bin\git.wsh
+stat D:\go\bin\git.msc
+stat D:\go\bin\git.cpl
+stat C:\Users\Xin\.sbx-denybin\git.bat
+stat C:\Users\Xin\.sbx-denybin\git.cmd
+stat C:\Users\Xin\.sbx-denybin\git.com
+stat C:\Users\Xin\.sbx-denybin\git.exe
+stat C:\Users\Xin\.sbx-denybin\git.vbs
+stat C:\Users\Xin\.sbx-denybin\git.vbe
+stat C:\Users\Xin\.sbx-denybin\git.js
+stat C:\Users\Xin\.sbx-denybin\git.jse
+stat C:\Users\Xin\.sbx-denybin\git.wsf
+stat C:\Users\Xin\.sbx-denybin\git.wsh
+stat C:\Users\Xin\.sbx-denybin\git.msc
+stat C:\Users\Xin\.sbx-denybin\git.cpl
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.bat
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.cmd
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.com
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.exe
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.vbs
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.vbe
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.js
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.jse
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.wsf
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.wsh
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.msc
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.cpl
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.bat
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.cmd
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.com
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.exe
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.vbs
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.vbe
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.js
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.jse
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.wsf
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.wsh
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.msc
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.cpl
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.bat
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.cmd
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.com
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.exe
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.vbs
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.vbe
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.js
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.jse
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.wsf
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.wsh
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.msc
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.cpl
+stat D:\vmware\bin\git.bat
+stat D:\vmware\bin\git.cmd
+stat D:\vmware\bin\git.com
+stat D:\vmware\bin\git.exe
+stat D:\vmware\bin\git.vbs
+stat D:\vmware\bin\git.vbe
+stat D:\vmware\bin\git.js
+stat D:\vmware\bin\git.jse
+stat D:\vmware\bin\git.wsf
+stat D:\vmware\bin\git.wsh
+stat D:\vmware\bin\git.msc
+stat D:\vmware\bin\git.cpl
+stat C:\windows\system32\git.bat
+stat C:\windows\system32\git.cmd
+stat C:\windows\system32\git.com
+stat C:\windows\system32\git.exe
+stat C:\windows\system32\git.vbs
+stat C:\windows\system32\git.vbe
+stat C:\windows\system32\git.js
+stat C:\windows\system32\git.jse
+stat C:\windows\system32\git.wsf
+stat C:\windows\system32\git.wsh
+stat C:\windows\system32\git.msc
+stat C:\windows\system32\git.cpl
+stat C:\windows\git.bat
+stat C:\windows\git.cmd
+stat C:\windows\git.com
+stat C:\windows\git.exe
+stat C:\windows\git.vbs
+stat C:\windows\git.vbe
+stat C:\windows\git.js
+stat C:\windows\git.jse
+stat C:\windows\git.wsf
+stat C:\windows\git.wsh
+stat C:\windows\git.msc
+stat C:\windows\git.cpl
+stat C:\windows\System32\Wbem\git.bat
+stat C:\windows\System32\Wbem\git.cmd
+stat C:\windows\System32\Wbem\git.com
+stat C:\windows\System32\Wbem\git.exe
+stat C:\windows\System32\Wbem\git.vbs
+stat C:\windows\System32\Wbem\git.vbe
+stat C:\windows\System32\Wbem\git.js
+stat C:\windows\System32\Wbem\git.jse
+stat C:\windows\System32\Wbem\git.wsf
+stat C:\windows\System32\Wbem\git.wsh
+stat C:\windows\System32\Wbem\git.msc
+stat C:\windows\System32\Wbem\git.cpl
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.bat
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.cmd
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.com
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.exe
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.vbs
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.vbe
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.js
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.jse
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.wsf
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.wsh
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.msc
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.cpl
+stat C:\windows\System32\OpenSSH\git.bat
+stat C:\windows\System32\OpenSSH\git.cmd
+stat C:\windows\System32\OpenSSH\git.com
+stat C:\windows\System32\OpenSSH\git.exe
+stat C:\windows\System32\OpenSSH\git.vbs
+stat C:\windows\System32\OpenSSH\git.vbe
+stat C:\windows\System32\OpenSSH\git.js
+stat C:\windows\System32\OpenSSH\git.jse
+stat C:\windows\System32\OpenSSH\git.wsf
+stat C:\windows\System32\OpenSSH\git.wsh
+stat C:\windows\System32\OpenSSH\git.msc
+stat C:\windows\System32\OpenSSH\git.cpl
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.bat
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.cmd
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.com
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.exe
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.vbs
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.vbe
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.js
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.jse
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.wsf
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.wsh
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.msc
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.cpl
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.bat
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.cmd
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.com
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.exe
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.vbs
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.vbe
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.js
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.jse
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.wsf
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.wsh
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.msc
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.cpl
+stat C:\Program Files\Common Files\Autodesk Shared\git.bat
+stat C:\Program Files\Common Files\Autodesk Shared\git.cmd
+stat C:\Program Files\Common Files\Autodesk Shared\git.com
+stat C:\Program Files\Common Files\Autodesk Shared\git.exe
+stat C:\Program Files\Common Files\Autodesk Shared\git.vbs
+stat C:\Program Files\Common Files\Autodesk Shared\git.vbe
+stat C:\Program Files\Common Files\Autodesk Shared\git.js
+stat C:\Program Files\Common Files\Autodesk Shared\git.jse
+stat C:\Program Files\Common Files\Autodesk Shared\git.wsf
+stat C:\Program Files\Common Files\Autodesk Shared\git.wsh
+stat C:\Program Files\Common Files\Autodesk Shared\git.msc
+stat C:\Program Files\Common Files\Autodesk Shared\git.cpl
+stat C:\Program Files\dotnet\git.bat
+stat C:\Program Files\dotnet\git.cmd
+stat C:\Program Files\dotnet\git.com
+stat C:\Program Files\dotnet\git.exe
+stat C:\Program Files\dotnet\git.vbs
+stat C:\Program Files\dotnet\git.vbe
+stat C:\Program Files\dotnet\git.js
+stat C:\Program Files\dotnet\git.jse
+stat C:\Program Files\dotnet\git.wsf
+stat C:\Program Files\dotnet\git.wsh
+stat C:\Program Files\dotnet\git.msc
+stat C:\Program Files\dotnet\git.cpl
+stat D:\Xin\texlive\2024\bin\windows\git.bat
+stat D:\Xin\texlive\2024\bin\windows\git.cmd
+stat D:\Xin\texlive\2024\bin\windows\git.com
+stat D:\Xin\texlive\2024\bin\windows\git.exe
+stat D:\Xin\texlive\2024\bin\windows\git.vbs
+stat D:\Xin\texlive\2024\bin\windows\git.vbe
+stat D:\Xin\texlive\2024\bin\windows\git.js
+stat D:\Xin\texlive\2024\bin\windows\git.jse
+stat D:\Xin\texlive\2024\bin\windows\git.wsf
+stat D:\Xin\texlive\2024\bin\windows\git.wsh
+stat D:\Xin\texlive\2024\bin\windows\git.msc
+stat D:\Xin\texlive\2024\bin\windows\git.cpl
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.bat
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.cmd
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.com
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.exe
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.vbs
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.vbe
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.js
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.jse
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.wsf
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.wsh
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.msc
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.cpl
+stat D:\vscode\mingw64\bin\git.bat
+stat D:\vscode\mingw64\bin\git.cmd
+stat D:\vscode\mingw64\bin\git.com
+stat D:\vscode\mingw64\bin\git.exe
+stat D:\vscode\mingw64\bin\git.vbs
+stat D:\vscode\mingw64\bin\git.vbe
+stat D:\vscode\mingw64\bin\git.js
+stat D:\vscode\mingw64\bin\git.jse
+stat D:\vscode\mingw64\bin\git.wsf
+stat D:\vscode\mingw64\bin\git.wsh
+stat D:\vscode\mingw64\bin\git.msc
+stat D:\vscode\mingw64\bin\git.cpl
+stat D:\xshell\git.bat
+stat D:\xshell\git.cmd
+stat D:\xshell\git.com
+stat D:\xshell\git.exe
+stat D:\xshell\git.vbs
+stat D:\xshell\git.vbe
+stat D:\xshell\git.js
+stat D:\xshell\git.jse
+stat D:\xshell\git.wsf
+stat D:\xshell\git.wsh
+stat D:\xshell\git.msc
+stat D:\xshell\git.cpl
+stat D:\mysql\mysqlapp\bin\git.bat
+stat D:\mysql\mysqlapp\bin\git.cmd
+stat D:\mysql\mysqlapp\bin\git.com
+stat D:\mysql\mysqlapp\bin\git.exe
+stat D:\mysql\mysqlapp\bin\git.vbs
+stat D:\mysql\mysqlapp\bin\git.vbe
+stat D:\mysql\mysqlapp\bin\git.js
+stat D:\mysql\mysqlapp\bin\git.jse
+stat D:\mysql\mysqlapp\bin\git.wsf
+stat D:\mysql\mysqlapp\bin\git.wsh
+stat D:\mysql\mysqlapp\bin\git.msc
+stat D:\mysql\mysqlapp\bin\git.cpl
+stat D:\maven\apache-maven-3.9.16\bin\git.bat
+stat D:\maven\apache-maven-3.9.16\bin\git.cmd
+stat D:\maven\apache-maven-3.9.16\bin\git.com
+stat D:\maven\apache-maven-3.9.16\bin\git.exe
+stat D:\maven\apache-maven-3.9.16\bin\git.vbs
+stat D:\maven\apache-maven-3.9.16\bin\git.vbe
+stat D:\maven\apache-maven-3.9.16\bin\git.js
+stat D:\maven\apache-maven-3.9.16\bin\git.jse
+stat D:\maven\apache-maven-3.9.16\bin\git.wsf
+stat D:\maven\apache-maven-3.9.16\bin\git.wsh
+stat D:\maven\apache-maven-3.9.16\bin\git.msc
+stat D:\maven\apache-maven-3.9.16\bin\git.cpl
+stat D:\cursor\cursor\resources\app\bin\git.bat
+stat D:\cursor\cursor\resources\app\bin\git.cmd
+stat D:\cursor\cursor\resources\app\bin\git.com
+stat D:\cursor\cursor\resources\app\bin\git.exe
+stat D:\cursor\cursor\resources\app\bin\git.vbs
+stat D:\cursor\cursor\resources\app\bin\git.vbe
+stat D:\cursor\cursor\resources\app\bin\git.js
+stat D:\cursor\cursor\resources\app\bin\git.jse
+stat D:\cursor\cursor\resources\app\bin\git.wsf
+stat D:\cursor\cursor\resources\app\bin\git.wsh
+stat D:\cursor\cursor\resources\app\bin\git.msc
+stat D:\cursor\cursor\resources\app\bin\git.cpl
+stat D:\git\Git\cmd\git.bat
+stat D:\git\Git\cmd\git.cmd
+stat D:\git\Git\cmd\git.com
+stat D:\git\Git\cmd\git.exe
+getenv PATHEXT
+open NUL
+open D:\git\Git\cmd\git.exe
+stat C:\Users\Xin\AppData\Local\Temp\TestDevelopmentProposalHTTPLifecycle3535572509\001\order-service
+getenv PATHEXT
+getenv NoDefaultCurrentDirectoryInExePath
+stat git.bat
+stat git.cmd
+stat git.com
+stat git.exe
+stat git.vbs
+stat git.vbe
+stat git.js
+stat git.jse
+stat git.wsf
+stat git.wsh
+stat git.msc
+stat git.cpl
+getenv path
+stat D:\go\bin\git.bat
+stat D:\go\bin\git.cmd
+stat D:\go\bin\git.com
+stat D:\go\bin\git.exe
+stat D:\go\bin\git.vbs
+stat D:\go\bin\git.vbe
+stat D:\go\bin\git.js
+stat D:\go\bin\git.jse
+stat D:\go\bin\git.wsf
+stat D:\go\bin\git.wsh
+stat D:\go\bin\git.msc
+stat D:\go\bin\git.cpl
+stat C:\Users\Xin\.sbx-denybin\git.bat
+stat C:\Users\Xin\.sbx-denybin\git.cmd
+stat C:\Users\Xin\.sbx-denybin\git.com
+stat C:\Users\Xin\.sbx-denybin\git.exe
+stat C:\Users\Xin\.sbx-denybin\git.vbs
+stat C:\Users\Xin\.sbx-denybin\git.vbe
+stat C:\Users\Xin\.sbx-denybin\git.js
+stat C:\Users\Xin\.sbx-denybin\git.jse
+stat C:\Users\Xin\.sbx-denybin\git.wsf
+stat C:\Users\Xin\.sbx-denybin\git.wsh
+stat C:\Users\Xin\.sbx-denybin\git.msc
+stat C:\Users\Xin\.sbx-denybin\git.cpl
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.bat
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.cmd
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.com
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.exe
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.vbs
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.vbe
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.js
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.jse
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.wsf
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.wsh
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.msc
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.cpl
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.bat
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.cmd
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.com
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.exe
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.vbs
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.vbe
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.js
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.jse
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.wsf
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.wsh
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.msc
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.cpl
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.bat
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.cmd
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.com
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.exe
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.vbs
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.vbe
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.js
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.jse
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.wsf
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.wsh
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.msc
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.cpl
+stat D:\vmware\bin\git.bat
+stat D:\vmware\bin\git.cmd
+stat D:\vmware\bin\git.com
+stat D:\vmware\bin\git.exe
+stat D:\vmware\bin\git.vbs
+stat D:\vmware\bin\git.vbe
+stat D:\vmware\bin\git.js
+stat D:\vmware\bin\git.jse
+stat D:\vmware\bin\git.wsf
+stat D:\vmware\bin\git.wsh
+stat D:\vmware\bin\git.msc
+stat D:\vmware\bin\git.cpl
+stat C:\windows\system32\git.bat
+stat C:\windows\system32\git.cmd
+stat C:\windows\system32\git.com
+stat C:\windows\system32\git.exe
+stat C:\windows\system32\git.vbs
+stat C:\windows\system32\git.vbe
+stat C:\windows\system32\git.js
+stat C:\windows\system32\git.jse
+stat C:\windows\system32\git.wsf
+stat C:\windows\system32\git.wsh
+stat C:\windows\system32\git.msc
+stat C:\windows\system32\git.cpl
+stat C:\windows\git.bat
+stat C:\windows\git.cmd
+stat C:\windows\git.com
+stat C:\windows\git.exe
+stat C:\windows\git.vbs
+stat C:\windows\git.vbe
+stat C:\windows\git.js
+stat C:\windows\git.jse
+stat C:\windows\git.wsf
+stat C:\windows\git.wsh
+stat C:\windows\git.msc
+stat C:\windows\git.cpl
+stat C:\windows\System32\Wbem\git.bat
+stat C:\windows\System32\Wbem\git.cmd
+stat C:\windows\System32\Wbem\git.com
+stat C:\windows\System32\Wbem\git.exe
+stat C:\windows\System32\Wbem\git.vbs
+stat C:\windows\System32\Wbem\git.vbe
+stat C:\windows\System32\Wbem\git.js
+stat C:\windows\System32\Wbem\git.jse
+stat C:\windows\System32\Wbem\git.wsf
+stat C:\windows\System32\Wbem\git.wsh
+stat C:\windows\System32\Wbem\git.msc
+stat C:\windows\System32\Wbem\git.cpl
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.bat
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.cmd
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.com
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.exe
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.vbs
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.vbe
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.js
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.jse
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.wsf
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.wsh
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.msc
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.cpl
+stat C:\windows\System32\OpenSSH\git.bat
+stat C:\windows\System32\OpenSSH\git.cmd
+stat C:\windows\System32\OpenSSH\git.com
+stat C:\windows\System32\OpenSSH\git.exe
+stat C:\windows\System32\OpenSSH\git.vbs
+stat C:\windows\System32\OpenSSH\git.vbe
+stat C:\windows\System32\OpenSSH\git.js
+stat C:\windows\System32\OpenSSH\git.jse
+stat C:\windows\System32\OpenSSH\git.wsf
+stat C:\windows\System32\OpenSSH\git.wsh
+stat C:\windows\System32\OpenSSH\git.msc
+stat C:\windows\System32\OpenSSH\git.cpl
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.bat
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.cmd
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.com
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.exe
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.vbs
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.vbe
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.js
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.jse
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.wsf
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.wsh
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.msc
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.cpl
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.bat
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.cmd
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.com
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.exe
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.vbs
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.vbe
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.js
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.jse
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.wsf
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.wsh
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.msc
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.cpl
+stat C:\Program Files\Common Files\Autodesk Shared\git.bat
+stat C:\Program Files\Common Files\Autodesk Shared\git.cmd
+stat C:\Program Files\Common Files\Autodesk Shared\git.com
+stat C:\Program Files\Common Files\Autodesk Shared\git.exe
+stat C:\Program Files\Common Files\Autodesk Shared\git.vbs
+stat C:\Program Files\Common Files\Autodesk Shared\git.vbe
+stat C:\Program Files\Common Files\Autodesk Shared\git.js
+stat C:\Program Files\Common Files\Autodesk Shared\git.jse
+stat C:\Program Files\Common Files\Autodesk Shared\git.wsf
+stat C:\Program Files\Common Files\Autodesk Shared\git.wsh
+stat C:\Program Files\Common Files\Autodesk Shared\git.msc
+stat C:\Program Files\Common Files\Autodesk Shared\git.cpl
+stat C:\Program Files\dotnet\git.bat
+stat C:\Program Files\dotnet\git.cmd
+stat C:\Program Files\dotnet\git.com
+stat C:\Program Files\dotnet\git.exe
+stat C:\Program Files\dotnet\git.vbs
+stat C:\Program Files\dotnet\git.vbe
+stat C:\Program Files\dotnet\git.js
+stat C:\Program Files\dotnet\git.jse
+stat C:\Program Files\dotnet\git.wsf
+stat C:\Program Files\dotnet\git.wsh
+stat C:\Program Files\dotnet\git.msc
+stat C:\Program Files\dotnet\git.cpl
+stat D:\Xin\texlive\2024\bin\windows\git.bat
+stat D:\Xin\texlive\2024\bin\windows\git.cmd
+stat D:\Xin\texlive\2024\bin\windows\git.com
+stat D:\Xin\texlive\2024\bin\windows\git.exe
+stat D:\Xin\texlive\2024\bin\windows\git.vbs
+stat D:\Xin\texlive\2024\bin\windows\git.vbe
+stat D:\Xin\texlive\2024\bin\windows\git.js
+stat D:\Xin\texlive\2024\bin\windows\git.jse
+stat D:\Xin\texlive\2024\bin\windows\git.wsf
+stat D:\Xin\texlive\2024\bin\windows\git.wsh
+stat D:\Xin\texlive\2024\bin\windows\git.msc
+stat D:\Xin\texlive\2024\bin\windows\git.cpl
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.bat
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.cmd
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.com
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.exe
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.vbs
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.vbe
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.js
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.jse
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.wsf
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.wsh
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.msc
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.cpl
+stat D:\vscode\mingw64\bin\git.bat
+stat D:\vscode\mingw64\bin\git.cmd
+stat D:\vscode\mingw64\bin\git.com
+stat D:\vscode\mingw64\bin\git.exe
+stat D:\vscode\mingw64\bin\git.vbs
+stat D:\vscode\mingw64\bin\git.vbe
+stat D:\vscode\mingw64\bin\git.js
+stat D:\vscode\mingw64\bin\git.jse
+stat D:\vscode\mingw64\bin\git.wsf
+stat D:\vscode\mingw64\bin\git.wsh
+stat D:\vscode\mingw64\bin\git.msc
+stat D:\vscode\mingw64\bin\git.cpl
+stat D:\xshell\git.bat
+stat D:\xshell\git.cmd
+stat D:\xshell\git.com
+stat D:\xshell\git.exe
+stat D:\xshell\git.vbs
+stat D:\xshell\git.vbe
+stat D:\xshell\git.js
+stat D:\xshell\git.jse
+stat D:\xshell\git.wsf
+stat D:\xshell\git.wsh
+stat D:\xshell\git.msc
+stat D:\xshell\git.cpl
+stat D:\mysql\mysqlapp\bin\git.bat
+stat D:\mysql\mysqlapp\bin\git.cmd
+stat D:\mysql\mysqlapp\bin\git.com
+stat D:\mysql\mysqlapp\bin\git.exe
+stat D:\mysql\mysqlapp\bin\git.vbs
+stat D:\mysql\mysqlapp\bin\git.vbe
+stat D:\mysql\mysqlapp\bin\git.js
+stat D:\mysql\mysqlapp\bin\git.jse
+stat D:\mysql\mysqlapp\bin\git.wsf
+stat D:\mysql\mysqlapp\bin\git.wsh
+stat D:\mysql\mysqlapp\bin\git.msc
+stat D:\mysql\mysqlapp\bin\git.cpl
+stat D:\maven\apache-maven-3.9.16\bin\git.bat
+stat D:\maven\apache-maven-3.9.16\bin\git.cmd
+stat D:\maven\apache-maven-3.9.16\bin\git.com
+stat D:\maven\apache-maven-3.9.16\bin\git.exe
+stat D:\maven\apache-maven-3.9.16\bin\git.vbs
+stat D:\maven\apache-maven-3.9.16\bin\git.vbe
+stat D:\maven\apache-maven-3.9.16\bin\git.js
+stat D:\maven\apache-maven-3.9.16\bin\git.jse
+stat D:\maven\apache-maven-3.9.16\bin\git.wsf
+stat D:\maven\apache-maven-3.9.16\bin\git.wsh
+stat D:\maven\apache-maven-3.9.16\bin\git.msc
+stat D:\maven\apache-maven-3.9.16\bin\git.cpl
+stat D:\cursor\cursor\resources\app\bin\git.bat
+stat D:\cursor\cursor\resources\app\bin\git.cmd
+stat D:\cursor\cursor\resources\app\bin\git.com
+stat D:\cursor\cursor\resources\app\bin\git.exe
+stat D:\cursor\cursor\resources\app\bin\git.vbs
+stat D:\cursor\cursor\resources\app\bin\git.vbe
+stat D:\cursor\cursor\resources\app\bin\git.js
+stat D:\cursor\cursor\resources\app\bin\git.jse
+stat D:\cursor\cursor\resources\app\bin\git.wsf
+stat D:\cursor\cursor\resources\app\bin\git.wsh
+stat D:\cursor\cursor\resources\app\bin\git.msc
+stat D:\cursor\cursor\resources\app\bin\git.cpl
+stat D:\git\Git\cmd\git.bat
+stat D:\git\Git\cmd\git.cmd
+stat D:\git\Git\cmd\git.com
+stat D:\git\Git\cmd\git.exe
+getenv PATHEXT
+open NUL
+open D:\git\Git\cmd\git.exe
+stat C:\Users\Xin\AppData\Local\Temp\TestDevelopmentProposalHTTPLifecycle3535572509\001\order-service
+open C:\Users\Xin\AppData\Local\Temp\TestDevelopmentProposalHTTPLifecycle3535572509\001\order-service\README.md
+getenv PATHEXT
+getenv NoDefaultCurrentDirectoryInExePath
+stat git.bat
+stat git.cmd
+stat git.com
+stat git.exe
+stat git.vbs
+stat git.vbe
+stat git.js
+stat git.jse
+stat git.wsf
+stat git.wsh
+stat git.msc
+stat git.cpl
+getenv path
+stat D:\go\bin\git.bat
+stat D:\go\bin\git.cmd
+stat D:\go\bin\git.com
+stat D:\go\bin\git.exe
+stat D:\go\bin\git.vbs
+stat D:\go\bin\git.vbe
+stat D:\go\bin\git.js
+stat D:\go\bin\git.jse
+stat D:\go\bin\git.wsf
+stat D:\go\bin\git.wsh
+stat D:\go\bin\git.msc
+stat D:\go\bin\git.cpl
+stat C:\Users\Xin\.sbx-denybin\git.bat
+stat C:\Users\Xin\.sbx-denybin\git.cmd
+stat C:\Users\Xin\.sbx-denybin\git.com
+stat C:\Users\Xin\.sbx-denybin\git.exe
+stat C:\Users\Xin\.sbx-denybin\git.vbs
+stat C:\Users\Xin\.sbx-denybin\git.vbe
+stat C:\Users\Xin\.sbx-denybin\git.js
+stat C:\Users\Xin\.sbx-denybin\git.jse
+stat C:\Users\Xin\.sbx-denybin\git.wsf
+stat C:\Users\Xin\.sbx-denybin\git.wsh
+stat C:\Users\Xin\.sbx-denybin\git.msc
+stat C:\Users\Xin\.sbx-denybin\git.cpl
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.bat
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.cmd
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.com
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.exe
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.vbs
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.vbe
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.js
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.jse
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.wsf
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.wsh
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.msc
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.cpl
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.bat
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.cmd
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.com
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.exe
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.vbs
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.vbe
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.js
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.jse
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.wsf
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.wsh
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.msc
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.cpl
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.bat
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.cmd
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.com
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.exe
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.vbs
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.vbe
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.js
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.jse
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.wsf
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.wsh
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.msc
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.cpl
+stat D:\vmware\bin\git.bat
+stat D:\vmware\bin\git.cmd
+stat D:\vmware\bin\git.com
+stat D:\vmware\bin\git.exe
+stat D:\vmware\bin\git.vbs
+stat D:\vmware\bin\git.vbe
+stat D:\vmware\bin\git.js
+stat D:\vmware\bin\git.jse
+stat D:\vmware\bin\git.wsf
+stat D:\vmware\bin\git.wsh
+stat D:\vmware\bin\git.msc
+stat D:\vmware\bin\git.cpl
+stat C:\windows\system32\git.bat
+stat C:\windows\system32\git.cmd
+stat C:\windows\system32\git.com
+stat C:\windows\system32\git.exe
+stat C:\windows\system32\git.vbs
+stat C:\windows\system32\git.vbe
+stat C:\windows\system32\git.js
+stat C:\windows\system32\git.jse
+stat C:\windows\system32\git.wsf
+stat C:\windows\system32\git.wsh
+stat C:\windows\system32\git.msc
+stat C:\windows\system32\git.cpl
+stat C:\windows\git.bat
+stat C:\windows\git.cmd
+stat C:\windows\git.com
+stat C:\windows\git.exe
+stat C:\windows\git.vbs
+stat C:\windows\git.vbe
+stat C:\windows\git.js
+stat C:\windows\git.jse
+stat C:\windows\git.wsf
+stat C:\windows\git.wsh
+stat C:\windows\git.msc
+stat C:\windows\git.cpl
+stat C:\windows\System32\Wbem\git.bat
+stat C:\windows\System32\Wbem\git.cmd
+stat C:\windows\System32\Wbem\git.com
+stat C:\windows\System32\Wbem\git.exe
+stat C:\windows\System32\Wbem\git.vbs
+stat C:\windows\System32\Wbem\git.vbe
+stat C:\windows\System32\Wbem\git.js
+stat C:\windows\System32\Wbem\git.jse
+stat C:\windows\System32\Wbem\git.wsf
+stat C:\windows\System32\Wbem\git.wsh
+stat C:\windows\System32\Wbem\git.msc
+stat C:\windows\System32\Wbem\git.cpl
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.bat
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.cmd
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.com
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.exe
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.vbs
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.vbe
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.js
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.jse
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.wsf
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.wsh
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.msc
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.cpl
+stat C:\windows\System32\OpenSSH\git.bat
+stat C:\windows\System32\OpenSSH\git.cmd
+stat C:\windows\System32\OpenSSH\git.com
+stat C:\windows\System32\OpenSSH\git.exe
+stat C:\windows\System32\OpenSSH\git.vbs
+stat C:\windows\System32\OpenSSH\git.vbe
+stat C:\windows\System32\OpenSSH\git.js
+stat C:\windows\System32\OpenSSH\git.jse
+stat C:\windows\System32\OpenSSH\git.wsf
+stat C:\windows\System32\OpenSSH\git.wsh
+stat C:\windows\System32\OpenSSH\git.msc
+stat C:\windows\System32\OpenSSH\git.cpl
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.bat
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.cmd
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.com
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.exe
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.vbs
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.vbe
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.js
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.jse
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.wsf
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.wsh
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.msc
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.cpl
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.bat
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.cmd
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.com
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.exe
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.vbs
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.vbe
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.js
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.jse
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.wsf
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.wsh
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.msc
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.cpl
+stat C:\Program Files\Common Files\Autodesk Shared\git.bat
+stat C:\Program Files\Common Files\Autodesk Shared\git.cmd
+stat C:\Program Files\Common Files\Autodesk Shared\git.com
+stat C:\Program Files\Common Files\Autodesk Shared\git.exe
+stat C:\Program Files\Common Files\Autodesk Shared\git.vbs
+stat C:\Program Files\Common Files\Autodesk Shared\git.vbe
+stat C:\Program Files\Common Files\Autodesk Shared\git.js
+stat C:\Program Files\Common Files\Autodesk Shared\git.jse
+stat C:\Program Files\Common Files\Autodesk Shared\git.wsf
+stat C:\Program Files\Common Files\Autodesk Shared\git.wsh
+stat C:\Program Files\Common Files\Autodesk Shared\git.msc
+stat C:\Program Files\Common Files\Autodesk Shared\git.cpl
+stat C:\Program Files\dotnet\git.bat
+stat C:\Program Files\dotnet\git.cmd
+stat C:\Program Files\dotnet\git.com
+stat C:\Program Files\dotnet\git.exe
+stat C:\Program Files\dotnet\git.vbs
+stat C:\Program Files\dotnet\git.vbe
+stat C:\Program Files\dotnet\git.js
+stat C:\Program Files\dotnet\git.jse
+stat C:\Program Files\dotnet\git.wsf
+stat C:\Program Files\dotnet\git.wsh
+stat C:\Program Files\dotnet\git.msc
+stat C:\Program Files\dotnet\git.cpl
+stat D:\Xin\texlive\2024\bin\windows\git.bat
+stat D:\Xin\texlive\2024\bin\windows\git.cmd
+stat D:\Xin\texlive\2024\bin\windows\git.com
+stat D:\Xin\texlive\2024\bin\windows\git.exe
+stat D:\Xin\texlive\2024\bin\windows\git.vbs
+stat D:\Xin\texlive\2024\bin\windows\git.vbe
+stat D:\Xin\texlive\2024\bin\windows\git.js
+stat D:\Xin\texlive\2024\bin\windows\git.jse
+stat D:\Xin\texlive\2024\bin\windows\git.wsf
+stat D:\Xin\texlive\2024\bin\windows\git.wsh
+stat D:\Xin\texlive\2024\bin\windows\git.msc
+stat D:\Xin\texlive\2024\bin\windows\git.cpl
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.bat
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.cmd
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.com
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.exe
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.vbs
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.vbe
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.js
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.jse
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.wsf
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.wsh
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.msc
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.cpl
+stat D:\vscode\mingw64\bin\git.bat
+stat D:\vscode\mingw64\bin\git.cmd
+stat D:\vscode\mingw64\bin\git.com
+stat D:\vscode\mingw64\bin\git.exe
+stat D:\vscode\mingw64\bin\git.vbs
+stat D:\vscode\mingw64\bin\git.vbe
+stat D:\vscode\mingw64\bin\git.js
+stat D:\vscode\mingw64\bin\git.jse
+stat D:\vscode\mingw64\bin\git.wsf
+stat D:\vscode\mingw64\bin\git.wsh
+stat D:\vscode\mingw64\bin\git.msc
+stat D:\vscode\mingw64\bin\git.cpl
+stat D:\xshell\git.bat
+stat D:\xshell\git.cmd
+stat D:\xshell\git.com
+stat D:\xshell\git.exe
+stat D:\xshell\git.vbs
+stat D:\xshell\git.vbe
+stat D:\xshell\git.js
+stat D:\xshell\git.jse
+stat D:\xshell\git.wsf
+stat D:\xshell\git.wsh
+stat D:\xshell\git.msc
+stat D:\xshell\git.cpl
+stat D:\mysql\mysqlapp\bin\git.bat
+stat D:\mysql\mysqlapp\bin\git.cmd
+stat D:\mysql\mysqlapp\bin\git.com
+stat D:\mysql\mysqlapp\bin\git.exe
+stat D:\mysql\mysqlapp\bin\git.vbs
+stat D:\mysql\mysqlapp\bin\git.vbe
+stat D:\mysql\mysqlapp\bin\git.js
+stat D:\mysql\mysqlapp\bin\git.jse
+stat D:\mysql\mysqlapp\bin\git.wsf
+stat D:\mysql\mysqlapp\bin\git.wsh
+stat D:\mysql\mysqlapp\bin\git.msc
+stat D:\mysql\mysqlapp\bin\git.cpl
+stat D:\maven\apache-maven-3.9.16\bin\git.bat
+stat D:\maven\apache-maven-3.9.16\bin\git.cmd
+stat D:\maven\apache-maven-3.9.16\bin\git.com
+stat D:\maven\apache-maven-3.9.16\bin\git.exe
+stat D:\maven\apache-maven-3.9.16\bin\git.vbs
+stat D:\maven\apache-maven-3.9.16\bin\git.vbe
+stat D:\maven\apache-maven-3.9.16\bin\git.js
+stat D:\maven\apache-maven-3.9.16\bin\git.jse
+stat D:\maven\apache-maven-3.9.16\bin\git.wsf
+stat D:\maven\apache-maven-3.9.16\bin\git.wsh
+stat D:\maven\apache-maven-3.9.16\bin\git.msc
+stat D:\maven\apache-maven-3.9.16\bin\git.cpl
+stat D:\cursor\cursor\resources\app\bin\git.bat
+stat D:\cursor\cursor\resources\app\bin\git.cmd
+stat D:\cursor\cursor\resources\app\bin\git.com
+stat D:\cursor\cursor\resources\app\bin\git.exe
+stat D:\cursor\cursor\resources\app\bin\git.vbs
+stat D:\cursor\cursor\resources\app\bin\git.vbe
+stat D:\cursor\cursor\resources\app\bin\git.js
+stat D:\cursor\cursor\resources\app\bin\git.jse
+stat D:\cursor\cursor\resources\app\bin\git.wsf
+stat D:\cursor\cursor\resources\app\bin\git.wsh
+stat D:\cursor\cursor\resources\app\bin\git.msc
+stat D:\cursor\cursor\resources\app\bin\git.cpl
+stat D:\git\Git\cmd\git.bat
+stat D:\git\Git\cmd\git.cmd
+stat D:\git\Git\cmd\git.com
+stat D:\git\Git\cmd\git.exe
+getenv PATHEXT
+open NUL
+open D:\git\Git\cmd\git.exe
+stat C:\Users\Xin\AppData\Local\Temp\TestDevelopmentProposalHTTPLifecycle3535572509\001\order-service
+getenv PATHEXT
+getenv NoDefaultCurrentDirectoryInExePath
+stat git.bat
+stat git.cmd
+stat git.com
+stat git.exe
+stat git.vbs
+stat git.vbe
+stat git.js
+stat git.jse
+stat git.wsf
+stat git.wsh
+stat git.msc
+stat git.cpl
+getenv path
+stat D:\go\bin\git.bat
+stat D:\go\bin\git.cmd
+stat D:\go\bin\git.com
+stat D:\go\bin\git.exe
+stat D:\go\bin\git.vbs
+stat D:\go\bin\git.vbe
+stat D:\go\bin\git.js
+stat D:\go\bin\git.jse
+stat D:\go\bin\git.wsf
+stat D:\go\bin\git.wsh
+stat D:\go\bin\git.msc
+stat D:\go\bin\git.cpl
+stat C:\Users\Xin\.sbx-denybin\git.bat
+stat C:\Users\Xin\.sbx-denybin\git.cmd
+stat C:\Users\Xin\.sbx-denybin\git.com
+stat C:\Users\Xin\.sbx-denybin\git.exe
+stat C:\Users\Xin\.sbx-denybin\git.vbs
+stat C:\Users\Xin\.sbx-denybin\git.vbe
+stat C:\Users\Xin\.sbx-denybin\git.js
+stat C:\Users\Xin\.sbx-denybin\git.jse
+stat C:\Users\Xin\.sbx-denybin\git.wsf
+stat C:\Users\Xin\.sbx-denybin\git.wsh
+stat C:\Users\Xin\.sbx-denybin\git.msc
+stat C:\Users\Xin\.sbx-denybin\git.cpl
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.bat
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.cmd
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.com
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.exe
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.vbs
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.vbe
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.js
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.jse
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.wsf
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.wsh
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.msc
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.cpl
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.bat
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.cmd
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.com
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.exe
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.vbs
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.vbe
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.js
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.jse
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.wsf
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.wsh
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.msc
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.cpl
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.bat
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.cmd
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.com
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.exe
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.vbs
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.vbe
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.js
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.jse
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.wsf
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.wsh
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.msc
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.cpl
+stat D:\vmware\bin\git.bat
+stat D:\vmware\bin\git.cmd
+stat D:\vmware\bin\git.com
+stat D:\vmware\bin\git.exe
+stat D:\vmware\bin\git.vbs
+stat D:\vmware\bin\git.vbe
+stat D:\vmware\bin\git.js
+stat D:\vmware\bin\git.jse
+stat D:\vmware\bin\git.wsf
+stat D:\vmware\bin\git.wsh
+stat D:\vmware\bin\git.msc
+stat D:\vmware\bin\git.cpl
+stat C:\windows\system32\git.bat
+stat C:\windows\system32\git.cmd
+stat C:\windows\system32\git.com
+stat C:\windows\system32\git.exe
+stat C:\windows\system32\git.vbs
+stat C:\windows\system32\git.vbe
+stat C:\windows\system32\git.js
+stat C:\windows\system32\git.jse
+stat C:\windows\system32\git.wsf
+stat C:\windows\system32\git.wsh
+stat C:\windows\system32\git.msc
+stat C:\windows\system32\git.cpl
+stat C:\windows\git.bat
+stat C:\windows\git.cmd
+stat C:\windows\git.com
+stat C:\windows\git.exe
+stat C:\windows\git.vbs
+stat C:\windows\git.vbe
+stat C:\windows\git.js
+stat C:\windows\git.jse
+stat C:\windows\git.wsf
+stat C:\windows\git.wsh
+stat C:\windows\git.msc
+stat C:\windows\git.cpl
+stat C:\windows\System32\Wbem\git.bat
+stat C:\windows\System32\Wbem\git.cmd
+stat C:\windows\System32\Wbem\git.com
+stat C:\windows\System32\Wbem\git.exe
+stat C:\windows\System32\Wbem\git.vbs
+stat C:\windows\System32\Wbem\git.vbe
+stat C:\windows\System32\Wbem\git.js
+stat C:\windows\System32\Wbem\git.jse
+stat C:\windows\System32\Wbem\git.wsf
+stat C:\windows\System32\Wbem\git.wsh
+stat C:\windows\System32\Wbem\git.msc
+stat C:\windows\System32\Wbem\git.cpl
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.bat
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.cmd
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.com
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.exe
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.vbs
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.vbe
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.js
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.jse
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.wsf
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.wsh
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.msc
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.cpl
+stat C:\windows\System32\OpenSSH\git.bat
+stat C:\windows\System32\OpenSSH\git.cmd
+stat C:\windows\System32\OpenSSH\git.com
+stat C:\windows\System32\OpenSSH\git.exe
+stat C:\windows\System32\OpenSSH\git.vbs
+stat C:\windows\System32\OpenSSH\git.vbe
+stat C:\windows\System32\OpenSSH\git.js
+stat C:\windows\System32\OpenSSH\git.jse
+stat C:\windows\System32\OpenSSH\git.wsf
+stat C:\windows\System32\OpenSSH\git.wsh
+stat C:\windows\System32\OpenSSH\git.msc
+stat C:\windows\System32\OpenSSH\git.cpl
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.bat
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.cmd
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.com
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.exe
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.vbs
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.vbe
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.js
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.jse
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.wsf
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.wsh
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.msc
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.cpl
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.bat
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.cmd
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.com
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.exe
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.vbs
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.vbe
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.js
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.jse
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.wsf
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.wsh
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.msc
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.cpl
+stat C:\Program Files\Common Files\Autodesk Shared\git.bat
+stat C:\Program Files\Common Files\Autodesk Shared\git.cmd
+stat C:\Program Files\Common Files\Autodesk Shared\git.com
+stat C:\Program Files\Common Files\Autodesk Shared\git.exe
+stat C:\Program Files\Common Files\Autodesk Shared\git.vbs
+stat C:\Program Files\Common Files\Autodesk Shared\git.vbe
+stat C:\Program Files\Common Files\Autodesk Shared\git.js
+stat C:\Program Files\Common Files\Autodesk Shared\git.jse
+stat C:\Program Files\Common Files\Autodesk Shared\git.wsf
+stat C:\Program Files\Common Files\Autodesk Shared\git.wsh
+stat C:\Program Files\Common Files\Autodesk Shared\git.msc
+stat C:\Program Files\Common Files\Autodesk Shared\git.cpl
+stat C:\Program Files\dotnet\git.bat
+stat C:\Program Files\dotnet\git.cmd
+stat C:\Program Files\dotnet\git.com
+stat C:\Program Files\dotnet\git.exe
+stat C:\Program Files\dotnet\git.vbs
+stat C:\Program Files\dotnet\git.vbe
+stat C:\Program Files\dotnet\git.js
+stat C:\Program Files\dotnet\git.jse
+stat C:\Program Files\dotnet\git.wsf
+stat C:\Program Files\dotnet\git.wsh
+stat C:\Program Files\dotnet\git.msc
+stat C:\Program Files\dotnet\git.cpl
+stat D:\Xin\texlive\2024\bin\windows\git.bat
+stat D:\Xin\texlive\2024\bin\windows\git.cmd
+stat D:\Xin\texlive\2024\bin\windows\git.com
+stat D:\Xin\texlive\2024\bin\windows\git.exe
+stat D:\Xin\texlive\2024\bin\windows\git.vbs
+stat D:\Xin\texlive\2024\bin\windows\git.vbe
+stat D:\Xin\texlive\2024\bin\windows\git.js
+stat D:\Xin\texlive\2024\bin\windows\git.jse
+stat D:\Xin\texlive\2024\bin\windows\git.wsf
+stat D:\Xin\texlive\2024\bin\windows\git.wsh
+stat D:\Xin\texlive\2024\bin\windows\git.msc
+stat D:\Xin\texlive\2024\bin\windows\git.cpl
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.bat
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.cmd
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.com
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.exe
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.vbs
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.vbe
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.js
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.jse
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.wsf
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.wsh
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.msc
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.cpl
+stat D:\vscode\mingw64\bin\git.bat
+stat D:\vscode\mingw64\bin\git.cmd
+stat D:\vscode\mingw64\bin\git.com
+stat D:\vscode\mingw64\bin\git.exe
+stat D:\vscode\mingw64\bin\git.vbs
+stat D:\vscode\mingw64\bin\git.vbe
+stat D:\vscode\mingw64\bin\git.js
+stat D:\vscode\mingw64\bin\git.jse
+stat D:\vscode\mingw64\bin\git.wsf
+stat D:\vscode\mingw64\bin\git.wsh
+stat D:\vscode\mingw64\bin\git.msc
+stat D:\vscode\mingw64\bin\git.cpl
+stat D:\xshell\git.bat
+stat D:\xshell\git.cmd
+stat D:\xshell\git.com
+stat D:\xshell\git.exe
+stat D:\xshell\git.vbs
+stat D:\xshell\git.vbe
+stat D:\xshell\git.js
+stat D:\xshell\git.jse
+stat D:\xshell\git.wsf
+stat D:\xshell\git.wsh
+stat D:\xshell\git.msc
+stat D:\xshell\git.cpl
+stat D:\mysql\mysqlapp\bin\git.bat
+stat D:\mysql\mysqlapp\bin\git.cmd
+stat D:\mysql\mysqlapp\bin\git.com
+stat D:\mysql\mysqlapp\bin\git.exe
+stat D:\mysql\mysqlapp\bin\git.vbs
+stat D:\mysql\mysqlapp\bin\git.vbe
+stat D:\mysql\mysqlapp\bin\git.js
+stat D:\mysql\mysqlapp\bin\git.jse
+stat D:\mysql\mysqlapp\bin\git.wsf
+stat D:\mysql\mysqlapp\bin\git.wsh
+stat D:\mysql\mysqlapp\bin\git.msc
+stat D:\mysql\mysqlapp\bin\git.cpl
+stat D:\maven\apache-maven-3.9.16\bin\git.bat
+stat D:\maven\apache-maven-3.9.16\bin\git.cmd
+stat D:\maven\apache-maven-3.9.16\bin\git.com
+stat D:\maven\apache-maven-3.9.16\bin\git.exe
+stat D:\maven\apache-maven-3.9.16\bin\git.vbs
+stat D:\maven\apache-maven-3.9.16\bin\git.vbe
+stat D:\maven\apache-maven-3.9.16\bin\git.js
+stat D:\maven\apache-maven-3.9.16\bin\git.jse
+stat D:\maven\apache-maven-3.9.16\bin\git.wsf
+stat D:\maven\apache-maven-3.9.16\bin\git.wsh
+stat D:\maven\apache-maven-3.9.16\bin\git.msc
+stat D:\maven\apache-maven-3.9.16\bin\git.cpl
+stat D:\cursor\cursor\resources\app\bin\git.bat
+stat D:\cursor\cursor\resources\app\bin\git.cmd
+stat D:\cursor\cursor\resources\app\bin\git.com
+stat D:\cursor\cursor\resources\app\bin\git.exe
+stat D:\cursor\cursor\resources\app\bin\git.vbs
+stat D:\cursor\cursor\resources\app\bin\git.vbe
+stat D:\cursor\cursor\resources\app\bin\git.js
+stat D:\cursor\cursor\resources\app\bin\git.jse
+stat D:\cursor\cursor\resources\app\bin\git.wsf
+stat D:\cursor\cursor\resources\app\bin\git.wsh
+stat D:\cursor\cursor\resources\app\bin\git.msc
+stat D:\cursor\cursor\resources\app\bin\git.cpl
+stat D:\git\Git\cmd\git.bat
+stat D:\git\Git\cmd\git.cmd
+stat D:\git\Git\cmd\git.com
+stat D:\git\Git\cmd\git.exe
+getenv PATHEXT
+open NUL
+open D:\git\Git\cmd\git.exe
+stat C:\Users\Xin\AppData\Local\Temp\TestDevelopmentProposalHTTPLifecycle3535572509\001\order-service
+stat C:\Users
+stat C:\Users\Xin
+stat C:\Users\Xin\AppData
+stat C:\Users\Xin\AppData\Local
+stat C:\Users\Xin\AppData\Local\Temp
+stat C:\Users\Xin\AppData\Local\Temp\TestDevelopmentProposalHTTPLifecycle3535572509
+stat C:\Users\Xin\AppData\Local\Temp\TestDevelopmentProposalHTTPLifecycle3535572509\001
+stat C:\Users\Xin\AppData\Local\Temp\TestDevelopmentProposalHTTPLifecycle3535572509\001
+getenv PATHEXT
+getenv NoDefaultCurrentDirectoryInExePath
+stat git.bat
+stat git.cmd
+stat git.com
+stat git.exe
+stat git.vbs
+stat git.vbe
+stat git.js
+stat git.jse
+stat git.wsf
+stat git.wsh
+stat git.msc
+stat git.cpl
+getenv path
+stat D:\go\bin\git.bat
+stat D:\go\bin\git.cmd
+stat D:\go\bin\git.com
+stat D:\go\bin\git.exe
+stat D:\go\bin\git.vbs
+stat D:\go\bin\git.vbe
+stat D:\go\bin\git.js
+stat D:\go\bin\git.jse
+stat D:\go\bin\git.wsf
+stat D:\go\bin\git.wsh
+stat D:\go\bin\git.msc
+stat D:\go\bin\git.cpl
+stat C:\Users\Xin\.sbx-denybin\git.bat
+stat C:\Users\Xin\.sbx-denybin\git.cmd
+stat C:\Users\Xin\.sbx-denybin\git.com
+stat C:\Users\Xin\.sbx-denybin\git.exe
+stat C:\Users\Xin\.sbx-denybin\git.vbs
+stat C:\Users\Xin\.sbx-denybin\git.vbe
+stat C:\Users\Xin\.sbx-denybin\git.js
+stat C:\Users\Xin\.sbx-denybin\git.jse
+stat C:\Users\Xin\.sbx-denybin\git.wsf
+stat C:\Users\Xin\.sbx-denybin\git.wsh
+stat C:\Users\Xin\.sbx-denybin\git.msc
+stat C:\Users\Xin\.sbx-denybin\git.cpl
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.bat
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.cmd
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.com
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.exe
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.vbs
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.vbe
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.js
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.jse
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.wsf
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.wsh
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.msc
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.cpl
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.bat
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.cmd
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.com
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.exe
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.vbs
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.vbe
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.js
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.jse
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.wsf
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.wsh
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.msc
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.cpl
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.bat
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.cmd
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.com
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.exe
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.vbs
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.vbe
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.js
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.jse
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.wsf
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.wsh
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.msc
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.cpl
+stat D:\vmware\bin\git.bat
+stat D:\vmware\bin\git.cmd
+stat D:\vmware\bin\git.com
+stat D:\vmware\bin\git.exe
+stat D:\vmware\bin\git.vbs
+stat D:\vmware\bin\git.vbe
+stat D:\vmware\bin\git.js
+stat D:\vmware\bin\git.jse
+stat D:\vmware\bin\git.wsf
+stat D:\vmware\bin\git.wsh
+stat D:\vmware\bin\git.msc
+stat D:\vmware\bin\git.cpl
+stat C:\windows\system32\git.bat
+stat C:\windows\system32\git.cmd
+stat C:\windows\system32\git.com
+stat C:\windows\system32\git.exe
+stat C:\windows\system32\git.vbs
+stat C:\windows\system32\git.vbe
+stat C:\windows\system32\git.js
+stat C:\windows\system32\git.jse
+stat C:\windows\system32\git.wsf
+stat C:\windows\system32\git.wsh
+stat C:\windows\system32\git.msc
+stat C:\windows\system32\git.cpl
+stat C:\windows\git.bat
+stat C:\windows\git.cmd
+stat C:\windows\git.com
+stat C:\windows\git.exe
+stat C:\windows\git.vbs
+stat C:\windows\git.vbe
+stat C:\windows\git.js
+stat C:\windows\git.jse
+stat C:\windows\git.wsf
+stat C:\windows\git.wsh
+stat C:\windows\git.msc
+stat C:\windows\git.cpl
+stat C:\windows\System32\Wbem\git.bat
+stat C:\windows\System32\Wbem\git.cmd
+stat C:\windows\System32\Wbem\git.com
+stat C:\windows\System32\Wbem\git.exe
+stat C:\windows\System32\Wbem\git.vbs
+stat C:\windows\System32\Wbem\git.vbe
+stat C:\windows\System32\Wbem\git.js
+stat C:\windows\System32\Wbem\git.jse
+stat C:\windows\System32\Wbem\git.wsf
+stat C:\windows\System32\Wbem\git.wsh
+stat C:\windows\System32\Wbem\git.msc
+stat C:\windows\System32\Wbem\git.cpl
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.bat
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.cmd
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.com
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.exe
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.vbs
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.vbe
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.js
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.jse
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.wsf
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.wsh
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.msc
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.cpl
+stat C:\windows\System32\OpenSSH\git.bat
+stat C:\windows\System32\OpenSSH\git.cmd
+stat C:\windows\System32\OpenSSH\git.com
+stat C:\windows\System32\OpenSSH\git.exe
+stat C:\windows\System32\OpenSSH\git.vbs
+stat C:\windows\System32\OpenSSH\git.vbe
+stat C:\windows\System32\OpenSSH\git.js
+stat C:\windows\System32\OpenSSH\git.jse
+stat C:\windows\System32\OpenSSH\git.wsf
+stat C:\windows\System32\OpenSSH\git.wsh
+stat C:\windows\System32\OpenSSH\git.msc
+stat C:\windows\System32\OpenSSH\git.cpl
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.bat
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.cmd
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.com
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.exe
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.vbs
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.vbe
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.js
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.jse
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.wsf
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.wsh
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.msc
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.cpl
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.bat
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.cmd
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.com
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.exe
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.vbs
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.vbe
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.js
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.jse
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.wsf
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.wsh
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.msc
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.cpl
+stat C:\Program Files\Common Files\Autodesk Shared\git.bat
+stat C:\Program Files\Common Files\Autodesk Shared\git.cmd
+stat C:\Program Files\Common Files\Autodesk Shared\git.com
+stat C:\Program Files\Common Files\Autodesk Shared\git.exe
+stat C:\Program Files\Common Files\Autodesk Shared\git.vbs
+stat C:\Program Files\Common Files\Autodesk Shared\git.vbe
+stat C:\Program Files\Common Files\Autodesk Shared\git.js
+stat C:\Program Files\Common Files\Autodesk Shared\git.jse
+stat C:\Program Files\Common Files\Autodesk Shared\git.wsf
+stat C:\Program Files\Common Files\Autodesk Shared\git.wsh
+stat C:\Program Files\Common Files\Autodesk Shared\git.msc
+stat C:\Program Files\Common Files\Autodesk Shared\git.cpl
+stat C:\Program Files\dotnet\git.bat
+stat C:\Program Files\dotnet\git.cmd
+stat C:\Program Files\dotnet\git.com
+stat C:\Program Files\dotnet\git.exe
+stat C:\Program Files\dotnet\git.vbs
+stat C:\Program Files\dotnet\git.vbe
+stat C:\Program Files\dotnet\git.js
+stat C:\Program Files\dotnet\git.jse
+stat C:\Program Files\dotnet\git.wsf
+stat C:\Program Files\dotnet\git.wsh
+stat C:\Program Files\dotnet\git.msc
+stat C:\Program Files\dotnet\git.cpl
+stat D:\Xin\texlive\2024\bin\windows\git.bat
+stat D:\Xin\texlive\2024\bin\windows\git.cmd
+stat D:\Xin\texlive\2024\bin\windows\git.com
+stat D:\Xin\texlive\2024\bin\windows\git.exe
+stat D:\Xin\texlive\2024\bin\windows\git.vbs
+stat D:\Xin\texlive\2024\bin\windows\git.vbe
+stat D:\Xin\texlive\2024\bin\windows\git.js
+stat D:\Xin\texlive\2024\bin\windows\git.jse
+stat D:\Xin\texlive\2024\bin\windows\git.wsf
+stat D:\Xin\texlive\2024\bin\windows\git.wsh
+stat D:\Xin\texlive\2024\bin\windows\git.msc
+stat D:\Xin\texlive\2024\bin\windows\git.cpl
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.bat
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.cmd
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.com
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.exe
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.vbs
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.vbe
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.js
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.jse
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.wsf
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.wsh
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.msc
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.cpl
+stat D:\vscode\mingw64\bin\git.bat
+stat D:\vscode\mingw64\bin\git.cmd
+stat D:\vscode\mingw64\bin\git.com
+stat D:\vscode\mingw64\bin\git.exe
+stat D:\vscode\mingw64\bin\git.vbs
+stat D:\vscode\mingw64\bin\git.vbe
+stat D:\vscode\mingw64\bin\git.js
+stat D:\vscode\mingw64\bin\git.jse
+stat D:\vscode\mingw64\bin\git.wsf
+stat D:\vscode\mingw64\bin\git.wsh
+stat D:\vscode\mingw64\bin\git.msc
+stat D:\vscode\mingw64\bin\git.cpl
+stat D:\xshell\git.bat
+stat D:\xshell\git.cmd
+stat D:\xshell\git.com
+stat D:\xshell\git.exe
+stat D:\xshell\git.vbs
+stat D:\xshell\git.vbe
+stat D:\xshell\git.js
+stat D:\xshell\git.jse
+stat D:\xshell\git.wsf
+stat D:\xshell\git.wsh
+stat D:\xshell\git.msc
+stat D:\xshell\git.cpl
+stat D:\mysql\mysqlapp\bin\git.bat
+stat D:\mysql\mysqlapp\bin\git.cmd
+stat D:\mysql\mysqlapp\bin\git.com
+stat D:\mysql\mysqlapp\bin\git.exe
+stat D:\mysql\mysqlapp\bin\git.vbs
+stat D:\mysql\mysqlapp\bin\git.vbe
+stat D:\mysql\mysqlapp\bin\git.js
+stat D:\mysql\mysqlapp\bin\git.jse
+stat D:\mysql\mysqlapp\bin\git.wsf
+stat D:\mysql\mysqlapp\bin\git.wsh
+stat D:\mysql\mysqlapp\bin\git.msc
+stat D:\mysql\mysqlapp\bin\git.cpl
+stat D:\maven\apache-maven-3.9.16\bin\git.bat
+stat D:\maven\apache-maven-3.9.16\bin\git.cmd
+stat D:\maven\apache-maven-3.9.16\bin\git.com
+stat D:\maven\apache-maven-3.9.16\bin\git.exe
+stat D:\maven\apache-maven-3.9.16\bin\git.vbs
+stat D:\maven\apache-maven-3.9.16\bin\git.vbe
+stat D:\maven\apache-maven-3.9.16\bin\git.js
+stat D:\maven\apache-maven-3.9.16\bin\git.jse
+stat D:\maven\apache-maven-3.9.16\bin\git.wsf
+stat D:\maven\apache-maven-3.9.16\bin\git.wsh
+stat D:\maven\apache-maven-3.9.16\bin\git.msc
+stat D:\maven\apache-maven-3.9.16\bin\git.cpl
+stat D:\cursor\cursor\resources\app\bin\git.bat
+stat D:\cursor\cursor\resources\app\bin\git.cmd
+stat D:\cursor\cursor\resources\app\bin\git.com
+stat D:\cursor\cursor\resources\app\bin\git.exe
+stat D:\cursor\cursor\resources\app\bin\git.vbs
+stat D:\cursor\cursor\resources\app\bin\git.vbe
+stat D:\cursor\cursor\resources\app\bin\git.js
+stat D:\cursor\cursor\resources\app\bin\git.jse
+stat D:\cursor\cursor\resources\app\bin\git.wsf
+stat D:\cursor\cursor\resources\app\bin\git.wsh
+stat D:\cursor\cursor\resources\app\bin\git.msc
+stat D:\cursor\cursor\resources\app\bin\git.cpl
+stat D:\git\Git\cmd\git.bat
+stat D:\git\Git\cmd\git.cmd
+stat D:\git\Git\cmd\git.com
+stat D:\git\Git\cmd\git.exe
+stat C:\Users
+stat C:\Users\Xin
+stat C:\Users\Xin\AppData
+stat C:\Users\Xin\AppData\Local
+stat C:\Users\Xin\AppData\Local\Temp
+stat C:\Users\Xin\AppData\Local\Temp\TestDevelopmentProposalHTTPLifecycle3535572509
+stat C:\Users\Xin\AppData\Local\Temp\TestDevelopmentProposalHTTPLifecycle3535572509\001
+stat C:\Users\Xin\AppData\Local\Temp\TestDevelopmentProposalHTTPLifecycle3535572509\001\order-service
+stat C:\Users\Xin\AppData\Local\Temp\TestDevelopmentProposalHTTPLifecycle3535572509\001\order-service
+getenv PATHEXT
+open NUL
+open D:\git\Git\cmd\git.exe
+stat C:\Users\Xin\AppData\Local\Temp\TestDevelopmentProposalHTTPLifecycle3535572509\001\order-service
+stat C:\Users
+stat C:\Users\Xin
+stat C:\Users\Xin\AppData
+stat C:\Users\Xin\AppData\Local
+stat C:\Users\Xin\AppData\Local\Temp
+stat C:\Users\Xin\AppData\Local\Temp\TestDevelopmentProposalHTTPLifecycle3535572509
+stat C:\Users\Xin\AppData\Local\Temp\TestDevelopmentProposalHTTPLifecycle3535572509\001
+stat C:\Users\Xin\AppData\Local\Temp\TestDevelopmentProposalHTTPLifecycle3535572509\001\order-service
+getenv PATHEXT
+open NUL
+open D:\git\Git\cmd\git.exe
+stat C:\Users\Xin\AppData\Local\Temp\TestDevelopmentProposalHTTPLifecycle3535572509\001\order-service
+getenv PATHEXT
+open NUL
+open D:\git\Git\cmd\git.exe
+stat C:\Users\Xin\AppData\Local\Temp\TestDevelopmentProposalHTTPLifecycle3535572509\001\order-service
+getenv PATHEXT
+open NUL
+open D:\git\Git\cmd\git.exe
+stat C:\Users\Xin\AppData\Local\Temp\TestDevelopmentProposalHTTPLifecycle3535572509\001\order-service
+getenv PATHEXT
+open NUL
+open D:\git\Git\cmd\git.exe
+stat C:\Users\Xin\AppData\Local\Temp\TestDevelopmentProposalHTTPLifecycle3535572509\001\order-service
+getenv PATHEXT
+open NUL
+open D:\git\Git\cmd\git.exe
+stat C:\Users\Xin\AppData\Local\Temp\TestDevelopmentProposalHTTPLifecycle3535572509\001\order-service
+getenv PATHEXT
+open NUL
+open D:\git\Git\cmd\git.exe
+stat C:\Users\Xin\AppData\Local\Temp\TestDevelopmentProposalHTTPLifecycle3535572509\001\order-service
+stat C:\Users
+stat C:\Users\Xin
+stat C:\Users\Xin\AppData
+stat C:\Users\Xin\AppData\Local
+stat C:\Users\Xin\AppData\Local\Temp
+stat C:\Users\Xin\AppData\Local\Temp\TestDevelopmentProposalHTTPLifecycle3535572509
+stat C:\Users\Xin\AppData\Local\Temp\TestDevelopmentProposalHTTPLifecycle3535572509\001
+stat C:\Users\Xin\AppData\Local\Temp\TestDevelopmentProposalHTTPLifecycle3535572509\001\order-service
+stat C:\Users\Xin\AppData\Local\Temp\TestDevelopmentProposalHTTPLifecycle3535572509\001\order-service
+getenv PATHEXT
+open NUL
+open D:\git\Git\cmd\git.exe
+stat C:\Users\Xin\AppData\Local\Temp\TestDevelopmentProposalHTTPLifecycle3535572509\001\order-service
+stat C:\Users
+stat C:\Users\Xin
+stat C:\Users\Xin\AppData
+stat C:\Users\Xin\AppData\Local
+stat C:\Users\Xin\AppData\Local\Temp
+stat C:\Users\Xin\AppData\Local\Temp\TestDevelopmentProposalHTTPLifecycle3535572509
+stat C:\Users\Xin\AppData\Local\Temp\TestDevelopmentProposalHTTPLifecycle3535572509\001
+stat C:\Users\Xin\AppData\Local\Temp\TestDevelopmentProposalHTTPLifecycle3535572509\001\order-service
+getenv PATHEXT
+open NUL
+open D:\git\Git\cmd\git.exe
+stat C:\Users\Xin\AppData\Local\Temp\TestDevelopmentProposalHTTPLifecycle3535572509\001\order-service
+getenv PATHEXT
+open NUL
+open D:\git\Git\cmd\git.exe
+stat C:\Users\Xin\AppData\Local\Temp\TestDevelopmentProposalHTTPLifecycle3535572509\001\order-service
+getenv PATHEXT
+open NUL
+open D:\git\Git\cmd\git.exe
+stat C:\Users\Xin\AppData\Local\Temp\TestDevelopmentProposalHTTPLifecycle3535572509\001\order-service
+getenv PATHEXT
+open NUL
+open D:\git\Git\cmd\git.exe
+stat C:\Users\Xin\AppData\Local\Temp\TestDevelopmentProposalHTTPLifecycle3535572509\001\order-service
+getenv PATHEXT
+open NUL
+open D:\git\Git\cmd\git.exe
+stat C:\Users\Xin\AppData\Local\Temp\TestDevelopmentProposalHTTPLifecycle3535572509\001\order-service
+getenv PATHEXT
+open NUL
+open D:\git\Git\cmd\git.exe
+stat C:\Users\Xin\AppData\Local\Temp\TestDevelopmentProposalHTTPLifecycle3535572509\001\order-service
+stat C:\Users
+stat C:\Users\Xin
+stat C:\Users\Xin\AppData
+stat C:\Users\Xin\AppData\Local
+stat C:\Users\Xin\AppData\Local\Temp
+stat C:\Users\Xin\AppData\Local\Temp\TestDevelopmentProposalHTTPLifecycle3535572509
+stat C:\Users\Xin\AppData\Local\Temp\TestDevelopmentProposalHTTPLifecycle3535572509\001
+stat C:\Users\Xin\AppData\Local\Temp\TestDevelopmentProposalHTTPLifecycle3535572509\001\order-service
+stat C:\Users\Xin\AppData\Local\Temp\TestDevelopmentProposalHTTPLifecycle3535572509\001\order-service
+getenv PATHEXT
+open NUL
+open D:\git\Git\cmd\git.exe
+stat C:\Users\Xin\AppData\Local\Temp\TestDevelopmentProposalHTTPLifecycle3535572509\001\order-service
+stat C:\Users
+stat C:\Users\Xin
+stat C:\Users\Xin\AppData
+stat C:\Users\Xin\AppData\Local
+stat C:\Users\Xin\AppData\Local\Temp
+stat C:\Users\Xin\AppData\Local\Temp\TestDevelopmentProposalHTTPLifecycle3535572509
+stat C:\Users\Xin\AppData\Local\Temp\TestDevelopmentProposalHTTPLifecycle3535572509\001
+stat C:\Users\Xin\AppData\Local\Temp\TestDevelopmentProposalHTTPLifecycle3535572509\001\order-service
+getenv PATHEXT
+open NUL
+open D:\git\Git\cmd\git.exe
+stat C:\Users\Xin\AppData\Local\Temp\TestDevelopmentProposalHTTPLifecycle3535572509\001\order-service
+getenv PATHEXT
+open NUL
+open D:\git\Git\cmd\git.exe
+stat C:\Users\Xin\AppData\Local\Temp\TestDevelopmentProposalHTTPLifecycle3535572509\001\order-service
+getenv PATHEXT
+open NUL
+open D:\git\Git\cmd\git.exe
+stat C:\Users\Xin\AppData\Local\Temp\TestDevelopmentProposalHTTPLifecycle3535572509\001\order-service
+getenv PATHEXT
+open NUL
+open D:\git\Git\cmd\git.exe
+stat C:\Users\Xin\AppData\Local\Temp\TestDevelopmentProposalHTTPLifecycle3535572509\001\order-service
+getenv PATHEXT
+open NUL
+open D:\git\Git\cmd\git.exe
+stat C:\Users\Xin\AppData\Local\Temp\TestDevelopmentProposalHTTPLifecycle3535572509\001\order-service
+getenv PATHEXT
+open NUL
+open D:\git\Git\cmd\git.exe
+stat C:\Users\Xin\AppData\Local\Temp\TestDevelopmentProposalHTTPLifecycle3535572509\001\order-service
+stat C:\Users
+stat C:\Users\Xin
+stat C:\Users\Xin\AppData
+stat C:\Users\Xin\AppData\Local
+stat C:\Users\Xin\AppData\Local\Temp
+stat C:\Users\Xin\AppData\Local\Temp\TestDevelopmentProposalHTTPLifecycle3535572509
+stat C:\Users\Xin\AppData\Local\Temp\TestDevelopmentProposalHTTPLifecycle3535572509\001
+stat C:\Users\Xin\AppData\Local\Temp\TestDevelopmentProposalHTTPLifecycle3535572509\001\order-service
+stat C:\Users\Xin\AppData\Local\Temp\TestDevelopmentProposalHTTPLifecycle3535572509\001\order-service
+getenv PATHEXT
+open NUL
+open D:\git\Git\cmd\git.exe
+stat C:\Users\Xin\AppData\Local\Temp\TestDevelopmentProposalHTTPLifecycle3535572509\001\order-service
+stat C:\Users
+stat C:\Users\Xin
+stat C:\Users\Xin\AppData
+stat C:\Users\Xin\AppData\Local
+stat C:\Users\Xin\AppData\Local\Temp
+stat C:\Users\Xin\AppData\Local\Temp\TestDevelopmentProposalHTTPLifecycle3535572509
+stat C:\Users\Xin\AppData\Local\Temp\TestDevelopmentProposalHTTPLifecycle3535572509\001
+stat C:\Users\Xin\AppData\Local\Temp\TestDevelopmentProposalHTTPLifecycle3535572509\001\order-service
+getenv PATHEXT
+open NUL
+open D:\git\Git\cmd\git.exe
+stat C:\Users\Xin\AppData\Local\Temp\TestDevelopmentProposalHTTPLifecycle3535572509\001\order-service
+getenv PATHEXT
+open NUL
+open D:\git\Git\cmd\git.exe
+stat C:\Users\Xin\AppData\Local\Temp\TestDevelopmentProposalHTTPLifecycle3535572509\001\order-service
+getenv PATHEXT
+open NUL
+open D:\git\Git\cmd\git.exe
+stat C:\Users\Xin\AppData\Local\Temp\TestDevelopmentProposalHTTPLifecycle3535572509\001\order-service
+getenv PATHEXT
+open NUL
+open D:\git\Git\cmd\git.exe
+stat C:\Users\Xin\AppData\Local\Temp\TestDevelopmentProposalHTTPLifecycle3535572509\001\order-service
+getenv PATHEXT
+open NUL
+open D:\git\Git\cmd\git.exe
+stat C:\Users\Xin\AppData\Local\Temp\TestDevelopmentProposalHTTPLifecycle3535572509\001\order-service
+getenv PATHEXT
+open NUL
+open D:\git\Git\cmd\git.exe
+stat C:\Users\Xin\AppData\Local\Temp\TestDevelopmentProposalHTTPLifecycle3535572509\001\order-service
+stat C:\Users
+stat C:\Users\Xin
+stat C:\Users\Xin\AppData
+stat C:\Users\Xin\AppData\Local
+stat C:\Users\Xin\AppData\Local\Temp
+stat C:\Users\Xin\AppData\Local\Temp\TestDevelopmentProposalHTTPLifecycle3535572509
+stat C:\Users\Xin\AppData\Local\Temp\TestDevelopmentProposalHTTPLifecycle3535572509\001
+stat C:\Users\Xin\AppData\Local\Temp\TestDevelopmentProposalHTTPLifecycle3535572509\001\order-service
+stat C:\Users\Xin\AppData\Local\Temp\TestDevelopmentProposalHTTPLifecycle3535572509\001\order-service
+getenv PATHEXT
+open NUL
+open D:\git\Git\cmd\git.exe
+stat C:\Users\Xin\AppData\Local\Temp\TestDevelopmentProposalHTTPLifecycle3535572509\001\order-service
+stat C:\Users
+stat C:\Users\Xin
+stat C:\Users\Xin\AppData
+stat C:\Users\Xin\AppData\Local
+stat C:\Users\Xin\AppData\Local\Temp
+stat C:\Users\Xin\AppData\Local\Temp\TestDevelopmentProposalHTTPLifecycle3535572509
+stat C:\Users\Xin\AppData\Local\Temp\TestDevelopmentProposalHTTPLifecycle3535572509\001
+stat C:\Users\Xin\AppData\Local\Temp\TestDevelopmentProposalHTTPLifecycle3535572509\001\order-service
+getenv PATHEXT
+open NUL
+open D:\git\Git\cmd\git.exe
+stat C:\Users\Xin\AppData\Local\Temp\TestDevelopmentProposalHTTPLifecycle3535572509\001\order-service
+getenv PATHEXT
+open NUL
+open D:\git\Git\cmd\git.exe
+stat C:\Users\Xin\AppData\Local\Temp\TestDevelopmentProposalHTTPLifecycle3535572509\001\order-service
+getenv PATHEXT
+open NUL
+open D:\git\Git\cmd\git.exe
+stat C:\Users\Xin\AppData\Local\Temp\TestDevelopmentProposalHTTPLifecycle3535572509\001\order-service
+getenv PATHEXT
+open NUL
+open D:\git\Git\cmd\git.exe
+stat C:\Users\Xin\AppData\Local\Temp\TestDevelopmentProposalHTTPLifecycle3535572509\001\order-service
+getenv PATHEXT
+open NUL
+open D:\git\Git\cmd\git.exe
+stat C:\Users\Xin\AppData\Local\Temp\TestDevelopmentProposalHTTPLifecycle3535572509\001\order-service
+getenv PATHEXT
+open NUL
+open D:\git\Git\cmd\git.exe
+stat C:\Users\Xin\AppData\Local\Temp\TestDevelopmentProposalHTTPLifecycle3535572509\001\order-service
+open C:\Users\Xin\AppData\Local\Temp
+open C:\Users\Xin\AppData\Local\Temp\TestImportDirectory2874059623\001\README.md
+stat C:\Users
+stat C:\Users\Xin
+stat C:\Users\Xin\AppData
+stat C:\Users\Xin\AppData\Local
+stat C:\Users\Xin\AppData\Local\Temp
+stat C:\Users\Xin\AppData\Local\Temp\TestImportDirectory2874059623
+stat C:\Users\Xin\AppData\Local\Temp\TestImportDirectory2874059623\001
+stat C:\Users
+stat C:\Users\Xin
+stat C:\Users\Xin\AppData
+stat C:\Users\Xin\AppData\Local
+stat C:\Users\Xin\AppData\Local\Temp
+stat C:\Users\Xin\AppData\Local\Temp\TestImportDirectory2874059623
+stat C:\Users\Xin\AppData\Local\Temp\TestImportDirectory2874059623\001
+stat C:\Users\Xin\AppData\Local\Temp\TestImportDirectory2874059623\001
+open C:\Users\Xin\AppData\Local\Temp\TestImportDirectory2874059623\001
+stat C:\Users\Xin\AppData\Local\Temp\TestImportDirectory2874059623\001\README.md
+open C:\Users\Xin\AppData\Local\Temp\TestImportDirectory2874059623\001\README.md
+stat C:\Users\Xin\AppData\Local\Temp\TestImportDirectory2874059623\001
+open C:\Users\Xin\AppData\Local\Temp
+getenv PATHEXT
+getenv NoDefaultCurrentDirectoryInExePath
+stat git.bat
+stat git.cmd
+stat git.com
+stat git.exe
+stat git.vbs
+stat git.vbe
+stat git.js
+stat git.jse
+stat git.wsf
+stat git.wsh
+stat git.msc
+stat git.cpl
+getenv path
+stat D:\go\bin\git.bat
+stat D:\go\bin\git.cmd
+stat D:\go\bin\git.com
+stat D:\go\bin\git.exe
+stat D:\go\bin\git.vbs
+stat D:\go\bin\git.vbe
+stat D:\go\bin\git.js
+stat D:\go\bin\git.jse
+stat D:\go\bin\git.wsf
+stat D:\go\bin\git.wsh
+stat D:\go\bin\git.msc
+stat D:\go\bin\git.cpl
+stat C:\Users\Xin\.sbx-denybin\git.bat
+stat C:\Users\Xin\.sbx-denybin\git.cmd
+stat C:\Users\Xin\.sbx-denybin\git.com
+stat C:\Users\Xin\.sbx-denybin\git.exe
+stat C:\Users\Xin\.sbx-denybin\git.vbs
+stat C:\Users\Xin\.sbx-denybin\git.vbe
+stat C:\Users\Xin\.sbx-denybin\git.js
+stat C:\Users\Xin\.sbx-denybin\git.jse
+stat C:\Users\Xin\.sbx-denybin\git.wsf
+stat C:\Users\Xin\.sbx-denybin\git.wsh
+stat C:\Users\Xin\.sbx-denybin\git.msc
+stat C:\Users\Xin\.sbx-denybin\git.cpl
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.bat
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.cmd
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.com
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.exe
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.vbs
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.vbe
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.js
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.jse
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.wsf
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.wsh
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.msc
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.cpl
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.bat
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.cmd
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.com
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.exe
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.vbs
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.vbe
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.js
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.jse
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.wsf
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.wsh
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.msc
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.cpl
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.bat
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.cmd
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.com
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.exe
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.vbs
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.vbe
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.js
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.jse
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.wsf
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.wsh
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.msc
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.cpl
+stat D:\vmware\bin\git.bat
+stat D:\vmware\bin\git.cmd
+stat D:\vmware\bin\git.com
+stat D:\vmware\bin\git.exe
+stat D:\vmware\bin\git.vbs
+stat D:\vmware\bin\git.vbe
+stat D:\vmware\bin\git.js
+stat D:\vmware\bin\git.jse
+stat D:\vmware\bin\git.wsf
+stat D:\vmware\bin\git.wsh
+stat D:\vmware\bin\git.msc
+stat D:\vmware\bin\git.cpl
+stat C:\windows\system32\git.bat
+stat C:\windows\system32\git.cmd
+stat C:\windows\system32\git.com
+stat C:\windows\system32\git.exe
+stat C:\windows\system32\git.vbs
+stat C:\windows\system32\git.vbe
+stat C:\windows\system32\git.js
+stat C:\windows\system32\git.jse
+stat C:\windows\system32\git.wsf
+stat C:\windows\system32\git.wsh
+stat C:\windows\system32\git.msc
+stat C:\windows\system32\git.cpl
+stat C:\windows\git.bat
+stat C:\windows\git.cmd
+stat C:\windows\git.com
+stat C:\windows\git.exe
+stat C:\windows\git.vbs
+stat C:\windows\git.vbe
+stat C:\windows\git.js
+stat C:\windows\git.jse
+stat C:\windows\git.wsf
+stat C:\windows\git.wsh
+stat C:\windows\git.msc
+stat C:\windows\git.cpl
+stat C:\windows\System32\Wbem\git.bat
+stat C:\windows\System32\Wbem\git.cmd
+stat C:\windows\System32\Wbem\git.com
+stat C:\windows\System32\Wbem\git.exe
+stat C:\windows\System32\Wbem\git.vbs
+stat C:\windows\System32\Wbem\git.vbe
+stat C:\windows\System32\Wbem\git.js
+stat C:\windows\System32\Wbem\git.jse
+stat C:\windows\System32\Wbem\git.wsf
+stat C:\windows\System32\Wbem\git.wsh
+stat C:\windows\System32\Wbem\git.msc
+stat C:\windows\System32\Wbem\git.cpl
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.bat
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.cmd
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.com
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.exe
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.vbs
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.vbe
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.js
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.jse
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.wsf
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.wsh
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.msc
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.cpl
+stat C:\windows\System32\OpenSSH\git.bat
+stat C:\windows\System32\OpenSSH\git.cmd
+stat C:\windows\System32\OpenSSH\git.com
+stat C:\windows\System32\OpenSSH\git.exe
+stat C:\windows\System32\OpenSSH\git.vbs
+stat C:\windows\System32\OpenSSH\git.vbe
+stat C:\windows\System32\OpenSSH\git.js
+stat C:\windows\System32\OpenSSH\git.jse
+stat C:\windows\System32\OpenSSH\git.wsf
+stat C:\windows\System32\OpenSSH\git.wsh
+stat C:\windows\System32\OpenSSH\git.msc
+stat C:\windows\System32\OpenSSH\git.cpl
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.bat
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.cmd
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.com
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.exe
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.vbs
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.vbe
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.js
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.jse
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.wsf
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.wsh
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.msc
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.cpl
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.bat
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.cmd
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.com
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.exe
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.vbs
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.vbe
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.js
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.jse
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.wsf
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.wsh
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.msc
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.cpl
+stat C:\Program Files\Common Files\Autodesk Shared\git.bat
+stat C:\Program Files\Common Files\Autodesk Shared\git.cmd
+stat C:\Program Files\Common Files\Autodesk Shared\git.com
+stat C:\Program Files\Common Files\Autodesk Shared\git.exe
+stat C:\Program Files\Common Files\Autodesk Shared\git.vbs
+stat C:\Program Files\Common Files\Autodesk Shared\git.vbe
+stat C:\Program Files\Common Files\Autodesk Shared\git.js
+stat C:\Program Files\Common Files\Autodesk Shared\git.jse
+stat C:\Program Files\Common Files\Autodesk Shared\git.wsf
+stat C:\Program Files\Common Files\Autodesk Shared\git.wsh
+stat C:\Program Files\Common Files\Autodesk Shared\git.msc
+stat C:\Program Files\Common Files\Autodesk Shared\git.cpl
+stat C:\Program Files\dotnet\git.bat
+stat C:\Program Files\dotnet\git.cmd
+stat C:\Program Files\dotnet\git.com
+stat C:\Program Files\dotnet\git.exe
+stat C:\Program Files\dotnet\git.vbs
+stat C:\Program Files\dotnet\git.vbe
+stat C:\Program Files\dotnet\git.js
+stat C:\Program Files\dotnet\git.jse
+stat C:\Program Files\dotnet\git.wsf
+stat C:\Program Files\dotnet\git.wsh
+stat C:\Program Files\dotnet\git.msc
+stat C:\Program Files\dotnet\git.cpl
+stat D:\Xin\texlive\2024\bin\windows\git.bat
+stat D:\Xin\texlive\2024\bin\windows\git.cmd
+stat D:\Xin\texlive\2024\bin\windows\git.com
+stat D:\Xin\texlive\2024\bin\windows\git.exe
+stat D:\Xin\texlive\2024\bin\windows\git.vbs
+stat D:\Xin\texlive\2024\bin\windows\git.vbe
+stat D:\Xin\texlive\2024\bin\windows\git.js
+stat D:\Xin\texlive\2024\bin\windows\git.jse
+stat D:\Xin\texlive\2024\bin\windows\git.wsf
+stat D:\Xin\texlive\2024\bin\windows\git.wsh
+stat D:\Xin\texlive\2024\bin\windows\git.msc
+stat D:\Xin\texlive\2024\bin\windows\git.cpl
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.bat
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.cmd
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.com
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.exe
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.vbs
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.vbe
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.js
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.jse
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.wsf
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.wsh
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.msc
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.cpl
+stat D:\vscode\mingw64\bin\git.bat
+stat D:\vscode\mingw64\bin\git.cmd
+stat D:\vscode\mingw64\bin\git.com
+stat D:\vscode\mingw64\bin\git.exe
+stat D:\vscode\mingw64\bin\git.vbs
+stat D:\vscode\mingw64\bin\git.vbe
+stat D:\vscode\mingw64\bin\git.js
+stat D:\vscode\mingw64\bin\git.jse
+stat D:\vscode\mingw64\bin\git.wsf
+stat D:\vscode\mingw64\bin\git.wsh
+stat D:\vscode\mingw64\bin\git.msc
+stat D:\vscode\mingw64\bin\git.cpl
+stat D:\xshell\git.bat
+stat D:\xshell\git.cmd
+stat D:\xshell\git.com
+stat D:\xshell\git.exe
+stat D:\xshell\git.vbs
+stat D:\xshell\git.vbe
+stat D:\xshell\git.js
+stat D:\xshell\git.jse
+stat D:\xshell\git.wsf
+stat D:\xshell\git.wsh
+stat D:\xshell\git.msc
+stat D:\xshell\git.cpl
+stat D:\mysql\mysqlapp\bin\git.bat
+stat D:\mysql\mysqlapp\bin\git.cmd
+stat D:\mysql\mysqlapp\bin\git.com
+stat D:\mysql\mysqlapp\bin\git.exe
+stat D:\mysql\mysqlapp\bin\git.vbs
+stat D:\mysql\mysqlapp\bin\git.vbe
+stat D:\mysql\mysqlapp\bin\git.js
+stat D:\mysql\mysqlapp\bin\git.jse
+stat D:\mysql\mysqlapp\bin\git.wsf
+stat D:\mysql\mysqlapp\bin\git.wsh
+stat D:\mysql\mysqlapp\bin\git.msc
+stat D:\mysql\mysqlapp\bin\git.cpl
+stat D:\maven\apache-maven-3.9.16\bin\git.bat
+stat D:\maven\apache-maven-3.9.16\bin\git.cmd
+stat D:\maven\apache-maven-3.9.16\bin\git.com
+stat D:\maven\apache-maven-3.9.16\bin\git.exe
+stat D:\maven\apache-maven-3.9.16\bin\git.vbs
+stat D:\maven\apache-maven-3.9.16\bin\git.vbe
+stat D:\maven\apache-maven-3.9.16\bin\git.js
+stat D:\maven\apache-maven-3.9.16\bin\git.jse
+stat D:\maven\apache-maven-3.9.16\bin\git.wsf
+stat D:\maven\apache-maven-3.9.16\bin\git.wsh
+stat D:\maven\apache-maven-3.9.16\bin\git.msc
+stat D:\maven\apache-maven-3.9.16\bin\git.cpl
+stat D:\cursor\cursor\resources\app\bin\git.bat
+stat D:\cursor\cursor\resources\app\bin\git.cmd
+stat D:\cursor\cursor\resources\app\bin\git.com
+stat D:\cursor\cursor\resources\app\bin\git.exe
+stat D:\cursor\cursor\resources\app\bin\git.vbs
+stat D:\cursor\cursor\resources\app\bin\git.vbe
+stat D:\cursor\cursor\resources\app\bin\git.js
+stat D:\cursor\cursor\resources\app\bin\git.jse
+stat D:\cursor\cursor\resources\app\bin\git.wsf
+stat D:\cursor\cursor\resources\app\bin\git.wsh
+stat D:\cursor\cursor\resources\app\bin\git.msc
+stat D:\cursor\cursor\resources\app\bin\git.cpl
+stat D:\git\Git\cmd\git.bat
+stat D:\git\Git\cmd\git.cmd
+stat D:\git\Git\cmd\git.com
+stat D:\git\Git\cmd\git.exe
+getenv PATHEXT
+open NUL
+open D:\git\Git\cmd\git.exe
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133\001\app
+getenv PATHEXT
+getenv NoDefaultCurrentDirectoryInExePath
+stat git.bat
+stat git.cmd
+stat git.com
+stat git.exe
+stat git.vbs
+stat git.vbe
+stat git.js
+stat git.jse
+stat git.wsf
+stat git.wsh
+stat git.msc
+stat git.cpl
+getenv path
+stat D:\go\bin\git.bat
+stat D:\go\bin\git.cmd
+stat D:\go\bin\git.com
+stat D:\go\bin\git.exe
+stat D:\go\bin\git.vbs
+stat D:\go\bin\git.vbe
+stat D:\go\bin\git.js
+stat D:\go\bin\git.jse
+stat D:\go\bin\git.wsf
+stat D:\go\bin\git.wsh
+stat D:\go\bin\git.msc
+stat D:\go\bin\git.cpl
+stat C:\Users\Xin\.sbx-denybin\git.bat
+stat C:\Users\Xin\.sbx-denybin\git.cmd
+stat C:\Users\Xin\.sbx-denybin\git.com
+stat C:\Users\Xin\.sbx-denybin\git.exe
+stat C:\Users\Xin\.sbx-denybin\git.vbs
+stat C:\Users\Xin\.sbx-denybin\git.vbe
+stat C:\Users\Xin\.sbx-denybin\git.js
+stat C:\Users\Xin\.sbx-denybin\git.jse
+stat C:\Users\Xin\.sbx-denybin\git.wsf
+stat C:\Users\Xin\.sbx-denybin\git.wsh
+stat C:\Users\Xin\.sbx-denybin\git.msc
+stat C:\Users\Xin\.sbx-denybin\git.cpl
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.bat
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.cmd
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.com
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.exe
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.vbs
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.vbe
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.js
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.jse
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.wsf
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.wsh
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.msc
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.cpl
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.bat
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.cmd
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.com
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.exe
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.vbs
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.vbe
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.js
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.jse
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.wsf
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.wsh
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.msc
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.cpl
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.bat
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.cmd
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.com
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.exe
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.vbs
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.vbe
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.js
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.jse
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.wsf
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.wsh
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.msc
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.cpl
+stat D:\vmware\bin\git.bat
+stat D:\vmware\bin\git.cmd
+stat D:\vmware\bin\git.com
+stat D:\vmware\bin\git.exe
+stat D:\vmware\bin\git.vbs
+stat D:\vmware\bin\git.vbe
+stat D:\vmware\bin\git.js
+stat D:\vmware\bin\git.jse
+stat D:\vmware\bin\git.wsf
+stat D:\vmware\bin\git.wsh
+stat D:\vmware\bin\git.msc
+stat D:\vmware\bin\git.cpl
+stat C:\windows\system32\git.bat
+stat C:\windows\system32\git.cmd
+stat C:\windows\system32\git.com
+stat C:\windows\system32\git.exe
+stat C:\windows\system32\git.vbs
+stat C:\windows\system32\git.vbe
+stat C:\windows\system32\git.js
+stat C:\windows\system32\git.jse
+stat C:\windows\system32\git.wsf
+stat C:\windows\system32\git.wsh
+stat C:\windows\system32\git.msc
+stat C:\windows\system32\git.cpl
+stat C:\windows\git.bat
+stat C:\windows\git.cmd
+stat C:\windows\git.com
+stat C:\windows\git.exe
+stat C:\windows\git.vbs
+stat C:\windows\git.vbe
+stat C:\windows\git.js
+stat C:\windows\git.jse
+stat C:\windows\git.wsf
+stat C:\windows\git.wsh
+stat C:\windows\git.msc
+stat C:\windows\git.cpl
+stat C:\windows\System32\Wbem\git.bat
+stat C:\windows\System32\Wbem\git.cmd
+stat C:\windows\System32\Wbem\git.com
+stat C:\windows\System32\Wbem\git.exe
+stat C:\windows\System32\Wbem\git.vbs
+stat C:\windows\System32\Wbem\git.vbe
+stat C:\windows\System32\Wbem\git.js
+stat C:\windows\System32\Wbem\git.jse
+stat C:\windows\System32\Wbem\git.wsf
+stat C:\windows\System32\Wbem\git.wsh
+stat C:\windows\System32\Wbem\git.msc
+stat C:\windows\System32\Wbem\git.cpl
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.bat
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.cmd
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.com
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.exe
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.vbs
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.vbe
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.js
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.jse
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.wsf
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.wsh
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.msc
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.cpl
+stat C:\windows\System32\OpenSSH\git.bat
+stat C:\windows\System32\OpenSSH\git.cmd
+stat C:\windows\System32\OpenSSH\git.com
+stat C:\windows\System32\OpenSSH\git.exe
+stat C:\windows\System32\OpenSSH\git.vbs
+stat C:\windows\System32\OpenSSH\git.vbe
+stat C:\windows\System32\OpenSSH\git.js
+stat C:\windows\System32\OpenSSH\git.jse
+stat C:\windows\System32\OpenSSH\git.wsf
+stat C:\windows\System32\OpenSSH\git.wsh
+stat C:\windows\System32\OpenSSH\git.msc
+stat C:\windows\System32\OpenSSH\git.cpl
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.bat
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.cmd
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.com
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.exe
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.vbs
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.vbe
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.js
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.jse
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.wsf
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.wsh
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.msc
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.cpl
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.bat
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.cmd
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.com
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.exe
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.vbs
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.vbe
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.js
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.jse
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.wsf
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.wsh
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.msc
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.cpl
+stat C:\Program Files\Common Files\Autodesk Shared\git.bat
+stat C:\Program Files\Common Files\Autodesk Shared\git.cmd
+stat C:\Program Files\Common Files\Autodesk Shared\git.com
+stat C:\Program Files\Common Files\Autodesk Shared\git.exe
+stat C:\Program Files\Common Files\Autodesk Shared\git.vbs
+stat C:\Program Files\Common Files\Autodesk Shared\git.vbe
+stat C:\Program Files\Common Files\Autodesk Shared\git.js
+stat C:\Program Files\Common Files\Autodesk Shared\git.jse
+stat C:\Program Files\Common Files\Autodesk Shared\git.wsf
+stat C:\Program Files\Common Files\Autodesk Shared\git.wsh
+stat C:\Program Files\Common Files\Autodesk Shared\git.msc
+stat C:\Program Files\Common Files\Autodesk Shared\git.cpl
+stat C:\Program Files\dotnet\git.bat
+stat C:\Program Files\dotnet\git.cmd
+stat C:\Program Files\dotnet\git.com
+stat C:\Program Files\dotnet\git.exe
+stat C:\Program Files\dotnet\git.vbs
+stat C:\Program Files\dotnet\git.vbe
+stat C:\Program Files\dotnet\git.js
+stat C:\Program Files\dotnet\git.jse
+stat C:\Program Files\dotnet\git.wsf
+stat C:\Program Files\dotnet\git.wsh
+stat C:\Program Files\dotnet\git.msc
+stat C:\Program Files\dotnet\git.cpl
+stat D:\Xin\texlive\2024\bin\windows\git.bat
+stat D:\Xin\texlive\2024\bin\windows\git.cmd
+stat D:\Xin\texlive\2024\bin\windows\git.com
+stat D:\Xin\texlive\2024\bin\windows\git.exe
+stat D:\Xin\texlive\2024\bin\windows\git.vbs
+stat D:\Xin\texlive\2024\bin\windows\git.vbe
+stat D:\Xin\texlive\2024\bin\windows\git.js
+stat D:\Xin\texlive\2024\bin\windows\git.jse
+stat D:\Xin\texlive\2024\bin\windows\git.wsf
+stat D:\Xin\texlive\2024\bin\windows\git.wsh
+stat D:\Xin\texlive\2024\bin\windows\git.msc
+stat D:\Xin\texlive\2024\bin\windows\git.cpl
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.bat
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.cmd
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.com
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.exe
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.vbs
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.vbe
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.js
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.jse
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.wsf
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.wsh
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.msc
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.cpl
+stat D:\vscode\mingw64\bin\git.bat
+stat D:\vscode\mingw64\bin\git.cmd
+stat D:\vscode\mingw64\bin\git.com
+stat D:\vscode\mingw64\bin\git.exe
+stat D:\vscode\mingw64\bin\git.vbs
+stat D:\vscode\mingw64\bin\git.vbe
+stat D:\vscode\mingw64\bin\git.js
+stat D:\vscode\mingw64\bin\git.jse
+stat D:\vscode\mingw64\bin\git.wsf
+stat D:\vscode\mingw64\bin\git.wsh
+stat D:\vscode\mingw64\bin\git.msc
+stat D:\vscode\mingw64\bin\git.cpl
+stat D:\xshell\git.bat
+stat D:\xshell\git.cmd
+stat D:\xshell\git.com
+stat D:\xshell\git.exe
+stat D:\xshell\git.vbs
+stat D:\xshell\git.vbe
+stat D:\xshell\git.js
+stat D:\xshell\git.jse
+stat D:\xshell\git.wsf
+stat D:\xshell\git.wsh
+stat D:\xshell\git.msc
+stat D:\xshell\git.cpl
+stat D:\mysql\mysqlapp\bin\git.bat
+stat D:\mysql\mysqlapp\bin\git.cmd
+stat D:\mysql\mysqlapp\bin\git.com
+stat D:\mysql\mysqlapp\bin\git.exe
+stat D:\mysql\mysqlapp\bin\git.vbs
+stat D:\mysql\mysqlapp\bin\git.vbe
+stat D:\mysql\mysqlapp\bin\git.js
+stat D:\mysql\mysqlapp\bin\git.jse
+stat D:\mysql\mysqlapp\bin\git.wsf
+stat D:\mysql\mysqlapp\bin\git.wsh
+stat D:\mysql\mysqlapp\bin\git.msc
+stat D:\mysql\mysqlapp\bin\git.cpl
+stat D:\maven\apache-maven-3.9.16\bin\git.bat
+stat D:\maven\apache-maven-3.9.16\bin\git.cmd
+stat D:\maven\apache-maven-3.9.16\bin\git.com
+stat D:\maven\apache-maven-3.9.16\bin\git.exe
+stat D:\maven\apache-maven-3.9.16\bin\git.vbs
+stat D:\maven\apache-maven-3.9.16\bin\git.vbe
+stat D:\maven\apache-maven-3.9.16\bin\git.js
+stat D:\maven\apache-maven-3.9.16\bin\git.jse
+stat D:\maven\apache-maven-3.9.16\bin\git.wsf
+stat D:\maven\apache-maven-3.9.16\bin\git.wsh
+stat D:\maven\apache-maven-3.9.16\bin\git.msc
+stat D:\maven\apache-maven-3.9.16\bin\git.cpl
+stat D:\cursor\cursor\resources\app\bin\git.bat
+stat D:\cursor\cursor\resources\app\bin\git.cmd
+stat D:\cursor\cursor\resources\app\bin\git.com
+stat D:\cursor\cursor\resources\app\bin\git.exe
+stat D:\cursor\cursor\resources\app\bin\git.vbs
+stat D:\cursor\cursor\resources\app\bin\git.vbe
+stat D:\cursor\cursor\resources\app\bin\git.js
+stat D:\cursor\cursor\resources\app\bin\git.jse
+stat D:\cursor\cursor\resources\app\bin\git.wsf
+stat D:\cursor\cursor\resources\app\bin\git.wsh
+stat D:\cursor\cursor\resources\app\bin\git.msc
+stat D:\cursor\cursor\resources\app\bin\git.cpl
+stat D:\git\Git\cmd\git.bat
+stat D:\git\Git\cmd\git.cmd
+stat D:\git\Git\cmd\git.com
+stat D:\git\Git\cmd\git.exe
+getenv PATHEXT
+open NUL
+open D:\git\Git\cmd\git.exe
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133\001\app
+getenv PATHEXT
+getenv NoDefaultCurrentDirectoryInExePath
+stat git.bat
+stat git.cmd
+stat git.com
+stat git.exe
+stat git.vbs
+stat git.vbe
+stat git.js
+stat git.jse
+stat git.wsf
+stat git.wsh
+stat git.msc
+stat git.cpl
+getenv path
+stat D:\go\bin\git.bat
+stat D:\go\bin\git.cmd
+stat D:\go\bin\git.com
+stat D:\go\bin\git.exe
+stat D:\go\bin\git.vbs
+stat D:\go\bin\git.vbe
+stat D:\go\bin\git.js
+stat D:\go\bin\git.jse
+stat D:\go\bin\git.wsf
+stat D:\go\bin\git.wsh
+stat D:\go\bin\git.msc
+stat D:\go\bin\git.cpl
+stat C:\Users\Xin\.sbx-denybin\git.bat
+stat C:\Users\Xin\.sbx-denybin\git.cmd
+stat C:\Users\Xin\.sbx-denybin\git.com
+stat C:\Users\Xin\.sbx-denybin\git.exe
+stat C:\Users\Xin\.sbx-denybin\git.vbs
+stat C:\Users\Xin\.sbx-denybin\git.vbe
+stat C:\Users\Xin\.sbx-denybin\git.js
+stat C:\Users\Xin\.sbx-denybin\git.jse
+stat C:\Users\Xin\.sbx-denybin\git.wsf
+stat C:\Users\Xin\.sbx-denybin\git.wsh
+stat C:\Users\Xin\.sbx-denybin\git.msc
+stat C:\Users\Xin\.sbx-denybin\git.cpl
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.bat
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.cmd
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.com
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.exe
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.vbs
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.vbe
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.js
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.jse
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.wsf
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.wsh
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.msc
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.cpl
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.bat
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.cmd
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.com
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.exe
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.vbs
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.vbe
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.js
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.jse
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.wsf
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.wsh
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.msc
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.cpl
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.bat
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.cmd
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.com
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.exe
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.vbs
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.vbe
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.js
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.jse
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.wsf
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.wsh
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.msc
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.cpl
+stat D:\vmware\bin\git.bat
+stat D:\vmware\bin\git.cmd
+stat D:\vmware\bin\git.com
+stat D:\vmware\bin\git.exe
+stat D:\vmware\bin\git.vbs
+stat D:\vmware\bin\git.vbe
+stat D:\vmware\bin\git.js
+stat D:\vmware\bin\git.jse
+stat D:\vmware\bin\git.wsf
+stat D:\vmware\bin\git.wsh
+stat D:\vmware\bin\git.msc
+stat D:\vmware\bin\git.cpl
+stat C:\windows\system32\git.bat
+stat C:\windows\system32\git.cmd
+stat C:\windows\system32\git.com
+stat C:\windows\system32\git.exe
+stat C:\windows\system32\git.vbs
+stat C:\windows\system32\git.vbe
+stat C:\windows\system32\git.js
+stat C:\windows\system32\git.jse
+stat C:\windows\system32\git.wsf
+stat C:\windows\system32\git.wsh
+stat C:\windows\system32\git.msc
+stat C:\windows\system32\git.cpl
+stat C:\windows\git.bat
+stat C:\windows\git.cmd
+stat C:\windows\git.com
+stat C:\windows\git.exe
+stat C:\windows\git.vbs
+stat C:\windows\git.vbe
+stat C:\windows\git.js
+stat C:\windows\git.jse
+stat C:\windows\git.wsf
+stat C:\windows\git.wsh
+stat C:\windows\git.msc
+stat C:\windows\git.cpl
+stat C:\windows\System32\Wbem\git.bat
+stat C:\windows\System32\Wbem\git.cmd
+stat C:\windows\System32\Wbem\git.com
+stat C:\windows\System32\Wbem\git.exe
+stat C:\windows\System32\Wbem\git.vbs
+stat C:\windows\System32\Wbem\git.vbe
+stat C:\windows\System32\Wbem\git.js
+stat C:\windows\System32\Wbem\git.jse
+stat C:\windows\System32\Wbem\git.wsf
+stat C:\windows\System32\Wbem\git.wsh
+stat C:\windows\System32\Wbem\git.msc
+stat C:\windows\System32\Wbem\git.cpl
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.bat
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.cmd
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.com
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.exe
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.vbs
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.vbe
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.js
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.jse
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.wsf
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.wsh
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.msc
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.cpl
+stat C:\windows\System32\OpenSSH\git.bat
+stat C:\windows\System32\OpenSSH\git.cmd
+stat C:\windows\System32\OpenSSH\git.com
+stat C:\windows\System32\OpenSSH\git.exe
+stat C:\windows\System32\OpenSSH\git.vbs
+stat C:\windows\System32\OpenSSH\git.vbe
+stat C:\windows\System32\OpenSSH\git.js
+stat C:\windows\System32\OpenSSH\git.jse
+stat C:\windows\System32\OpenSSH\git.wsf
+stat C:\windows\System32\OpenSSH\git.wsh
+stat C:\windows\System32\OpenSSH\git.msc
+stat C:\windows\System32\OpenSSH\git.cpl
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.bat
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.cmd
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.com
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.exe
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.vbs
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.vbe
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.js
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.jse
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.wsf
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.wsh
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.msc
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.cpl
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.bat
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.cmd
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.com
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.exe
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.vbs
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.vbe
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.js
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.jse
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.wsf
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.wsh
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.msc
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.cpl
+stat C:\Program Files\Common Files\Autodesk Shared\git.bat
+stat C:\Program Files\Common Files\Autodesk Shared\git.cmd
+stat C:\Program Files\Common Files\Autodesk Shared\git.com
+stat C:\Program Files\Common Files\Autodesk Shared\git.exe
+stat C:\Program Files\Common Files\Autodesk Shared\git.vbs
+stat C:\Program Files\Common Files\Autodesk Shared\git.vbe
+stat C:\Program Files\Common Files\Autodesk Shared\git.js
+stat C:\Program Files\Common Files\Autodesk Shared\git.jse
+stat C:\Program Files\Common Files\Autodesk Shared\git.wsf
+stat C:\Program Files\Common Files\Autodesk Shared\git.wsh
+stat C:\Program Files\Common Files\Autodesk Shared\git.msc
+stat C:\Program Files\Common Files\Autodesk Shared\git.cpl
+stat C:\Program Files\dotnet\git.bat
+stat C:\Program Files\dotnet\git.cmd
+stat C:\Program Files\dotnet\git.com
+stat C:\Program Files\dotnet\git.exe
+stat C:\Program Files\dotnet\git.vbs
+stat C:\Program Files\dotnet\git.vbe
+stat C:\Program Files\dotnet\git.js
+stat C:\Program Files\dotnet\git.jse
+stat C:\Program Files\dotnet\git.wsf
+stat C:\Program Files\dotnet\git.wsh
+stat C:\Program Files\dotnet\git.msc
+stat C:\Program Files\dotnet\git.cpl
+stat D:\Xin\texlive\2024\bin\windows\git.bat
+stat D:\Xin\texlive\2024\bin\windows\git.cmd
+stat D:\Xin\texlive\2024\bin\windows\git.com
+stat D:\Xin\texlive\2024\bin\windows\git.exe
+stat D:\Xin\texlive\2024\bin\windows\git.vbs
+stat D:\Xin\texlive\2024\bin\windows\git.vbe
+stat D:\Xin\texlive\2024\bin\windows\git.js
+stat D:\Xin\texlive\2024\bin\windows\git.jse
+stat D:\Xin\texlive\2024\bin\windows\git.wsf
+stat D:\Xin\texlive\2024\bin\windows\git.wsh
+stat D:\Xin\texlive\2024\bin\windows\git.msc
+stat D:\Xin\texlive\2024\bin\windows\git.cpl
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.bat
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.cmd
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.com
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.exe
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.vbs
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.vbe
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.js
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.jse
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.wsf
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.wsh
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.msc
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.cpl
+stat D:\vscode\mingw64\bin\git.bat
+stat D:\vscode\mingw64\bin\git.cmd
+stat D:\vscode\mingw64\bin\git.com
+stat D:\vscode\mingw64\bin\git.exe
+stat D:\vscode\mingw64\bin\git.vbs
+stat D:\vscode\mingw64\bin\git.vbe
+stat D:\vscode\mingw64\bin\git.js
+stat D:\vscode\mingw64\bin\git.jse
+stat D:\vscode\mingw64\bin\git.wsf
+stat D:\vscode\mingw64\bin\git.wsh
+stat D:\vscode\mingw64\bin\git.msc
+stat D:\vscode\mingw64\bin\git.cpl
+stat D:\xshell\git.bat
+stat D:\xshell\git.cmd
+stat D:\xshell\git.com
+stat D:\xshell\git.exe
+stat D:\xshell\git.vbs
+stat D:\xshell\git.vbe
+stat D:\xshell\git.js
+stat D:\xshell\git.jse
+stat D:\xshell\git.wsf
+stat D:\xshell\git.wsh
+stat D:\xshell\git.msc
+stat D:\xshell\git.cpl
+stat D:\mysql\mysqlapp\bin\git.bat
+stat D:\mysql\mysqlapp\bin\git.cmd
+stat D:\mysql\mysqlapp\bin\git.com
+stat D:\mysql\mysqlapp\bin\git.exe
+stat D:\mysql\mysqlapp\bin\git.vbs
+stat D:\mysql\mysqlapp\bin\git.vbe
+stat D:\mysql\mysqlapp\bin\git.js
+stat D:\mysql\mysqlapp\bin\git.jse
+stat D:\mysql\mysqlapp\bin\git.wsf
+stat D:\mysql\mysqlapp\bin\git.wsh
+stat D:\mysql\mysqlapp\bin\git.msc
+stat D:\mysql\mysqlapp\bin\git.cpl
+stat D:\maven\apache-maven-3.9.16\bin\git.bat
+stat D:\maven\apache-maven-3.9.16\bin\git.cmd
+stat D:\maven\apache-maven-3.9.16\bin\git.com
+stat D:\maven\apache-maven-3.9.16\bin\git.exe
+stat D:\maven\apache-maven-3.9.16\bin\git.vbs
+stat D:\maven\apache-maven-3.9.16\bin\git.vbe
+stat D:\maven\apache-maven-3.9.16\bin\git.js
+stat D:\maven\apache-maven-3.9.16\bin\git.jse
+stat D:\maven\apache-maven-3.9.16\bin\git.wsf
+stat D:\maven\apache-maven-3.9.16\bin\git.wsh
+stat D:\maven\apache-maven-3.9.16\bin\git.msc
+stat D:\maven\apache-maven-3.9.16\bin\git.cpl
+stat D:\cursor\cursor\resources\app\bin\git.bat
+stat D:\cursor\cursor\resources\app\bin\git.cmd
+stat D:\cursor\cursor\resources\app\bin\git.com
+stat D:\cursor\cursor\resources\app\bin\git.exe
+stat D:\cursor\cursor\resources\app\bin\git.vbs
+stat D:\cursor\cursor\resources\app\bin\git.vbe
+stat D:\cursor\cursor\resources\app\bin\git.js
+stat D:\cursor\cursor\resources\app\bin\git.jse
+stat D:\cursor\cursor\resources\app\bin\git.wsf
+stat D:\cursor\cursor\resources\app\bin\git.wsh
+stat D:\cursor\cursor\resources\app\bin\git.msc
+stat D:\cursor\cursor\resources\app\bin\git.cpl
+stat D:\git\Git\cmd\git.bat
+stat D:\git\Git\cmd\git.cmd
+stat D:\git\Git\cmd\git.com
+stat D:\git\Git\cmd\git.exe
+getenv PATHEXT
+open NUL
+open D:\git\Git\cmd\git.exe
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133\001\app
+open C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133\001\app\README.md
+getenv PATHEXT
+getenv NoDefaultCurrentDirectoryInExePath
+stat git.bat
+stat git.cmd
+stat git.com
+stat git.exe
+stat git.vbs
+stat git.vbe
+stat git.js
+stat git.jse
+stat git.wsf
+stat git.wsh
+stat git.msc
+stat git.cpl
+getenv path
+stat D:\go\bin\git.bat
+stat D:\go\bin\git.cmd
+stat D:\go\bin\git.com
+stat D:\go\bin\git.exe
+stat D:\go\bin\git.vbs
+stat D:\go\bin\git.vbe
+stat D:\go\bin\git.js
+stat D:\go\bin\git.jse
+stat D:\go\bin\git.wsf
+stat D:\go\bin\git.wsh
+stat D:\go\bin\git.msc
+stat D:\go\bin\git.cpl
+stat C:\Users\Xin\.sbx-denybin\git.bat
+stat C:\Users\Xin\.sbx-denybin\git.cmd
+stat C:\Users\Xin\.sbx-denybin\git.com
+stat C:\Users\Xin\.sbx-denybin\git.exe
+stat C:\Users\Xin\.sbx-denybin\git.vbs
+stat C:\Users\Xin\.sbx-denybin\git.vbe
+stat C:\Users\Xin\.sbx-denybin\git.js
+stat C:\Users\Xin\.sbx-denybin\git.jse
+stat C:\Users\Xin\.sbx-denybin\git.wsf
+stat C:\Users\Xin\.sbx-denybin\git.wsh
+stat C:\Users\Xin\.sbx-denybin\git.msc
+stat C:\Users\Xin\.sbx-denybin\git.cpl
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.bat
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.cmd
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.com
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.exe
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.vbs
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.vbe
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.js
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.jse
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.wsf
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.wsh
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.msc
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.cpl
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.bat
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.cmd
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.com
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.exe
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.vbs
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.vbe
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.js
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.jse
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.wsf
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.wsh
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.msc
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.cpl
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.bat
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.cmd
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.com
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.exe
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.vbs
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.vbe
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.js
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.jse
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.wsf
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.wsh
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.msc
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.cpl
+stat D:\vmware\bin\git.bat
+stat D:\vmware\bin\git.cmd
+stat D:\vmware\bin\git.com
+stat D:\vmware\bin\git.exe
+stat D:\vmware\bin\git.vbs
+stat D:\vmware\bin\git.vbe
+stat D:\vmware\bin\git.js
+stat D:\vmware\bin\git.jse
+stat D:\vmware\bin\git.wsf
+stat D:\vmware\bin\git.wsh
+stat D:\vmware\bin\git.msc
+stat D:\vmware\bin\git.cpl
+stat C:\windows\system32\git.bat
+stat C:\windows\system32\git.cmd
+stat C:\windows\system32\git.com
+stat C:\windows\system32\git.exe
+stat C:\windows\system32\git.vbs
+stat C:\windows\system32\git.vbe
+stat C:\windows\system32\git.js
+stat C:\windows\system32\git.jse
+stat C:\windows\system32\git.wsf
+stat C:\windows\system32\git.wsh
+stat C:\windows\system32\git.msc
+stat C:\windows\system32\git.cpl
+stat C:\windows\git.bat
+stat C:\windows\git.cmd
+stat C:\windows\git.com
+stat C:\windows\git.exe
+stat C:\windows\git.vbs
+stat C:\windows\git.vbe
+stat C:\windows\git.js
+stat C:\windows\git.jse
+stat C:\windows\git.wsf
+stat C:\windows\git.wsh
+stat C:\windows\git.msc
+stat C:\windows\git.cpl
+stat C:\windows\System32\Wbem\git.bat
+stat C:\windows\System32\Wbem\git.cmd
+stat C:\windows\System32\Wbem\git.com
+stat C:\windows\System32\Wbem\git.exe
+stat C:\windows\System32\Wbem\git.vbs
+stat C:\windows\System32\Wbem\git.vbe
+stat C:\windows\System32\Wbem\git.js
+stat C:\windows\System32\Wbem\git.jse
+stat C:\windows\System32\Wbem\git.wsf
+stat C:\windows\System32\Wbem\git.wsh
+stat C:\windows\System32\Wbem\git.msc
+stat C:\windows\System32\Wbem\git.cpl
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.bat
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.cmd
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.com
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.exe
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.vbs
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.vbe
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.js
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.jse
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.wsf
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.wsh
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.msc
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.cpl
+stat C:\windows\System32\OpenSSH\git.bat
+stat C:\windows\System32\OpenSSH\git.cmd
+stat C:\windows\System32\OpenSSH\git.com
+stat C:\windows\System32\OpenSSH\git.exe
+stat C:\windows\System32\OpenSSH\git.vbs
+stat C:\windows\System32\OpenSSH\git.vbe
+stat C:\windows\System32\OpenSSH\git.js
+stat C:\windows\System32\OpenSSH\git.jse
+stat C:\windows\System32\OpenSSH\git.wsf
+stat C:\windows\System32\OpenSSH\git.wsh
+stat C:\windows\System32\OpenSSH\git.msc
+stat C:\windows\System32\OpenSSH\git.cpl
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.bat
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.cmd
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.com
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.exe
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.vbs
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.vbe
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.js
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.jse
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.wsf
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.wsh
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.msc
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.cpl
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.bat
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.cmd
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.com
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.exe
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.vbs
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.vbe
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.js
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.jse
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.wsf
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.wsh
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.msc
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.cpl
+stat C:\Program Files\Common Files\Autodesk Shared\git.bat
+stat C:\Program Files\Common Files\Autodesk Shared\git.cmd
+stat C:\Program Files\Common Files\Autodesk Shared\git.com
+stat C:\Program Files\Common Files\Autodesk Shared\git.exe
+stat C:\Program Files\Common Files\Autodesk Shared\git.vbs
+stat C:\Program Files\Common Files\Autodesk Shared\git.vbe
+stat C:\Program Files\Common Files\Autodesk Shared\git.js
+stat C:\Program Files\Common Files\Autodesk Shared\git.jse
+stat C:\Program Files\Common Files\Autodesk Shared\git.wsf
+stat C:\Program Files\Common Files\Autodesk Shared\git.wsh
+stat C:\Program Files\Common Files\Autodesk Shared\git.msc
+stat C:\Program Files\Common Files\Autodesk Shared\git.cpl
+stat C:\Program Files\dotnet\git.bat
+stat C:\Program Files\dotnet\git.cmd
+stat C:\Program Files\dotnet\git.com
+stat C:\Program Files\dotnet\git.exe
+stat C:\Program Files\dotnet\git.vbs
+stat C:\Program Files\dotnet\git.vbe
+stat C:\Program Files\dotnet\git.js
+stat C:\Program Files\dotnet\git.jse
+stat C:\Program Files\dotnet\git.wsf
+stat C:\Program Files\dotnet\git.wsh
+stat C:\Program Files\dotnet\git.msc
+stat C:\Program Files\dotnet\git.cpl
+stat D:\Xin\texlive\2024\bin\windows\git.bat
+stat D:\Xin\texlive\2024\bin\windows\git.cmd
+stat D:\Xin\texlive\2024\bin\windows\git.com
+stat D:\Xin\texlive\2024\bin\windows\git.exe
+stat D:\Xin\texlive\2024\bin\windows\git.vbs
+stat D:\Xin\texlive\2024\bin\windows\git.vbe
+stat D:\Xin\texlive\2024\bin\windows\git.js
+stat D:\Xin\texlive\2024\bin\windows\git.jse
+stat D:\Xin\texlive\2024\bin\windows\git.wsf
+stat D:\Xin\texlive\2024\bin\windows\git.wsh
+stat D:\Xin\texlive\2024\bin\windows\git.msc
+stat D:\Xin\texlive\2024\bin\windows\git.cpl
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.bat
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.cmd
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.com
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.exe
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.vbs
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.vbe
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.js
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.jse
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.wsf
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.wsh
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.msc
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.cpl
+stat D:\vscode\mingw64\bin\git.bat
+stat D:\vscode\mingw64\bin\git.cmd
+stat D:\vscode\mingw64\bin\git.com
+stat D:\vscode\mingw64\bin\git.exe
+stat D:\vscode\mingw64\bin\git.vbs
+stat D:\vscode\mingw64\bin\git.vbe
+stat D:\vscode\mingw64\bin\git.js
+stat D:\vscode\mingw64\bin\git.jse
+stat D:\vscode\mingw64\bin\git.wsf
+stat D:\vscode\mingw64\bin\git.wsh
+stat D:\vscode\mingw64\bin\git.msc
+stat D:\vscode\mingw64\bin\git.cpl
+stat D:\xshell\git.bat
+stat D:\xshell\git.cmd
+stat D:\xshell\git.com
+stat D:\xshell\git.exe
+stat D:\xshell\git.vbs
+stat D:\xshell\git.vbe
+stat D:\xshell\git.js
+stat D:\xshell\git.jse
+stat D:\xshell\git.wsf
+stat D:\xshell\git.wsh
+stat D:\xshell\git.msc
+stat D:\xshell\git.cpl
+stat D:\mysql\mysqlapp\bin\git.bat
+stat D:\mysql\mysqlapp\bin\git.cmd
+stat D:\mysql\mysqlapp\bin\git.com
+stat D:\mysql\mysqlapp\bin\git.exe
+stat D:\mysql\mysqlapp\bin\git.vbs
+stat D:\mysql\mysqlapp\bin\git.vbe
+stat D:\mysql\mysqlapp\bin\git.js
+stat D:\mysql\mysqlapp\bin\git.jse
+stat D:\mysql\mysqlapp\bin\git.wsf
+stat D:\mysql\mysqlapp\bin\git.wsh
+stat D:\mysql\mysqlapp\bin\git.msc
+stat D:\mysql\mysqlapp\bin\git.cpl
+stat D:\maven\apache-maven-3.9.16\bin\git.bat
+stat D:\maven\apache-maven-3.9.16\bin\git.cmd
+stat D:\maven\apache-maven-3.9.16\bin\git.com
+stat D:\maven\apache-maven-3.9.16\bin\git.exe
+stat D:\maven\apache-maven-3.9.16\bin\git.vbs
+stat D:\maven\apache-maven-3.9.16\bin\git.vbe
+stat D:\maven\apache-maven-3.9.16\bin\git.js
+stat D:\maven\apache-maven-3.9.16\bin\git.jse
+stat D:\maven\apache-maven-3.9.16\bin\git.wsf
+stat D:\maven\apache-maven-3.9.16\bin\git.wsh
+stat D:\maven\apache-maven-3.9.16\bin\git.msc
+stat D:\maven\apache-maven-3.9.16\bin\git.cpl
+stat D:\cursor\cursor\resources\app\bin\git.bat
+stat D:\cursor\cursor\resources\app\bin\git.cmd
+stat D:\cursor\cursor\resources\app\bin\git.com
+stat D:\cursor\cursor\resources\app\bin\git.exe
+stat D:\cursor\cursor\resources\app\bin\git.vbs
+stat D:\cursor\cursor\resources\app\bin\git.vbe
+stat D:\cursor\cursor\resources\app\bin\git.js
+stat D:\cursor\cursor\resources\app\bin\git.jse
+stat D:\cursor\cursor\resources\app\bin\git.wsf
+stat D:\cursor\cursor\resources\app\bin\git.wsh
+stat D:\cursor\cursor\resources\app\bin\git.msc
+stat D:\cursor\cursor\resources\app\bin\git.cpl
+stat D:\git\Git\cmd\git.bat
+stat D:\git\Git\cmd\git.cmd
+stat D:\git\Git\cmd\git.com
+stat D:\git\Git\cmd\git.exe
+getenv PATHEXT
+open NUL
+open D:\git\Git\cmd\git.exe
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133\001\app
+getenv PATHEXT
+getenv NoDefaultCurrentDirectoryInExePath
+stat git.bat
+stat git.cmd
+stat git.com
+stat git.exe
+stat git.vbs
+stat git.vbe
+stat git.js
+stat git.jse
+stat git.wsf
+stat git.wsh
+stat git.msc
+stat git.cpl
+getenv path
+stat D:\go\bin\git.bat
+stat D:\go\bin\git.cmd
+stat D:\go\bin\git.com
+stat D:\go\bin\git.exe
+stat D:\go\bin\git.vbs
+stat D:\go\bin\git.vbe
+stat D:\go\bin\git.js
+stat D:\go\bin\git.jse
+stat D:\go\bin\git.wsf
+stat D:\go\bin\git.wsh
+stat D:\go\bin\git.msc
+stat D:\go\bin\git.cpl
+stat C:\Users\Xin\.sbx-denybin\git.bat
+stat C:\Users\Xin\.sbx-denybin\git.cmd
+stat C:\Users\Xin\.sbx-denybin\git.com
+stat C:\Users\Xin\.sbx-denybin\git.exe
+stat C:\Users\Xin\.sbx-denybin\git.vbs
+stat C:\Users\Xin\.sbx-denybin\git.vbe
+stat C:\Users\Xin\.sbx-denybin\git.js
+stat C:\Users\Xin\.sbx-denybin\git.jse
+stat C:\Users\Xin\.sbx-denybin\git.wsf
+stat C:\Users\Xin\.sbx-denybin\git.wsh
+stat C:\Users\Xin\.sbx-denybin\git.msc
+stat C:\Users\Xin\.sbx-denybin\git.cpl
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.bat
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.cmd
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.com
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.exe
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.vbs
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.vbe
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.js
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.jse
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.wsf
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.wsh
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.msc
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.cpl
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.bat
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.cmd
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.com
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.exe
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.vbs
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.vbe
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.js
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.jse
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.wsf
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.wsh
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.msc
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.cpl
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.bat
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.cmd
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.com
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.exe
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.vbs
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.vbe
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.js
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.jse
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.wsf
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.wsh
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.msc
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.cpl
+stat D:\vmware\bin\git.bat
+stat D:\vmware\bin\git.cmd
+stat D:\vmware\bin\git.com
+stat D:\vmware\bin\git.exe
+stat D:\vmware\bin\git.vbs
+stat D:\vmware\bin\git.vbe
+stat D:\vmware\bin\git.js
+stat D:\vmware\bin\git.jse
+stat D:\vmware\bin\git.wsf
+stat D:\vmware\bin\git.wsh
+stat D:\vmware\bin\git.msc
+stat D:\vmware\bin\git.cpl
+stat C:\windows\system32\git.bat
+stat C:\windows\system32\git.cmd
+stat C:\windows\system32\git.com
+stat C:\windows\system32\git.exe
+stat C:\windows\system32\git.vbs
+stat C:\windows\system32\git.vbe
+stat C:\windows\system32\git.js
+stat C:\windows\system32\git.jse
+stat C:\windows\system32\git.wsf
+stat C:\windows\system32\git.wsh
+stat C:\windows\system32\git.msc
+stat C:\windows\system32\git.cpl
+stat C:\windows\git.bat
+stat C:\windows\git.cmd
+stat C:\windows\git.com
+stat C:\windows\git.exe
+stat C:\windows\git.vbs
+stat C:\windows\git.vbe
+stat C:\windows\git.js
+stat C:\windows\git.jse
+stat C:\windows\git.wsf
+stat C:\windows\git.wsh
+stat C:\windows\git.msc
+stat C:\windows\git.cpl
+stat C:\windows\System32\Wbem\git.bat
+stat C:\windows\System32\Wbem\git.cmd
+stat C:\windows\System32\Wbem\git.com
+stat C:\windows\System32\Wbem\git.exe
+stat C:\windows\System32\Wbem\git.vbs
+stat C:\windows\System32\Wbem\git.vbe
+stat C:\windows\System32\Wbem\git.js
+stat C:\windows\System32\Wbem\git.jse
+stat C:\windows\System32\Wbem\git.wsf
+stat C:\windows\System32\Wbem\git.wsh
+stat C:\windows\System32\Wbem\git.msc
+stat C:\windows\System32\Wbem\git.cpl
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.bat
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.cmd
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.com
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.exe
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.vbs
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.vbe
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.js
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.jse
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.wsf
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.wsh
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.msc
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.cpl
+stat C:\windows\System32\OpenSSH\git.bat
+stat C:\windows\System32\OpenSSH\git.cmd
+stat C:\windows\System32\OpenSSH\git.com
+stat C:\windows\System32\OpenSSH\git.exe
+stat C:\windows\System32\OpenSSH\git.vbs
+stat C:\windows\System32\OpenSSH\git.vbe
+stat C:\windows\System32\OpenSSH\git.js
+stat C:\windows\System32\OpenSSH\git.jse
+stat C:\windows\System32\OpenSSH\git.wsf
+stat C:\windows\System32\OpenSSH\git.wsh
+stat C:\windows\System32\OpenSSH\git.msc
+stat C:\windows\System32\OpenSSH\git.cpl
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.bat
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.cmd
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.com
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.exe
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.vbs
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.vbe
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.js
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.jse
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.wsf
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.wsh
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.msc
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.cpl
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.bat
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.cmd
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.com
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.exe
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.vbs
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.vbe
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.js
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.jse
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.wsf
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.wsh
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.msc
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.cpl
+stat C:\Program Files\Common Files\Autodesk Shared\git.bat
+stat C:\Program Files\Common Files\Autodesk Shared\git.cmd
+stat C:\Program Files\Common Files\Autodesk Shared\git.com
+stat C:\Program Files\Common Files\Autodesk Shared\git.exe
+stat C:\Program Files\Common Files\Autodesk Shared\git.vbs
+stat C:\Program Files\Common Files\Autodesk Shared\git.vbe
+stat C:\Program Files\Common Files\Autodesk Shared\git.js
+stat C:\Program Files\Common Files\Autodesk Shared\git.jse
+stat C:\Program Files\Common Files\Autodesk Shared\git.wsf
+stat C:\Program Files\Common Files\Autodesk Shared\git.wsh
+stat C:\Program Files\Common Files\Autodesk Shared\git.msc
+stat C:\Program Files\Common Files\Autodesk Shared\git.cpl
+stat C:\Program Files\dotnet\git.bat
+stat C:\Program Files\dotnet\git.cmd
+stat C:\Program Files\dotnet\git.com
+stat C:\Program Files\dotnet\git.exe
+stat C:\Program Files\dotnet\git.vbs
+stat C:\Program Files\dotnet\git.vbe
+stat C:\Program Files\dotnet\git.js
+stat C:\Program Files\dotnet\git.jse
+stat C:\Program Files\dotnet\git.wsf
+stat C:\Program Files\dotnet\git.wsh
+stat C:\Program Files\dotnet\git.msc
+stat C:\Program Files\dotnet\git.cpl
+stat D:\Xin\texlive\2024\bin\windows\git.bat
+stat D:\Xin\texlive\2024\bin\windows\git.cmd
+stat D:\Xin\texlive\2024\bin\windows\git.com
+stat D:\Xin\texlive\2024\bin\windows\git.exe
+stat D:\Xin\texlive\2024\bin\windows\git.vbs
+stat D:\Xin\texlive\2024\bin\windows\git.vbe
+stat D:\Xin\texlive\2024\bin\windows\git.js
+stat D:\Xin\texlive\2024\bin\windows\git.jse
+stat D:\Xin\texlive\2024\bin\windows\git.wsf
+stat D:\Xin\texlive\2024\bin\windows\git.wsh
+stat D:\Xin\texlive\2024\bin\windows\git.msc
+stat D:\Xin\texlive\2024\bin\windows\git.cpl
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.bat
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.cmd
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.com
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.exe
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.vbs
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.vbe
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.js
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.jse
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.wsf
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.wsh
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.msc
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.cpl
+stat D:\vscode\mingw64\bin\git.bat
+stat D:\vscode\mingw64\bin\git.cmd
+stat D:\vscode\mingw64\bin\git.com
+stat D:\vscode\mingw64\bin\git.exe
+stat D:\vscode\mingw64\bin\git.vbs
+stat D:\vscode\mingw64\bin\git.vbe
+stat D:\vscode\mingw64\bin\git.js
+stat D:\vscode\mingw64\bin\git.jse
+stat D:\vscode\mingw64\bin\git.wsf
+stat D:\vscode\mingw64\bin\git.wsh
+stat D:\vscode\mingw64\bin\git.msc
+stat D:\vscode\mingw64\bin\git.cpl
+stat D:\xshell\git.bat
+stat D:\xshell\git.cmd
+stat D:\xshell\git.com
+stat D:\xshell\git.exe
+stat D:\xshell\git.vbs
+stat D:\xshell\git.vbe
+stat D:\xshell\git.js
+stat D:\xshell\git.jse
+stat D:\xshell\git.wsf
+stat D:\xshell\git.wsh
+stat D:\xshell\git.msc
+stat D:\xshell\git.cpl
+stat D:\mysql\mysqlapp\bin\git.bat
+stat D:\mysql\mysqlapp\bin\git.cmd
+stat D:\mysql\mysqlapp\bin\git.com
+stat D:\mysql\mysqlapp\bin\git.exe
+stat D:\mysql\mysqlapp\bin\git.vbs
+stat D:\mysql\mysqlapp\bin\git.vbe
+stat D:\mysql\mysqlapp\bin\git.js
+stat D:\mysql\mysqlapp\bin\git.jse
+stat D:\mysql\mysqlapp\bin\git.wsf
+stat D:\mysql\mysqlapp\bin\git.wsh
+stat D:\mysql\mysqlapp\bin\git.msc
+stat D:\mysql\mysqlapp\bin\git.cpl
+stat D:\maven\apache-maven-3.9.16\bin\git.bat
+stat D:\maven\apache-maven-3.9.16\bin\git.cmd
+stat D:\maven\apache-maven-3.9.16\bin\git.com
+stat D:\maven\apache-maven-3.9.16\bin\git.exe
+stat D:\maven\apache-maven-3.9.16\bin\git.vbs
+stat D:\maven\apache-maven-3.9.16\bin\git.vbe
+stat D:\maven\apache-maven-3.9.16\bin\git.js
+stat D:\maven\apache-maven-3.9.16\bin\git.jse
+stat D:\maven\apache-maven-3.9.16\bin\git.wsf
+stat D:\maven\apache-maven-3.9.16\bin\git.wsh
+stat D:\maven\apache-maven-3.9.16\bin\git.msc
+stat D:\maven\apache-maven-3.9.16\bin\git.cpl
+stat D:\cursor\cursor\resources\app\bin\git.bat
+stat D:\cursor\cursor\resources\app\bin\git.cmd
+stat D:\cursor\cursor\resources\app\bin\git.com
+stat D:\cursor\cursor\resources\app\bin\git.exe
+stat D:\cursor\cursor\resources\app\bin\git.vbs
+stat D:\cursor\cursor\resources\app\bin\git.vbe
+stat D:\cursor\cursor\resources\app\bin\git.js
+stat D:\cursor\cursor\resources\app\bin\git.jse
+stat D:\cursor\cursor\resources\app\bin\git.wsf
+stat D:\cursor\cursor\resources\app\bin\git.wsh
+stat D:\cursor\cursor\resources\app\bin\git.msc
+stat D:\cursor\cursor\resources\app\bin\git.cpl
+stat D:\git\Git\cmd\git.bat
+stat D:\git\Git\cmd\git.cmd
+stat D:\git\Git\cmd\git.com
+stat D:\git\Git\cmd\git.exe
+getenv PATHEXT
+open NUL
+open D:\git\Git\cmd\git.exe
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133\001\app
+stat C:\Users
+stat C:\Users\Xin
+stat C:\Users\Xin\AppData
+stat C:\Users\Xin\AppData\Local
+stat C:\Users\Xin\AppData\Local\Temp
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133\001
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133\001
+getenv PATHEXT
+getenv NoDefaultCurrentDirectoryInExePath
+stat git.bat
+stat git.cmd
+stat git.com
+stat git.exe
+stat git.vbs
+stat git.vbe
+stat git.js
+stat git.jse
+stat git.wsf
+stat git.wsh
+stat git.msc
+stat git.cpl
+getenv path
+stat D:\go\bin\git.bat
+stat D:\go\bin\git.cmd
+stat D:\go\bin\git.com
+stat D:\go\bin\git.exe
+stat D:\go\bin\git.vbs
+stat D:\go\bin\git.vbe
+stat D:\go\bin\git.js
+stat D:\go\bin\git.jse
+stat D:\go\bin\git.wsf
+stat D:\go\bin\git.wsh
+stat D:\go\bin\git.msc
+stat D:\go\bin\git.cpl
+stat C:\Users\Xin\.sbx-denybin\git.bat
+stat C:\Users\Xin\.sbx-denybin\git.cmd
+stat C:\Users\Xin\.sbx-denybin\git.com
+stat C:\Users\Xin\.sbx-denybin\git.exe
+stat C:\Users\Xin\.sbx-denybin\git.vbs
+stat C:\Users\Xin\.sbx-denybin\git.vbe
+stat C:\Users\Xin\.sbx-denybin\git.js
+stat C:\Users\Xin\.sbx-denybin\git.jse
+stat C:\Users\Xin\.sbx-denybin\git.wsf
+stat C:\Users\Xin\.sbx-denybin\git.wsh
+stat C:\Users\Xin\.sbx-denybin\git.msc
+stat C:\Users\Xin\.sbx-denybin\git.cpl
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.bat
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.cmd
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.com
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.exe
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.vbs
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.vbe
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.js
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.jse
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.wsf
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.wsh
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.msc
+stat C:\Users\Xin\.codex\tmp\arg0\codex-arg0wsqxr5\git.cpl
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.bat
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.cmd
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.com
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.exe
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.vbs
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.vbe
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.js
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.jse
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.wsf
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.wsh
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.msc
+stat C:\Users\Xin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override\git.cpl
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.bat
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.cmd
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.com
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.exe
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.vbs
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.vbe
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.js
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.jse
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.wsf
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.wsh
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.msc
+stat C:\Program Files\Common Files\Oracle\Java\javapath\git.cpl
+stat D:\vmware\bin\git.bat
+stat D:\vmware\bin\git.cmd
+stat D:\vmware\bin\git.com
+stat D:\vmware\bin\git.exe
+stat D:\vmware\bin\git.vbs
+stat D:\vmware\bin\git.vbe
+stat D:\vmware\bin\git.js
+stat D:\vmware\bin\git.jse
+stat D:\vmware\bin\git.wsf
+stat D:\vmware\bin\git.wsh
+stat D:\vmware\bin\git.msc
+stat D:\vmware\bin\git.cpl
+stat C:\windows\system32\git.bat
+stat C:\windows\system32\git.cmd
+stat C:\windows\system32\git.com
+stat C:\windows\system32\git.exe
+stat C:\windows\system32\git.vbs
+stat C:\windows\system32\git.vbe
+stat C:\windows\system32\git.js
+stat C:\windows\system32\git.jse
+stat C:\windows\system32\git.wsf
+stat C:\windows\system32\git.wsh
+stat C:\windows\system32\git.msc
+stat C:\windows\system32\git.cpl
+stat C:\windows\git.bat
+stat C:\windows\git.cmd
+stat C:\windows\git.com
+stat C:\windows\git.exe
+stat C:\windows\git.vbs
+stat C:\windows\git.vbe
+stat C:\windows\git.js
+stat C:\windows\git.jse
+stat C:\windows\git.wsf
+stat C:\windows\git.wsh
+stat C:\windows\git.msc
+stat C:\windows\git.cpl
+stat C:\windows\System32\Wbem\git.bat
+stat C:\windows\System32\Wbem\git.cmd
+stat C:\windows\System32\Wbem\git.com
+stat C:\windows\System32\Wbem\git.exe
+stat C:\windows\System32\Wbem\git.vbs
+stat C:\windows\System32\Wbem\git.vbe
+stat C:\windows\System32\Wbem\git.js
+stat C:\windows\System32\Wbem\git.jse
+stat C:\windows\System32\Wbem\git.wsf
+stat C:\windows\System32\Wbem\git.wsh
+stat C:\windows\System32\Wbem\git.msc
+stat C:\windows\System32\Wbem\git.cpl
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.bat
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.cmd
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.com
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.exe
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.vbs
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.vbe
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.js
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.jse
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.wsf
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.wsh
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.msc
+stat C:\windows\System32\WindowsPowerShell\v1.0\git.cpl
+stat C:\windows\System32\OpenSSH\git.bat
+stat C:\windows\System32\OpenSSH\git.cmd
+stat C:\windows\System32\OpenSSH\git.com
+stat C:\windows\System32\OpenSSH\git.exe
+stat C:\windows\System32\OpenSSH\git.vbs
+stat C:\windows\System32\OpenSSH\git.vbe
+stat C:\windows\System32\OpenSSH\git.js
+stat C:\windows\System32\OpenSSH\git.jse
+stat C:\windows\System32\OpenSSH\git.wsf
+stat C:\windows\System32\OpenSSH\git.wsh
+stat C:\windows\System32\OpenSSH\git.msc
+stat C:\windows\System32\OpenSSH\git.cpl
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.bat
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.cmd
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.com
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.exe
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.vbs
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.vbe
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.js
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.jse
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.wsf
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.wsh
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.msc
+stat C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\git.cpl
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.bat
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.cmd
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.com
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.exe
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.vbs
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.vbe
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.js
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.jse
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.wsf
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.wsh
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.msc
+stat C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\git.cpl
+stat C:\Program Files\Common Files\Autodesk Shared\git.bat
+stat C:\Program Files\Common Files\Autodesk Shared\git.cmd
+stat C:\Program Files\Common Files\Autodesk Shared\git.com
+stat C:\Program Files\Common Files\Autodesk Shared\git.exe
+stat C:\Program Files\Common Files\Autodesk Shared\git.vbs
+stat C:\Program Files\Common Files\Autodesk Shared\git.vbe
+stat C:\Program Files\Common Files\Autodesk Shared\git.js
+stat C:\Program Files\Common Files\Autodesk Shared\git.jse
+stat C:\Program Files\Common Files\Autodesk Shared\git.wsf
+stat C:\Program Files\Common Files\Autodesk Shared\git.wsh
+stat C:\Program Files\Common Files\Autodesk Shared\git.msc
+stat C:\Program Files\Common Files\Autodesk Shared\git.cpl
+stat C:\Program Files\dotnet\git.bat
+stat C:\Program Files\dotnet\git.cmd
+stat C:\Program Files\dotnet\git.com
+stat C:\Program Files\dotnet\git.exe
+stat C:\Program Files\dotnet\git.vbs
+stat C:\Program Files\dotnet\git.vbe
+stat C:\Program Files\dotnet\git.js
+stat C:\Program Files\dotnet\git.jse
+stat C:\Program Files\dotnet\git.wsf
+stat C:\Program Files\dotnet\git.wsh
+stat C:\Program Files\dotnet\git.msc
+stat C:\Program Files\dotnet\git.cpl
+stat D:\Xin\texlive\2024\bin\windows\git.bat
+stat D:\Xin\texlive\2024\bin\windows\git.cmd
+stat D:\Xin\texlive\2024\bin\windows\git.com
+stat D:\Xin\texlive\2024\bin\windows\git.exe
+stat D:\Xin\texlive\2024\bin\windows\git.vbs
+stat D:\Xin\texlive\2024\bin\windows\git.vbe
+stat D:\Xin\texlive\2024\bin\windows\git.js
+stat D:\Xin\texlive\2024\bin\windows\git.jse
+stat D:\Xin\texlive\2024\bin\windows\git.wsf
+stat D:\Xin\texlive\2024\bin\windows\git.wsh
+stat D:\Xin\texlive\2024\bin\windows\git.msc
+stat D:\Xin\texlive\2024\bin\windows\git.cpl
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.bat
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.cmd
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.com
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.exe
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.vbs
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.vbe
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.js
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.jse
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.wsf
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.wsh
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.msc
+stat G:G:\Qt\6.5.3\mingw_64\bin\git.cpl
+stat D:\vscode\mingw64\bin\git.bat
+stat D:\vscode\mingw64\bin\git.cmd
+stat D:\vscode\mingw64\bin\git.com
+stat D:\vscode\mingw64\bin\git.exe
+stat D:\vscode\mingw64\bin\git.vbs
+stat D:\vscode\mingw64\bin\git.vbe
+stat D:\vscode\mingw64\bin\git.js
+stat D:\vscode\mingw64\bin\git.jse
+stat D:\vscode\mingw64\bin\git.wsf
+stat D:\vscode\mingw64\bin\git.wsh
+stat D:\vscode\mingw64\bin\git.msc
+stat D:\vscode\mingw64\bin\git.cpl
+stat D:\xshell\git.bat
+stat D:\xshell\git.cmd
+stat D:\xshell\git.com
+stat D:\xshell\git.exe
+stat D:\xshell\git.vbs
+stat D:\xshell\git.vbe
+stat D:\xshell\git.js
+stat D:\xshell\git.jse
+stat D:\xshell\git.wsf
+stat D:\xshell\git.wsh
+stat D:\xshell\git.msc
+stat D:\xshell\git.cpl
+stat D:\mysql\mysqlapp\bin\git.bat
+stat D:\mysql\mysqlapp\bin\git.cmd
+stat D:\mysql\mysqlapp\bin\git.com
+stat D:\mysql\mysqlapp\bin\git.exe
+stat D:\mysql\mysqlapp\bin\git.vbs
+stat D:\mysql\mysqlapp\bin\git.vbe
+stat D:\mysql\mysqlapp\bin\git.js
+stat D:\mysql\mysqlapp\bin\git.jse
+stat D:\mysql\mysqlapp\bin\git.wsf
+stat D:\mysql\mysqlapp\bin\git.wsh
+stat D:\mysql\mysqlapp\bin\git.msc
+stat D:\mysql\mysqlapp\bin\git.cpl
+stat D:\maven\apache-maven-3.9.16\bin\git.bat
+stat D:\maven\apache-maven-3.9.16\bin\git.cmd
+stat D:\maven\apache-maven-3.9.16\bin\git.com
+stat D:\maven\apache-maven-3.9.16\bin\git.exe
+stat D:\maven\apache-maven-3.9.16\bin\git.vbs
+stat D:\maven\apache-maven-3.9.16\bin\git.vbe
+stat D:\maven\apache-maven-3.9.16\bin\git.js
+stat D:\maven\apache-maven-3.9.16\bin\git.jse
+stat D:\maven\apache-maven-3.9.16\bin\git.wsf
+stat D:\maven\apache-maven-3.9.16\bin\git.wsh
+stat D:\maven\apache-maven-3.9.16\bin\git.msc
+stat D:\maven\apache-maven-3.9.16\bin\git.cpl
+stat D:\cursor\cursor\resources\app\bin\git.bat
+stat D:\cursor\cursor\resources\app\bin\git.cmd
+stat D:\cursor\cursor\resources\app\bin\git.com
+stat D:\cursor\cursor\resources\app\bin\git.exe
+stat D:\cursor\cursor\resources\app\bin\git.vbs
+stat D:\cursor\cursor\resources\app\bin\git.vbe
+stat D:\cursor\cursor\resources\app\bin\git.js
+stat D:\cursor\cursor\resources\app\bin\git.jse
+stat D:\cursor\cursor\resources\app\bin\git.wsf
+stat D:\cursor\cursor\resources\app\bin\git.wsh
+stat D:\cursor\cursor\resources\app\bin\git.msc
+stat D:\cursor\cursor\resources\app\bin\git.cpl
+stat D:\git\Git\cmd\git.bat
+stat D:\git\Git\cmd\git.cmd
+stat D:\git\Git\cmd\git.com
+stat D:\git\Git\cmd\git.exe
+stat C:\Users
+stat C:\Users\Xin
+stat C:\Users\Xin\AppData
+stat C:\Users\Xin\AppData\Local
+stat C:\Users\Xin\AppData\Local\Temp
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133\001
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133\001\app
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133\001\app
+getenv PATHEXT
+open NUL
+open D:\git\Git\cmd\git.exe
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133\001\app
+stat C:\Users
+stat C:\Users\Xin
+stat C:\Users\Xin\AppData
+stat C:\Users\Xin\AppData\Local
+stat C:\Users\Xin\AppData\Local\Temp
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133\001
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133\001\app
+getenv PATHEXT
+open NUL
+open D:\git\Git\cmd\git.exe
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133\001\app
+getenv PATHEXT
+open NUL
+open D:\git\Git\cmd\git.exe
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133\001\app
+getenv PATHEXT
+open NUL
+open D:\git\Git\cmd\git.exe
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133\001\app
+stat C:\Users
+stat C:\Users\Xin
+stat C:\Users\Xin\AppData
+stat C:\Users\Xin\AppData\Local
+stat C:\Users\Xin\AppData\Local\Temp
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133\001
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133\001\app
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133\001\app\README.md
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133\001\app\README.md
+open C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133\001\app\README.md
+getenv PATHEXT
+open NUL
+open D:\git\Git\cmd\git.exe
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133\001\app
+getenv PATHEXT
+open NUL
+open D:\git\Git\cmd\git.exe
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133\001\app
+getenv PATHEXT
+open NUL
+open D:\git\Git\cmd\git.exe
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133\001\app
+stat C:\Users
+stat C:\Users\Xin
+stat C:\Users\Xin\AppData
+stat C:\Users\Xin\AppData\Local
+stat C:\Users\Xin\AppData\Local\Temp
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133\001
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133\001\app
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133\001\app
+getenv PATHEXT
+open NUL
+open D:\git\Git\cmd\git.exe
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133\001\app
+stat C:\Users
+stat C:\Users\Xin
+stat C:\Users\Xin\AppData
+stat C:\Users\Xin\AppData\Local
+stat C:\Users\Xin\AppData\Local\Temp
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133\001
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133\001\app
+getenv PATHEXT
+open NUL
+open D:\git\Git\cmd\git.exe
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133\001\app
+getenv PATHEXT
+open NUL
+open D:\git\Git\cmd\git.exe
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133\001\app
+getenv PATHEXT
+open NUL
+open D:\git\Git\cmd\git.exe
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133\001\app
+stat C:\Users
+stat C:\Users\Xin
+stat C:\Users\Xin\AppData
+stat C:\Users\Xin\AppData\Local
+stat C:\Users\Xin\AppData\Local\Temp
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133\001
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133\001\app
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133\001\app\README.md
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133\001\app\README.md
+open C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133\001\app\README.md
+getenv PATHEXT
+open NUL
+open D:\git\Git\cmd\git.exe
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133\001\app
+getenv PATHEXT
+open NUL
+open D:\git\Git\cmd\git.exe
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133\001\app
+getenv PATHEXT
+open NUL
+open D:\git\Git\cmd\git.exe
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133\001\app
+stat C:\Users
+stat C:\Users\Xin
+stat C:\Users\Xin\AppData
+stat C:\Users\Xin\AppData\Local
+stat C:\Users\Xin\AppData\Local\Temp
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133\001
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133\001\app
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133\001\app
+getenv PATHEXT
+open NUL
+open D:\git\Git\cmd\git.exe
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133\001\app
+stat C:\Users
+stat C:\Users\Xin
+stat C:\Users\Xin\AppData
+stat C:\Users\Xin\AppData\Local
+stat C:\Users\Xin\AppData\Local\Temp
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133\001
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133\001\app
+getenv PATHEXT
+open NUL
+open D:\git\Git\cmd\git.exe
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133\001\app
+getenv PATHEXT
+open NUL
+open D:\git\Git\cmd\git.exe
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133\001\app
+getenv PATHEXT
+open NUL
+open D:\git\Git\cmd\git.exe
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133\001\app
+getenv PATHEXT
+open NUL
+open D:\git\Git\cmd\git.exe
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133\001\app
+getenv PATHEXT
+open NUL
+open D:\git\Git\cmd\git.exe
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133\001\app
+getenv PATHEXT
+open NUL
+open D:\git\Git\cmd\git.exe
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133\001\app
+stat C:\Users
+stat C:\Users\Xin
+stat C:\Users\Xin\AppData
+stat C:\Users\Xin\AppData\Local
+stat C:\Users\Xin\AppData\Local\Temp
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133\001
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133\001\app
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133\001\app
+getenv PATHEXT
+open NUL
+open D:\git\Git\cmd\git.exe
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133\001\app
+stat C:\Users
+stat C:\Users\Xin
+stat C:\Users\Xin\AppData
+stat C:\Users\Xin\AppData\Local
+stat C:\Users\Xin\AppData\Local\Temp
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133\001
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133\001\app
+getenv PATHEXT
+open NUL
+open D:\git\Git\cmd\git.exe
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133\001\app
+getenv PATHEXT
+open NUL
+open D:\git\Git\cmd\git.exe
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133\001\app
+getenv PATHEXT
+open NUL
+open D:\git\Git\cmd\git.exe
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133\001\app
+getenv PATHEXT
+open NUL
+open D:\git\Git\cmd\git.exe
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133\001\app
+getenv PATHEXT
+open NUL
+open D:\git\Git\cmd\git.exe
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133\001\app
+getenv PATHEXT
+open NUL
+open D:\git\Git\cmd\git.exe
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133\001\app
+stat C:\Users
+stat C:\Users\Xin
+stat C:\Users\Xin\AppData
+stat C:\Users\Xin\AppData\Local
+stat C:\Users\Xin\AppData\Local\Temp
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133\001
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133\001\app
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133\001\app
+getenv PATHEXT
+open NUL
+open D:\git\Git\cmd\git.exe
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133\001\app
+stat C:\Users
+stat C:\Users\Xin
+stat C:\Users\Xin\AppData
+stat C:\Users\Xin\AppData\Local
+stat C:\Users\Xin\AppData\Local\Temp
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133\001
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133\001\app
+getenv PATHEXT
+open NUL
+open D:\git\Git\cmd\git.exe
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133\001\app
+getenv PATHEXT
+open NUL
+open D:\git\Git\cmd\git.exe
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133\001\app
+getenv PATHEXT
+open NUL
+open D:\git\Git\cmd\git.exe
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133\001\app
+getenv PATHEXT
+open NUL
+open D:\git\Git\cmd\git.exe
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133\001\app
+getenv PATHEXT
+open NUL
+open D:\git\Git\cmd\git.exe
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133\001\app
+getenv PATHEXT
+open NUL
+open D:\git\Git\cmd\git.exe
+stat C:\Users\Xin\AppData\Local\Temp\TestWorkspaceValidationLifecycle753829133\001\app
+open C:\Users\Xin\AppData\Local\Temp

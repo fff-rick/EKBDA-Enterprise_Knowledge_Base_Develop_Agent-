@@ -1,0 +1,26 @@
+{
+  "event_id": "cicd-event-001",
+  "release_id": "replace-with-release-id",
+  "run_id": "replace-with-provider-run-id",
+  "phase": "deploy",
+  "status": "succeeded",
+  "artifact": {
+    "uri": "https://artifacts.example.com/order-service/image",
+    "digest": "sha256:cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+    "sbom_uri": "https://artifacts.example.com/order-service/sbom.cdx.json",
+    "sbom_sha256": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+    "signature_verified": true,
+    "provenance_verified": true
+  },
+  "checks": [
+    {"name":"configuration","status":"passed","evidence_uri":"https://evidence.example.com/configuration","sha256":"eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"},
+    {"name":"secret_scan","status":"passed","evidence_uri":"https://evidence.example.com/secret-scan","sha256":"eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"},
+    {"name":"image_scan","status":"passed","evidence_uri":"https://evidence.example.com/image-scan","sha256":"eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"},
+    {"name":"migration","status":"passed","evidence_uri":"https://evidence.example.com/migration","sha256":"eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"},
+    {"name":"monitoring","status":"passed","evidence_uri":"https://evidence.example.com/monitoring","sha256":"eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"},
+    {"name":"rollback","status":"passed","evidence_uri":"https://evidence.example.com/rollback","sha256":"eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"},
+    {"name":"health","status":"passed","evidence_uri":"https://evidence.example.com/health","sha256":"eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"},
+    {"name":"smoke","status":"passed","evidence_uri":"https://evidence.example.com/smoke","sha256":"eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"},
+    {"name":"logs","status":"passed","evidence_uri":"https://evidence.example.com/logs","sha256":"eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"}
+  ]
+}

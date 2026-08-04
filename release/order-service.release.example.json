@@ -1,0 +1,9 @@
+{
+  "development_session_id": "replace-with-delivered-development-session-id",
+  "environment": "staging",
+  "pipeline": "standard-build-deploy",
+  "change_ticket": "CHG-2026-001",
+  "manifest_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "configuration_sha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+  "rollback_plan": "Redeploy the previously verified artifact and run rollback health and smoke checks."
+}

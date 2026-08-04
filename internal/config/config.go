@@ -33,6 +33,8 @@ const defaultDevelopmentSecretScannerName = "enterprise-secret-scanner"
 const defaultDevelopmentDeliveryRemote = "origin"
 const defaultDevelopmentDeliveryTimeoutSeconds = 120
 const defaultDevelopmentPRBinary = "gh"
+const defaultReleaseTimeoutSeconds = 120
+const defaultReleaseWebhookMaxAgeSeconds = 300
 
 type Config struct {
 	HTTPAddr                           string
@@ -91,6 +93,15 @@ type Config struct {
 	DevelopmentDeliveryToken           string
 	DevelopmentDeliveryTimeoutSeconds  int
 	DevelopmentPRBinary                string
+	ReleaseEnabled                     bool
+	ReleaseProviderBaseURL             string
+	ReleaseProviderToken               string
+	ReleaseWebhookSecret               string
+	ReleaseCodeWebhookSecret           string
+	ReleasePipelines                   []string
+	ReleaseEnvironments                []string
+	ReleaseTimeoutSeconds              int
+	ReleaseWebhookMaxAgeSeconds        int
 }
 
 func Load() Config {
@@ -183,6 +194,15 @@ func Load() Config {
 		DevelopmentDeliveryToken:           os.Getenv("EKBDA_DEVELOPMENT_DELIVERY_TOKEN"),
 		DevelopmentDeliveryTimeoutSeconds:  positiveInt("EKBDA_DEVELOPMENT_DELIVERY_TIMEOUT_SECONDS", defaultDevelopmentDeliveryTimeoutSeconds),
 		DevelopmentPRBinary:                valueOrDefault("EKBDA_DEVELOPMENT_PR_BINARY", defaultDevelopmentPRBinary),
+		ReleaseEnabled:                     os.Getenv("EKBDA_RELEASE_ENABLED") == "true",
+		ReleaseProviderBaseURL:             os.Getenv("EKBDA_RELEASE_PROVIDER_BASE_URL"),
+		ReleaseProviderToken:               os.Getenv("EKBDA_RELEASE_PROVIDER_TOKEN"),
+		ReleaseWebhookSecret:               os.Getenv("EKBDA_RELEASE_WEBHOOK_SECRET"),
+		ReleaseCodeWebhookSecret:           os.Getenv("EKBDA_RELEASE_CODE_WEBHOOK_SECRET"),
+		ReleasePipelines:                   commaSeparated("EKBDA_RELEASE_PIPELINES"),
+		ReleaseEnvironments:                commaSeparated("EKBDA_RELEASE_ENVIRONMENTS"),
+		ReleaseTimeoutSeconds:              positiveInt("EKBDA_RELEASE_TIMEOUT_SECONDS", defaultReleaseTimeoutSeconds),
+		ReleaseWebhookMaxAgeSeconds:        positiveInt("EKBDA_RELEASE_WEBHOOK_MAX_AGE_SECONDS", defaultReleaseWebhookMaxAgeSeconds),
 	}
 }
 

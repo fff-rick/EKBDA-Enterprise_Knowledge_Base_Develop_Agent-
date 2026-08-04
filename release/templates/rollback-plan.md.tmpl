@@ -1,0 +1,9 @@
+# Rollback plan: {{SERVICE_NAME}} {{RELEASE_VERSION}}
+
+- Trigger: SLO breach, failed smoke check, data-integrity alert, or approved incident decision.
+- Target artifact: `{{PREVIOUS_ARTIFACT_DIGEST}}` (must already have verified signature, provenance, and SBOM).
+- Data compatibility: {{DATABASE_BACKWARD_COMPATIBILITY_DECISION}}
+- Execution: invoke the configured CI/CD rollback endpoint; never log in to production nodes directly.
+- Verification: readiness, liveness, business smoke, error-rate, latency, saturation, logs, and alert state.
+- Stop condition: rollback health or smoke evidence fails; escalate to the incident commander.
+- Evidence: archive run ID, artifact digest, config hash, approver, timestamps, checks, and incident/change ticket.

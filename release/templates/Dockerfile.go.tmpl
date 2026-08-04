@@ -1,0 +1,18 @@
+# syntax=docker/dockerfile:1.7
+ARG GO_IMAGE={{GO_BUILD_IMAGE_WITH_SHA256_DIGEST}}
+ARG RUNTIME_IMAGE={{DISTROLESS_RUNTIME_IMAGE_WITH_SHA256_DIGEST}}
+
+FROM ${GO_IMAGE} AS build
+WORKDIR /src
+COPY go.mod go.sum ./
+RUN --mount=type=cache,target=/go/pkg/mod,sharing=locked go mod download
+COPY . .
+RUN --mount=type=cache,target=/root/.cache/go-build,sharing=locked \
+    CGO_ENABLED=0 GOOS=linux go build -trimpath -ldflags="-s -w" -o /out/service ./cmd/server
+
+FROM ${RUNTIME_IMAGE}
+WORKDIR /app
+COPY --from=build --chown=65532:65532 /out/service /app/service
+USER 65532:65532
+EXPOSE 8080
+ENTRYPOINT ["/app/service"]
