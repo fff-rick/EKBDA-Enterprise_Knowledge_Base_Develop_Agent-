@@ -1,4 +1,0 @@
-./memory_store.go
-./postgres_store.go
-./service.go
-./store.go
